@@ -1,0 +1,6 @@
+[submodule "kicad-footprints"]
+	path = kicad-footprints
+	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
+[submodule "Capacitors_Tantalum_SMD.pretty"]
+	path = Capacitors_Tantalum_SMD.pretty
+	url = https://github.com/KiCad/Capacitors_Tantalum_SMD.pretty.git
