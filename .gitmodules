@@ -5,7 +5,7 @@
 	path = kicad/kicad_manual_mods/Capacitors_Tantalum_SMD.pretty
 	url = https://github.com/KiCad/Capacitors_Tantalum_SMD.pretty.git
 [submodule "Mounting_Holes.pretty"]
-	path = Mounting_Holes.pretty
+	path = kicad/kicad_manual_mods/Mounting_Holes.pretty
 	url = https://github.com/KiCad/Mounting_Holes.pretty.git
 [submodule "Connectors_IEC_DIN.pretty"]
 	path = kicad/kicad_manual_mods/Connectors_IEC_DIN.pretty
@@ -14,7 +14,7 @@
 	path = kicad/kicad_manual_mods/Connectors.pretty
 	url = https://github.com/KiCad/Connectors.pretty
 [submodule "Modules.pretty"]
-	path = Modules.pretty
+	path = kicad/kicad_manual_mods/Modules.pretty
 	url = https://github.com/KiCad/Modules.pretty
 [submodule "Converters_DCDC_ACDC.pretty"]
 	path = kicad/kicad_manual_mods/Converters_DCDC_ACDC.pretty
@@ -26,22 +26,22 @@
 	path = kicad/kicad_manual_mods/Connectors_Amphenol.pretty
 	url = https://github.com/KiCad/Connectors_Amphenol.pretty
 [submodule "TerminalBlock_WAGO.pretty"]
-	path = TerminalBlock_WAGO.pretty
+	path = kicad/kicad_manual_mods/TerminalBlock_WAGO.pretty
 	url = https://github.com/KiCad/TerminalBlock_WAGO.pretty
 [submodule "Connectors_Harwin.pretty"]
 	path = kicad/kicad_manual_mods/Connectors_Harwin.pretty
 	url = https://github.com/KiCad/Connectors_Harwin.pretty
 [submodule "Measurement_Scales.pretty"]
-	path = Measurement_Scales.pretty
+	path = kicad/kicad_manual_mods/Measurement_Scales.pretty
 	url = https://github.com/KiCad/Measurement_Scales.pretty
 [submodule "Microwave.pretty"]
-	path = Microwave.pretty
+	path = kicad/kicad_manual_mods/Microwave.pretty
 	url = https://github.com/KiCad/Microwave.pretty
 [submodule "Power_Integrations.pretty"]
-	path = Power_Integrations.pretty
+	path = kicad/kicad_manual_mods/Power_Integrations.pretty
 	url = https://github.com/KiCad/Power_Integrations.pretty
 [submodule "Resistors_Universal.pretty"]
-	path = Resistors_Universal.pretty
+	path = kicad/kicad_manual_mods/Resistors_Universal.pretty
 	url = https://github.com/KiCad/Resistors_Universal.pretty
 [submodule "kicad/kicad_manual_mods/kicad-footprint-generator"]
 	path = kicad/kicad_manual_mods/kicad-footprint-generator
