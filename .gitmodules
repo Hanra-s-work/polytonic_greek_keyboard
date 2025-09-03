@@ -2,34 +2,34 @@
 	path = kicad-footprints
 	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
 [submodule "Capacitors_Tantalum_SMD.pretty"]
-	path = Capacitors_Tantalum_SMD.pretty
+	path = kicad/kicad_manual_mods/Capacitors_Tantalum_SMD.pretty
 	url = https://github.com/KiCad/Capacitors_Tantalum_SMD.pretty.git
 [submodule "Mounting_Holes.pretty"]
 	path = Mounting_Holes.pretty
 	url = https://github.com/KiCad/Mounting_Holes.pretty.git
 [submodule "Connectors_IEC_DIN.pretty"]
-	path = Connectors_IEC_DIN.pretty
+	path = kicad/kicad_manual_mods/Connectors_IEC_DIN.pretty
 	url = https://github.com/KiCad/Connectors_IEC_DIN.pretty
 [submodule "Connectors.pretty"]
-	path = Connectors.pretty
+	path = kicad/kicad_manual_mods/Connectors.pretty
 	url = https://github.com/KiCad/Connectors.pretty
 [submodule "Modules.pretty"]
 	path = Modules.pretty
 	url = https://github.com/KiCad/Modules.pretty
 [submodule "Converters_DCDC_ACDC.pretty"]
-	path = Converters_DCDC_ACDC.pretty
+	path = kicad/kicad_manual_mods/Converters_DCDC_ACDC.pretty
 	url = https://github.com/KiCad/Converters_DCDC_ACDC.pretty
 [submodule "Connectors_Hirose.pretty"]
-	path = Connectors_Hirose.pretty
+	path = kicad/kicad_manual_mods/Connectors_Hirose.pretty
 	url = https://github.com/KiCad/Connectors_Hirose.pretty
 [submodule "Connectors_Amphenol.pretty"]
-	path = Connectors_Amphenol.pretty
+	path = kicad/kicad_manual_mods/Connectors_Amphenol.pretty
 	url = https://github.com/KiCad/Connectors_Amphenol.pretty
 [submodule "TerminalBlock_WAGO.pretty"]
 	path = TerminalBlock_WAGO.pretty
 	url = https://github.com/KiCad/TerminalBlock_WAGO.pretty
 [submodule "Connectors_Harwin.pretty"]
-	path = Connectors_Harwin.pretty
+	path = kicad/kicad_manual_mods/Connectors_Harwin.pretty
 	url = https://github.com/KiCad/Connectors_Harwin.pretty
 [submodule "Measurement_Scales.pretty"]
 	path = Measurement_Scales.pretty
