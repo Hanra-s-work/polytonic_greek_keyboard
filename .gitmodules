@@ -4,3 +4,57 @@
 [submodule "Capacitors_Tantalum_SMD.pretty"]
 	path = Capacitors_Tantalum_SMD.pretty
 	url = https://github.com/KiCad/Capacitors_Tantalum_SMD.pretty.git
+[submodule "Mounting_Holes.pretty"]
+	path = Mounting_Holes.pretty
+	url = https://github.com/KiCad/Mounting_Holes.pretty.git
+[submodule "Connectors_IEC_DIN.pretty"]
+	path = Connectors_IEC_DIN.pretty
+	url = https://github.com/KiCad/Connectors_IEC_DIN.pretty
+[submodule "Connectors.pretty"]
+	path = Connectors.pretty
+	url = https://github.com/KiCad/Connectors.pretty
+[submodule "Modules.pretty"]
+	path = Modules.pretty
+	url = https://github.com/KiCad/Modules.pretty
+[submodule "Converters_DCDC_ACDC.pretty"]
+	path = Converters_DCDC_ACDC.pretty
+	url = https://github.com/KiCad/Converters_DCDC_ACDC.pretty
+[submodule "Connectors_Hirose.pretty"]
+	path = Connectors_Hirose.pretty
+	url = https://github.com/KiCad/Connectors_Hirose.pretty
+[submodule "Connectors_Amphenol.pretty"]
+	path = Connectors_Amphenol.pretty
+	url = https://github.com/KiCad/Connectors_Amphenol.pretty
+[submodule "TerminalBlock_WAGO.pretty"]
+	path = TerminalBlock_WAGO.pretty
+	url = https://github.com/KiCad/TerminalBlock_WAGO.pretty
+[submodule "Connectors_Harwin.pretty"]
+	path = Connectors_Harwin.pretty
+	url = https://github.com/KiCad/Connectors_Harwin.pretty
+[submodule "Measurement_Scales.pretty"]
+	path = Measurement_Scales.pretty
+	url = https://github.com/KiCad/Measurement_Scales.pretty
+[submodule "Microwave.pretty"]
+	path = Microwave.pretty
+	url = https://github.com/KiCad/Microwave.pretty
+[submodule "Power_Integrations.pretty"]
+	path = Power_Integrations.pretty
+	url = https://github.com/KiCad/Power_Integrations.pretty
+[submodule "Resistors_Universal.pretty"]
+	path = Resistors_Universal.pretty
+	url = https://github.com/KiCad/Resistors_Universal.pretty
+[submodule "kicad/kicad_manual_mods/kicad-footprint-generator"]
+	path = kicad/kicad_manual_mods/kicad-footprint-generator
+	url = https://gitlab.com/kicad/libraries/kicad-footprint-generator
+[submodule "kicad/kicad_manual_mods/kicad-footprints"]
+	path = kicad/kicad_manual_mods/kicad-footprints
+	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
+[submodule "kicad/kicad_manual_mods/kicad-library-utils"]
+	path = kicad/kicad_manual_mods/kicad-library-utils
+	url = https://gitlab.com/kicad/libraries/kicad-library-utils.git
+[submodule "kicad/kicad_manual_mods/kicad-packages3D"]
+	path = kicad/kicad_manual_mods/kicad-packages3D
+	url = https://gitlab.com/kicad/libraries/kicad-packages3D.git
+[submodule "kicad/kicad_manual_mods/kicad-symbols"]
+	path = kicad/kicad_manual_mods/kicad-symbols
+	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
