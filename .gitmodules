@@ -28,3 +28,15 @@
 [submodule "kicad/kicad_manual_mods/kicad-symbols"]
 	path = kicad/kicad_manual_mods/kicad-symbols
 	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
+[submodule "kicad/kicad_manual_mods/Pin_Headers.pretty"]
+	path = kicad/kicad_manual_mods/Pin_Headers.pretty
+	url = https://github.com/KiCad/Pin_Headers.pretty.git
+[submodule "kicad/kicad_manual_mods/LEDs.pretty"]
+	path = kicad/kicad_manual_mods/LEDs.pretty
+	url = https://github.com/KiCad/LEDs.pretty.git
+[submodule "kicad/kicad_manual_mods/Oscillators.pretty"]
+	path = kicad/kicad_manual_mods/Oscillators.pretty
+	url = https://github.com/KiCad/Oscillators.pretty.git
+[submodule "kicad/kicad_manual_mods/Connectors_Tab.pretty"]
+	path = kicad/kicad_manual_mods/Connectors_Tab.pretty
+	url = https://github.com/KiCad/Connectors_Tab.pretty.git
