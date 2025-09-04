@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -597,7 +597,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Keyboard matrix",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -613,6 +613,26 @@
     [
       "29d1f4c4-2c66-4ff7-ad76-620f460314f7",
       "Root"
+    ],
+    [
+      "3d0c6781-58d0-4a2b-968a-4a6e68c928c0",
+      "keyboard_button"
+    ],
+    [
+      "aabf2e51-988f-4c48-8cd4-13d454b77d05",
+      "logic"
+    ],
+    [
+      "24882ca0-26be-4712-8dd9-9177a7fa530d",
+      "System speech"
+    ],
+    [
+      "4b4f3352-d2ed-45db-938e-9f7a16254cad",
+      "display"
+    ],
+    [
+      "02a42e89-aa0f-4e59-9959-acff1291f77c",
+      "5v_led_booster"
     ]
   ],
   "text_variables": {}
