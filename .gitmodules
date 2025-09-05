@@ -40,3 +40,9 @@
 [submodule "kicad/kicad_manual_mods/Connectors_Tab.pretty"]
 	path = kicad/kicad_manual_mods/Connectors_Tab.pretty
 	url = https://github.com/KiCad/Connectors_Tab.pretty.git
+[submodule "kicad/kicad_manual_mods/SparkFun-KiCad-Libraries"]
+	path = kicad/kicad_manual_mods/SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
+[submodule "kicad/kicad_manual_mods/KiCAD-Libraries"]
+	path = kicad/kicad_manual_mods/KiCAD-Libraries
+	url = https://github.com/sww1235/KiCAD-Libraries.git
