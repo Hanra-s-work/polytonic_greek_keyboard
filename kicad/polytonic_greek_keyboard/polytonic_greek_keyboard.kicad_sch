@@ -1,0 +1,769 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 12.7 22.86)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 100 255 23 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28372b24-cda2-4d98-b3e5-e01232456bea")
+		(property "Sheetname" "key_switch"
+			(at 12.7 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "key_switch.kicad_sch"
+			(at 12.7 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 33.02 24.13 0)
+			(uuid "7e1eb982-5d2d-4070-a068-5d68b192fd28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DIN" input
+			(at 12.7 29.21 180)
+			(uuid "0d204e6a-5ddc-466b-80d8-8774eefda071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DOUT" input
+			(at 33.02 26.67 0)
+			(uuid "b76fe78d-9a45-45de-af17-8d928b225f54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_led" input
+			(at 12.7 26.67 180)
+			(uuid "1804f67c-40d5-45a3-add2-f0397d20a357")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_SW" input
+			(at 12.7 24.13 180)
+			(uuid "77312de4-e692-4388-82d3-65eb2d29b589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 15.24)
+		(size 22.86 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 123 104 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93b6a0fb-c84f-4e1a-be68-67f86d3a12c5")
+		(property "Sheetname" "system_speech"
+			(at 43.18 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "system_speech.kicad_sch"
+			(at 43.18 27.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MP" input
+			(at 43.18 20.32 180)
+			(uuid "2d67d57c-1338-4bd3-82f1-4c7734370128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 43.18 17.78 180)
+			(uuid "cf18bb41-e41a-48c5-9a50-f14de3815e25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS - LINUX" input
+			(at 66.04 20.32 0)
+			(uuid "cbd90fa6-87fa-442b-b939-6e593644a772")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS - MAC" input
+			(at 66.04 25.4 0)
+			(uuid "bcd21b8e-55d9-46bc-9205-9b4b62c4f8e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS - RAW" input
+			(at 66.04 17.78 0)
+			(uuid "73260db1-d590-4ba6-aeb5-956c17f5a1ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS - WINDOWS" input
+			(at 66.04 22.86 0)
+			(uuid "c5bb7eb8-0b28-4b25-9e34-610a31a75a20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 35.56)
+		(size 17.78 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 42 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98a216ce-7319-4f0b-a321-c8ded0ff5837")
+		(property "Sheetname" "logic"
+			(at 13.97 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic.kicad_sch"
+			(at 13.97 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 22.86 35.56 90)
+			(uuid "cba524fb-025f-4433-8be7-0f13e74d2011")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 13.97 38.1 180)
+			(uuid "b6c66ab6-c7ba-4ca0-81a3-73a64a01ac77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 22.86 88.9 270)
+			(uuid "e4f2d46b-6549-476e-a402-202d87eba51a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID00" input
+			(at 13.97 40.64 180)
+			(uuid "e0b5ac1c-6184-451f-87e0-f062551363c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID01" input
+			(at 13.97 43.18 180)
+			(uuid "ae90d15c-ca03-43d5-9e17-942510978839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID02" input
+			(at 13.97 45.72 180)
+			(uuid "e3ff29f4-ca76-4d38-af07-9b28d3bdda75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID03" input
+			(at 13.97 48.26 180)
+			(uuid "abdd97d6-99ee-44c9-9b15-e1885c1a399b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID04" input
+			(at 13.97 50.8 180)
+			(uuid "76d895ee-16db-4435-867c-b332637b5467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID05" input
+			(at 13.97 53.34 180)
+			(uuid "6cda2bff-1731-4106-96d9-9beadf739314")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID06" input
+			(at 13.97 55.88 180)
+			(uuid "bbfea7a5-175d-4d5a-afb4-8b7946c5bd46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID07" input
+			(at 13.97 58.42 180)
+			(uuid "16373dcc-ff68-46f7-90b5-20c220388644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID08" input
+			(at 13.97 60.96 180)
+			(uuid "72ebce00-d2d4-4273-8bca-f4df85b45a2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID09" input
+			(at 13.97 63.5 180)
+			(uuid "1565043c-2513-4e0e-b7e3-cd1ecd5842c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID10" input
+			(at 13.97 66.04 180)
+			(uuid "4514df73-143e-4d9d-a5f5-e7ce3303e335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID11" input
+			(at 13.97 68.58 180)
+			(uuid "8a4e3d8f-8a36-49b3-8150-f9377d00030a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID12" input
+			(at 13.97 71.12 180)
+			(uuid "4eda5382-190c-446b-bb40-4fc1555d4b56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID13" input
+			(at 13.97 73.66 180)
+			(uuid "aab7e031-57f8-465c-bcd7-0d9ada69dd02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID14" input
+			(at 13.97 76.2 180)
+			(uuid "9147c7ab-8d24-4a60-b4f8-45c41ff9856d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID15" input
+			(at 13.97 78.74 180)
+			(uuid "b09b3be7-ee06-48b9-9f7c-20239e8618d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID16" input
+			(at 13.97 81.28 180)
+			(uuid "4497e915-2b00-4ee1-9bb5-e7ec47f726c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID17" input
+			(at 13.97 83.82 180)
+			(uuid "216ba73f-bc65-4117-a03b-38aed07661f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID18" input
+			(at 13.97 86.36 180)
+			(uuid "75189796-d9ce-44f4-b5ab-b720307d66ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID21" input
+			(at 31.75 76.2 0)
+			(uuid "51b1f9d6-ddc7-49c4-b9a8-70fda484df55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID26" input
+			(at 31.75 73.66 0)
+			(uuid "fe86bb95-e4d3-480d-8692-e6b31dc0c4c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID33" input
+			(at 31.75 71.12 0)
+			(uuid "5d91c22e-b969-4b74-b980-4cd4af7acdaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID34" input
+			(at 31.75 68.58 0)
+			(uuid "974e061b-1c76-4cd0-8708-1bb7abd9316b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID35" input
+			(at 31.75 66.04 0)
+			(uuid "15935b34-a10a-4db1-ab39-aeebfb4bf64e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID36" input
+			(at 31.75 63.5 0)
+			(uuid "35ed1974-0550-46ef-adcb-7824e57068bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID37" input
+			(at 31.75 60.96 0)
+			(uuid "3afd547f-ba9a-4c7c-a1c5-6c55954da04e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID38" input
+			(at 31.75 58.42 0)
+			(uuid "7f9cb7b1-a235-4cfc-b868-32915536158a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID39" input
+			(at 31.75 55.88 0)
+			(uuid "32c05b32-462a-481f-a214-21fef4e67048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID40" input
+			(at 31.75 53.34 0)
+			(uuid "e2426bf0-6a8c-491f-a252-6b2ff6953f61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID41" input
+			(at 31.75 50.8 0)
+			(uuid "ae12569a-01d4-4998-b2f6-e5e7a5c0818f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID42" input
+			(at 31.75 48.26 0)
+			(uuid "50efa2af-d7ad-4b25-a21c-3f79552f9191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID45" input
+			(at 31.75 40.64 0)
+			(uuid "fa40538a-5bfb-4fe5-b6bd-acda046e9c24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID46" input
+			(at 31.75 38.1 0)
+			(uuid "fc99e9af-d9bf-4aff-8eaf-9299e37b8024")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD0" input
+			(at 31.75 43.18 0)
+			(uuid "38f3e1e8-6be9-4773-9c34-9b7595cefa32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD0" input
+			(at 31.75 45.72 0)
+			(uuid "64bd661e-1181-4f6b-a68f-959111c2dbf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D +" input
+			(at 31.75 78.74 0)
+			(uuid "f8077355-2526-479e-a162-187b52e1152b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D -" input
+			(at 31.75 81.28 0)
+			(uuid "82884030-3332-4340-a8f1-15493b9f60c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 33.02)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 255 252 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9347469-4bb2-4648-b4dc-d6f3187000d0")
+		(property "Sheetname" "display"
+			(at 44.45 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 44.45 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD_SCREEN" input
+			(at 44.45 34.29 180)
+			(uuid "eb82bfa4-9441-478a-a30c-db2c5406a009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 13.97)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 199 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e41612ad-bc28-4c90-9b22-fd29a2764a15")
+		(property "Sheetname" "5v_led_booster"
+			(at 12.7 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_led_booster.kicad_sch"
+			(at 12.7 18.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD" input
+			(at 12.7 15.24 180)
+			(uuid "b3545616-7523-43b4-9df8-94fa70f52a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 26.67 15.24 0)
+			(uuid "35e328ec-39d4-4f03-b818-01ebd0e5fa93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
