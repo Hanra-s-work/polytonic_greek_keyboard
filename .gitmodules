@@ -46,3 +46,24 @@
 [submodule "kicad/kicad_manual_mods/KiCAD-Libraries"]
 	path = kicad/kicad_manual_mods/KiCAD-Libraries
 	url = https://github.com/sww1235/KiCAD-Libraries.git
+[submodule "research_sources/polytonic_fonts/literata"]
+	path = research_sources/polytonic_fonts/literata
+	url = https://github.com/googlefonts/literata.git
+[submodule "research_sources/polytonic_fonts/source-sans"]
+	path = research_sources/polytonic_fonts/source-sans
+	url = https://github.com/adobe-fonts/source-sans
+[submodule "research_sources/polytonic_fonts/source-serif"]
+	path = research_sources/polytonic_fonts/source-serif
+	url = https://github.com/adobe-fonts/source-serif
+[submodule "research_sources/polytonic_fonts/walleye"]
+	path = research_sources/polytonic_fonts/walleye
+	url = https://github.com/chuckmasterson/walleye
+[submodule "research_sources/polytonic_fonts/gsoc2018-arimamadurai"]
+	path = research_sources/polytonic_fonts/gsoc2018-arimamadurai
+	url = https://github.com/eellak/gsoc2018-arimamadurai
+[submodule "research_sources/polytonic_fonts/gsoc2018-cantarell"]
+	path = research_sources/polytonic_fonts/gsoc2018-cantarell
+	url = https://github.com/eellak/gsoc2018-cantarell
+[submodule "research_sources/polytonic_fonts/gsoc17-Eczar"]
+	path = research_sources/polytonic_fonts/gsoc17-Eczar
+	url = https://github.com/eellak/gsoc17-Eczar
