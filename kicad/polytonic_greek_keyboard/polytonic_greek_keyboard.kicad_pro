@@ -633,6 +633,10 @@
     [
       "93b6a0fb-c84f-4e1a-be68-67f86d3a12c5",
       "system_speech"
+    ],
+    [
+      "79c338a4-4a9b-4797-93e1-f6bef1aecfbc",
+      "Onboard_I2c"
     ]
   ],
   "text_variables": {}

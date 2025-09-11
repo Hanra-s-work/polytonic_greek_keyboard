@@ -26,7 +26,7 @@
 
 | Ref                  | Qty | Part / Value                                 | Footprint            | Purpose / Notes                               |
 | -------------------- | --- | -------------------------------------------- | -------------------- | --------------------------------------------- |
-| U1                   | 1   | PCF8574 or PCF8574A                          | SOIC-8 / SOIC-14     | Optional I²C → parallel LCD expander          |
+| U1                   | 1   | PCF8574 or PCF8574A or PCF8574T              | SOIC-8 / SOIC-14     | Optional I²C → parallel LCD expander          |
 | VR1                  | 1   | 10 kΩ trimmer                                | Trimmer\_3386P       | VO contrast adjustment                        |
 | R1 (R\_BL)           | 1   | 150–330 Ω (optional)                         | R\_0805              | Series resistor for backlight LED (if needed) |
 | Q1                   | 1   | N-MOSFET or NPN transistor                   | SOT-23               | Switch or PWM control for backlight           |
