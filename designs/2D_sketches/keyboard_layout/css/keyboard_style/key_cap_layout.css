@@ -1,0 +1,64 @@
+/* The desing for the switches that are meant to be pressed by the user */
+
+:root {
+    --key-size-width: 50px;
+    --key-size-height: 50px;
+}
+
+.key_switch {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.75);
+    display: inline-block;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.33em 0.66em;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid #dedad6;
+    width: var(--key-size-width, 50px);
+    height: var(--key-size-height, 50px);
+    border-top: 2px solid #ece8e4;
+    /* lightened base */
+    border-bottom: 6px solid #c9c4c4;
+    /* darkened base */
+    background-color: #e9e8e6;
+    box-shadow: 0 -0.125em 0 -0.063em #c9c4c4,
+        0 0.125em 0 -0.063em rgba(0, 0, 0, 0.5);
+    transition: transform 100ms;
+    outline: 0;
+}
+
+.key_switch::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+    border-radius: 4px;
+    border-left: 1px solid #b3aeae;
+    border-right: 1px solid #b3aeae;
+    border-bottom: 1px solid #8f8a8a;
+    box-shadow: 0 4px 4px -3px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to right,
+            #e9e8e6,
+            #c9c4c4 5%,
+            transparent 40%,
+            transparent 60%,
+            #c9c4c4 95%,
+            #e9e8e6);
+}
+
+.key_switch:active,
+.key_switch.pressed {
+    transform: scale(0.96, 0.96) translate(0, 3px);
+}
+
+.key_switch::after {
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+}

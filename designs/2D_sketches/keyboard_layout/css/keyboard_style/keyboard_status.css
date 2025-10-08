@@ -1,0 +1,8 @@
+/* These are filler sections for the keyboard layout */
+
+.info_environement {
+    display: flex;
+    flex-direction: row;
+    border: 4px flat black;
+    background-color: cyan;
+}

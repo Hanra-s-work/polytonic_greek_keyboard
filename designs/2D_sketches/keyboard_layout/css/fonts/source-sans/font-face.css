@@ -1,0 +1,578 @@
+/* Define a dedicated fontface per name and level */
+@font-face {
+    font-family: 'Source Sans 3 - Extra Light';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLight.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLight.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLight.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Extra Light Italic';
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Light';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Light.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Light.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Light.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Light Italic';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-LightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-LightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-LightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-LightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Regular.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Regular.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Italic';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-It.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-It.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-It.ttf') format('truetype'),
+        url('./OTF/SourceSans3-It.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Semi Bold';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Semibold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Semibold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Semibold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Semi Bold Italic';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-SemiboldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-SemiboldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-SemiboldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Bold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Bold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Bold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BoldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BoldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BoldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BoldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Black';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Black.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Black.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Black.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Black Italic';
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BlackIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BlackIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BlackIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BlackIt.otf') format('opentype');
+}
+
+/* Define a font-face that can be used to represent the source-sans desing (all in one) */
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLight.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLight.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLight.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Light.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Light.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Light.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-LightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-LightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-LightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-LightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Regular.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Regular.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-It.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-It.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-It.ttf') format('truetype'),
+        url('./OTF/SourceSans3-It.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Semibold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Semibold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Semibold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-SemiboldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-SemiboldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-SemiboldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Bold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Bold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Bold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BoldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BoldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BoldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BoldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Black.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Black.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Black.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BlackIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BlackIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BlackIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BlackIt.otf') format('opentype');
+}
+
+
+/* Define a dedicated fontface per name and level (VF version) */
+@font-face {
+    font-family: 'Source Sans 3 - Extra Light';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLight.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLight.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLight.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Extra Light Italic';
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Light';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Light.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Light.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Light.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Light Italic';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-LightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-LightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-LightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-LightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Regular.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Regular.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Italic';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-It.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-It.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-It.ttf') format('truetype'),
+        url('./OTF/SourceSans3-It.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Semi Bold';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Semibold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Semibold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Semibold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Semi Bold Italic';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-SemiboldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-SemiboldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-SemiboldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Bold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Bold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Bold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Bold Italic';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BoldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BoldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BoldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BoldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Black';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Black.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Black.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Black.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 - Black Italic';
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BlackIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BlackIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BlackIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BlackIt.otf') format('opentype');
+}
+
+/* Define a font-face that can be used to represent the source-sans desing (all in one) (VF version) */
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLight.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLight.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLight.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-ExtraLightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-ExtraLightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-ExtraLightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Light.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Light.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Light.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-LightIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-LightIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-LightIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-LightIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Regular.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Regular.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-It.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-It.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-It.ttf') format('truetype'),
+        url('./OTF/SourceSans3-It.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Semibold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Semibold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Semibold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-SemiboldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-SemiboldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-SemiboldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Bold.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Bold.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Bold.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BoldIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BoldIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BoldIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BoldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-Black.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-Black.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-Black.ttf') format('truetype'),
+        url('./OTF/SourceSans3-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./WOFF2/TTF/SourceSans3-BlackIt.ttf.woff2') format('woff2'),
+        url('./WOFF/OTF/SourceSans3-BlackIt.otf.woff') format('woff'),
+        url('./TTF/SourceSans3-BlackIt.ttf') format('truetype'),
+        url('./OTF/SourceSans3-BlackIt.otf') format('opentype');
+}
+
+/* VF fontface independent */
+@font-face {
+    font-family: 'Source Sans 3 VF - regular';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('WOFF2/VF/SourceSans3VF-Upright.ttf.woff2') format('woff2-variations'),
+        url('WOFF/VF/SourceSans3VF-Upright.ttf.woff') format('woff-variations'),
+        url('WF/SourceSans3VF-Upright.otf') format('opentype-variations'),
+        url('VF/SourceSans3VF-Upright.ttf') format('truetype-variations');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 VF - Italic';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('WOFF2/VF/SourceSans3VF-Italic.ttf.woff2') format('woff2-variations'),
+        url('WOFF/VF/SourceSans3VF-Italic.ttf.woff') format('woff-variations'),
+        url('VF/SourceSans3VF-Italic.otf') format('opentype-variations'),
+        url('VF/SourceSans3VF-Italic.ttf') format('truetype-variations');
+}
+
+/* VF fontface (all in one) */
+@font-face {
+    font-family: 'Source Sans 3 VF';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('WOFF2/VF/SourceSans3VF-Upright.ttf.woff2') format('woff2-variations'),
+        url('WOFF/VF/SourceSans3VF-Upright.ttf.woff') format('woff-variations'),
+        url('WF/SourceSans3VF-Upright.otf') format('opentype-variations'),
+        url('VF/SourceSans3VF-Upright.ttf') format('truetype-variations');
+}
+
+@font-face {
+    font-family: 'Source Sans 3 VF';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('WOFF2/VF/SourceSans3VF-Italic.ttf.woff2') format('woff2-variations'),
+        url('WOFF/VF/SourceSans3VF-Italic.ttf.woff') format('woff-variations'),
+        url('VF/SourceSans3VF-Italic.otf') format('opentype-variations'),
+        url('VF/SourceSans3VF-Italic.ttf') format('truetype-variations');
+}

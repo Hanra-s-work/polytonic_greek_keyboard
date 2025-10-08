@@ -1,0 +1,190 @@
+/* use Gentium - Regular in .woff2 format */
+@font-face {
+    font-family: 'Gentium-regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./Gentium-Regular.woff2') format('woff2'),
+        url('./Gentium-Regular.woff') format('woff'),
+        url('./Gentium-Regular.ttf') format('ttf');
+}
+
+/* use Gentium - Medium in .woff2 format */
+@font-face {
+    font-family: 'Gentium-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./Gentium-Medium.woff2') format('woff2'),
+        url('./Gentium-Medium.woff') format('woff'),
+        url('./Gentium-Medium.ttf') format('ttf');
+}
+
+/* use Gentium - SemiBold in .woff2 format */
+@font-face {
+    font-family: 'Gentium-SemiBold';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./Gentium-SemiBold.woff2') format('woff2'),
+        url('./Gentium-SemiBold.woff') format('woff'),
+        url('./Gentium-SemiBold.ttf') format('ttf');
+}
+
+/* use Gentium - Bold in .woff2 format */
+@font-face {
+    font-family: 'Gentium-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./Gentium-Bold.woff2') format('woff2'),
+        url('./Gentium-Bold.woff') format('woff'),
+        url('./Gentium-Bold.ttf') format('ttf');
+}
+
+/* use Gentium - ExtraBold in .woff2 format */
+@font-face {
+    font-family: 'Gentium-ExtraBold';
+    font-weight: 800;
+    font-style: normal;
+    src: url('./Gentium-ExtraBold.woff2') format('woff2'),
+        url('./Gentium-ExtraBold.woff') format('woff'),
+        url('./Gentium-ExtraBold.ttf') format('ttf');
+}
+
+/* use Gentium - Italic in .woff2 format */
+@font-face {
+    font-family: 'Gentium-Italic';
+    font-weight: 400;
+    font-style: italic;
+    src: url('./Gentium-Italic.woff2') format('woff2'),
+        url('./Gentium-Italic.woff') format('woff'),
+        url('./Gentium-Italic.ttf') format('ttf');
+}
+
+/* use Gentium - MediumItalic in .woff2 format */
+@font-face {
+    font-family: 'Gentium-MediumItalic';
+    font-weight: 500;
+    font-style: italic;
+    src: url('./Gentium-MediumItalic.woff2') format('woff2'),
+        url('./Gentium-MediumItalic.woff') format('woff'),
+        url('./Gentium-MediumItalic.ttf') format('ttf');
+}
+
+/* use Gentium - SemiBoldItalic in .woff2 format */
+@font-face {
+    font-family: 'Gentium-SemiBoldItalic';
+    font-weight: 600;
+    font-style: italic;
+    src: url('./Gentium-SemiBoldItalic.woff2') format('woff2'),
+        url('./Gentium-SemiBoldItalic.woff') format('woff'),
+        url('./Gentium-SemiBoldItalic.ttf') format('ttf');
+}
+
+/* use Gentium - BoldItalic in .woff2 format */
+@font-face {
+    font-family: 'Gentium-BoldItalic';
+    font-weight: 700;
+    font-style: italic;
+    src: url('./Gentium-BoldItalic.woff2') format('woff2'),
+        url('./Gentium-BoldItalic.woff') format('woff'),
+        url('./Gentium-BoldItalic.ttf') format('ttf');
+}
+
+/* use Gentium - ExtraBoldItalic in .woff2 format */
+@font-face {
+    font-family: 'Gentium-ExtraBoldItalic';
+    font-weight: 800;
+    font-style: italic;
+    src: url('./Gentium-ExtraBoldItalic.woff2') format('woff2'),
+        url('./Gentium-ExtraBoldItalic.woff') format('woff'),
+        url('./Gentium-ExtraBoldItalic.ttf') format('ttf');
+}
+
+/* Defined a font-face that has a single denominator but that can take in charge multiple states of the font */
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./Gentium-Regular.woff2') format('woff2'),
+        url('./Gentium-Regular.woff') format('woff'),
+        url('./Gentium-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./Gentium-Medium.woff2') format('woff2'),
+        url('./Gentium-Medium.woff') format('woff'),
+        url('./Gentium-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./Gentium-SemiBold.woff2') format('woff2'),
+        url('./Gentium-SemiBold.woff') format('woff'),
+        url('./Gentium-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./Gentium-Bold.woff2') format('woff2'),
+        url('./Gentium-Bold.woff') format('woff'),
+        url('./Gentium-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 800;
+    font-style: normal;
+    src: url('./Gentium-ExtraBold.woff2') format('woff2'),
+        url('./Gentium-ExtraBold.woff') format('woff'),
+        url('./Gentium-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 400;
+    font-style: italic;
+    src: url('./Gentium-Italic.woff2') format('woff2'),
+        url('./Gentium-Italic.woff') format('woff'),
+        url('./Gentium-Italic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 500;
+    font-style: italic;
+    src: url('./Gentium-MediumItalic.woff2') format('woff2'),
+        url('./Gentium-MediumItalic.woff') format('woff'),
+        url('./Gentium-MediumItalic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 600;
+    font-style: italic;
+    src: url('./Gentium-SemiBoldItalic.woff2') format('woff2'),
+        url('./Gentium-SemiBoldItalic.woff') format('woff'),
+        url('./Gentium-SemiBoldItalic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 700;
+    font-style: italic;
+    src: url('./Gentium-BoldItalic.woff2') format('woff2'),
+        url('./Gentium-BoldItalic.woff') format('woff'),
+        url('./Gentium-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gentium';
+    font-weight: 800;
+    font-style: italic;
+    src: url('./Gentium-ExtraBoldItalic.woff2') format('woff2'),
+        url('./Gentium-ExtraBoldItalic.woff') format('woff'),
+        url('./Gentium-ExtraBoldItalic.ttf') format('truetype');
+}

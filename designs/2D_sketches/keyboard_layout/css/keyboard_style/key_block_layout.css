@@ -1,0 +1,47 @@
+/* The general design of the containers for the different sections of the keyboard */
+
+:root {
+    --debug-grid-border-colour: 1px solid red;
+    --grid-colour: 0px solid transparent;
+}
+
+.function_keys>* {
+    outline: 1px dashed lime;
+    /* shows cell boundaries */
+}
+
+.function_keys,
+.number_keys,
+.general_keys,
+.numpad_keys {
+    outline: var(--debug-grid-border-colour, 0px solid transparent);
+    border: 4px inset black;
+    display: grid;
+    gap: 0px;
+    background-color: white;
+    padding: 0px;
+    grid-template-columns: repeat(14, 1fr);
+    /* grid-auto-rows: 50px; */
+    /* grid-auto-columns: 50px; */
+    grid-auto-flow: column;
+}
+
+/* .number_keys {
+    grid-template-columns: repeat(13, 1fr);
+}
+
+.numpad_keys {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.general_keys {
+    grid-template-columns: repeat(15, 1fr);
+} */
+
+.brand {
+    border: 2px outset white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}

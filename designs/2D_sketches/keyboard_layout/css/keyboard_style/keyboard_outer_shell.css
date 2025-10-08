@@ -1,0 +1,18 @@
+/* The desing of the rectangle that makes the overall shape of the keyboard */
+
+.keyboard_outline {
+    border-radius: 10px;
+    padding: 12px;
+    background: linear-gradient(145deg, #d8d3c3, #c2bda9);
+    border: 4px solid #7a7465;
+    box-shadow: inset 0 3px 6px rgba(255, 255, 255, 0.4),
+        inset 0 -4px 6px rgba(0, 0, 0, 0.3), 0 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+.keyboard_inner {
+    border: 4px solid grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+}

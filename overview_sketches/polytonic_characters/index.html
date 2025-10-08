@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Polytonic Greek — Unicode Table (Printable)</title>
+    <style>
+        body {
+            font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            padding: 18px;
+            color: #111;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin: 6px 0;
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: #444;
+            margin: 8px 0 18px;
+            text-align: center;
+        }
+
+        .controls {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        button {
+            padding: 6px 10px;
+            margin: 0 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0 28px;
+            font-family: "Noto Serif", "Gentium", serif;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 6px 8px;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: #f3f3f3;
+            font-weight: 600;
+        }
+
+        td.char {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        tr.unassigned td {
+            color: #bbb;
+        }
+
+        .small {
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        @media print {
+
+            .controls,
+            .note {
+                display: none;
+            }
+
+            body {
+                padding: 6mm;
+            }
+
+            table {
+                page-break-inside: auto;
+            }
+
+            tr {
+                page-break-inside: avoid;
+                page-break-after: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Polytonic Greek — Unicode Table</h1>
+    <p class="note">
+        This page lists relevant Unicode blocks for polytonic Greek. <br>
+        If some glyphs show as empty boxes, try switching the browser font to a polytonic-capable font (e.g. Gentium, New Athena Unicode, Cardo, Noto Serif).
+    </p>
+
+    <div class="controls">
+        <button id="btn-greek">Show Greek &amp; Coptic (U+0370–U+03FF)</button>
+        <button id="btn-extended">Show Greek Extended (U+1F00–U+1FFF)</button>
+        <button id="btn-numbers">Show Ancient Greek Numbers (U+10140–U+1018F)</button>
+        <button id="btn-all">Show All Ranges</button>
+        <button id="btn-print" onclick="window.print()">Print / Save PDF</button>
+    </div>
+
+    <div id="tables"></div>
+
+    <script>
+        const ranges = [
+            { title: "Greek & Coptic (U+0370 – U+03FF)", start: 0x0370, end: 0x03FF },
+            { title: "Greek Extended (U+1F00 – U+1FFF)", start: 0x1F00, end: 0x1FFF },
+            { title: "Ancient Greek Numbers (U+10140 – U+1018F)", start: 0x10140, end: 0x1018F }
+        ];
+
+        function makeTable(range) {
+            const container = document.createElement('div');
+            const h = document.createElement('h2');
+            h.textContent = range.title;
+            container.appendChild(h);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
+            ['Code (hex)', 'Code (dec)', 'Character', 'HTML entity', 'Notes'].forEach(t => {
+                const th = document.createElement('th'); th.textContent = t; headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+
+            const tbody = document.createElement('tbody');
+
+            // generate rows in blocks of 16 for readability
+            for (let cp = range.start; cp <= range.end; ++cp) {
+                const tr = document.createElement('tr');
+
+                // try to create glyph; if it's not displayable, show placeholder
+                let ch = '';
+                try {
+                    ch = String.fromCodePoint(cp);
+                    // Some control or unassigned chars might render as invisible boxes; detect surrogate replacement
+                    // We'll leave ch as-is; styling will help. 
+                } catch (e) {
+                    ch = '';
+                }
+
+                const tdHex = document.createElement('td');
+                tdHex.textContent = 'U+' + cp.toString(16).toUpperCase().padStart(4, '0');
+
+                const tdDec = document.createElement('td');
+                tdDec.textContent = cp.toString(10);
+
+                const tdChar = document.createElement('td');
+                tdChar.className = 'char';
+                if (ch && ch.trim() !== '') {
+                    tdChar.textContent = ch;
+                } else {
+                    tdChar.textContent = ''; // empty for controls/unassigned
+                }
+
+                const tdEntity = document.createElement('td');
+                tdEntity.className = 'small';
+                tdEntity.innerHTML = `&#x${cp.toString(16).toUpperCase()};`;
+
+                const tdNotes = document.createElement('td');
+                tdNotes.className = 'small';
+                // basic heuristics for notes
+                if ((cp >= 0x0370 && cp <= 0x03FF)) {
+                    tdNotes.textContent = 'Greek & Coptic block';
+                } else if ((cp >= 0x1F00 && cp <= 0x1FFF)) {
+                    tdNotes.textContent = 'Greek Extended (polytonic precomposed)';
+                } else if ((cp >= 0x10140 && cp <= 0x1018F)) {
+                    tdNotes.textContent = 'Ancient Greek Numbers';
+                } else {
+                    tdNotes.textContent = '';
+                }
+
+                // if it's a control or unassigned (heuristic: char is space or replacement)
+                if (!ch || ch === '\uFFFD' || ch.match(/^\s$/)) {
+                    tr.className = 'unassigned';
+                    tdChar.textContent = '';
+                    tdEntity.textContent = '';
+                }
+
+                tr.appendChild(tdHex);
+                tr.appendChild(tdDec);
+                tr.appendChild(tdChar);
+                tr.appendChild(tdEntity);
+                tr.appendChild(tdNotes);
+
+                tbody.appendChild(tr);
+            }
+
+            table.appendChild(tbody);
+            container.appendChild(table);
+            return container;
+        }
+
+        function showRanges(which) {
+            const out = document.getElementById('tables');
+            out.innerHTML = '';
+            if (which === 'all') {
+                for (const r of ranges) out.appendChild(makeTable(r));
+            } else {
+                const r = ranges.find(rr => rr.title.includes(which));
+                if (r) out.appendChild(makeTable(r));
+            }
+            // scroll top
+            window.scrollTo(0, 0);
+        }
+
+        document.getElementById('btn-greek').addEventListener('click', () => showRanges('Greek & Coptic'));
+        document.getElementById('btn-extended').addEventListener('click', () => showRanges('Greek Extended'));
+        document.getElementById('btn-numbers').addEventListener('click', () => showRanges('Ancient Greek Numbers'));
+        document.getElementById('btn-all').addEventListener('click', () => showRanges('all'));
+
+        // show Greek Extended by default
+        showRanges('Greek Extended');
+    </script>
+</body>
+
+</html>

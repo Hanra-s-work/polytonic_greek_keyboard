@@ -1,0 +1,23 @@
+/* The placement desing for the internal sections for the switches */
+
+.keyboard_left_side {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    background-color: cyan;
+}
+
+.keyboard_center {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    background-color: white;
+}
+
+.keyboard_right {
+    display: flex;
+    flex-direction: column;
+    border: 4px flat black;
+    background-color: cyan;
+}

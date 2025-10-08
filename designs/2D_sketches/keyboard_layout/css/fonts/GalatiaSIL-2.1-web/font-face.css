@@ -1,0 +1,25 @@
+/* Define a dedicated bold mode using a denominator */
+@font-face {
+    font-family: 'GalatiaSIL-Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url('./GalSILB.woff') format('woff'),
+        url('./GalSILB.ttf') format('truetype');
+}
+
+/* Define a generic font name that will take in charge the use of bold and normal font via a single denominator */
+@font-face {
+    font-family: 'GalatiaSIL';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./GalSILR.woff') format('woff'),
+        url('./GalSILR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GalatiaSIL';
+    font-weight: bold;
+    font-style: normal;
+    src: url('./GalSILB.woff') format('woff'),
+        url('./GalSILB.ttf') format('truetype');
+}

@@ -1,0 +1,13 @@
+/* Import another CSS stylesheet */
+
+/* galatiaSIL font */
+@import url('./GalatiaSIL-2.1-web/font-face.css');
+
+/* gentium font */
+@import url('./Gentium-7.000/font-face.css');
+
+/* Source sans */
+@import url('./source-sans/font-face.css');
+
+/* Source serif */
+@import url("./source-serif/font-face.css");
