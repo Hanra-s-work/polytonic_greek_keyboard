@@ -67,3 +67,6 @@
 [submodule "research_sources/polytonic_fonts/gsoc17-Eczar"]
 	path = research_sources/polytonic_fonts/gsoc17-Eczar
 	url = https://github.com/eellak/gsoc17-Eczar
+[submodule "kicad/my_kicad_mods"]
+	path = kicad/my_kicad_mods
+	url = https://github.com/HenraL/my_kicad_mods.git
