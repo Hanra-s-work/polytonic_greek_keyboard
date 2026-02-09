@@ -597,6 +597,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -679,8 +687,16 @@
       "Space"
     ],
     [
+      "7d9047f3-7c3b-4bc8-9296-0f56f4397655",
+      "esp_voltage_stepdown"
+    ],
+    [
       "5f107f1d-b7cf-41cd-afd8-8e41c5a88225",
       "Shift"
+    ],
+    [
+      "5708fcea-898f-452b-af74-a5f74d78e7d6",
+      "status_leds"
     ]
   ],
   "text_variables": {}

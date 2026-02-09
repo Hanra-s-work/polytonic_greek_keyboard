@@ -3169,7 +3169,7 @@
 		(uuid "ab9bc905-c224-4313-ae6e-6fd28de09a9e")
 	)
 	(hierarchical_label "VDD_IN"
-		(shape output)
+		(shape input)
 		(at 25.4 16.51 180)
 		(effects
 			(font

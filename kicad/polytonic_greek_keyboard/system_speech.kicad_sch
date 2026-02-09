@@ -5,6 +5,306 @@
 	(uuid "83cf1056-b77f-4ebe-8c69-30c8d9fc4ce4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "PCM_4ms_Resistor:10k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k_0402"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k, 1%, 1/16W, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "10k, 1%, 1/10W, 0402"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RT0402FRE0710KL"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "10k"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 2" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number 2" "RT0402DRE0710KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10k 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10k_0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:330ohm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330ohm"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "330Ω, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "330ohm_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "330ohm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SP4T_NR01104"
 			(pin_names
 				(hide yes)
@@ -406,9 +706,281 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "VSS - RAW"
-		(shape input)
-		(at 35.56 21.59 0)
+	(junction
+		(at 63.5 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2caa6825-930c-482f-9701-2b32e1f5091c")
+	)
+	(junction
+		(at 86.36 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41da2338-48b6-4617-a82f-aeea075475b8")
+	)
+	(junction
+		(at 86.36 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5939ffbc-179e-4540-8265-4096ff2a1baa")
+	)
+	(junction
+		(at 137.16 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1bbd51-65df-4aa0-982c-148ac2c16d2a")
+	)
+	(junction
+		(at 109.22 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8557ff36-1081-4394-aec6-a090e81082bb")
+	)
+	(junction
+		(at 63.5 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d840ee5-0ff8-4905-bb24-49331892fde0")
+	)
+	(junction
+		(at 137.16 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0e3676d-711a-459a-b26c-005ed8eaf3f6")
+	)
+	(junction
+		(at 109.22 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f7b25f-3d4d-4c6b-9f19-5cd0075e722d")
+	)
+	(no_connect
+		(at 36.83 31.75)
+		(uuid "23bf1bd4-774d-4d71-9b9c-2b26d19f0529")
+	)
+	(wire
+		(pts
+			(xy 135.89 29.21) (xy 137.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0801e6e4-499a-4c5f-b557-1e1df6ddf038")
+	)
+	(wire
+		(pts
+			(xy 35.56 39.37) (xy 63.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcbebdd-1757-429e-8059-12cd25c2a7d5")
+	)
+	(wire
+		(pts
+			(xy 52.07 21.59) (xy 54.61 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7f37d5-45db-4857-9b81-4dc3d0d411b5")
+	)
+	(wire
+		(pts
+			(xy 137.16 29.21) (xy 138.43 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9c858f-94fc-44a4-9d18-9d984cfcdcf3")
+	)
+	(wire
+		(pts
+			(xy 109.22 26.67) (xy 110.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3612f889-dbff-4152-9e93-fa54b1f1c6a0")
+	)
+	(wire
+		(pts
+			(xy 63.5 39.37) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eb4c37-5162-48bb-8b10-21b4643e716c")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 137.2428 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d47c54f-304a-4cf1-aa88-f41fe1a8d6a7")
+	)
+	(wire
+		(pts
+			(xy 63.5 21.59) (xy 64.77 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b525c82-f5a7-4b6f-b317-c91bd6a49e8e")
+	)
+	(wire
+		(pts
+			(xy 52.07 29.21) (xy 128.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdaf0b6-ffad-4a34-b92e-c3a2432659de")
+	)
+	(wire
+		(pts
+			(xy 137.16 29.21) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bf8144-6650-4b27-a7f1-218ea5d0ef4d")
+	)
+	(wire
+		(pts
+			(xy 86.36 24.13) (xy 87.63 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87169de2-ae27-4433-8970-a41861b38432")
+	)
+	(wire
+		(pts
+			(xy 86.36 39.37) (xy 109.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9312f815-9c97-42f4-8c2a-d30dc2764dff")
+	)
+	(wire
+		(pts
+			(xy 62.23 21.59) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fda2fb-b2b8-4056-82ed-7c952676e103")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 137.16 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a67947-87dd-452c-b273-6c9baac73ac4")
+	)
+	(wire
+		(pts
+			(xy 86.36 24.13) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb23a054-4c8d-418c-b7d7-c9e8f9fe7b4f")
+	)
+	(wire
+		(pts
+			(xy 107.95 26.67) (xy 109.22 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc971769-a5cd-4b6a-a63c-e1f92b856601")
+	)
+	(wire
+		(pts
+			(xy 52.07 24.13) (xy 77.47 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ddbdd4-b901-464a-886f-27f0f3a76d20")
+	)
+	(wire
+		(pts
+			(xy 63.5 21.59) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5c0a41-98ff-4104-9c78-8f13500a8b74")
+	)
+	(wire
+		(pts
+			(xy 85.09 24.13) (xy 86.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60b5344-f67a-48ce-8ff4-7da9a19da8c4")
+	)
+	(wire
+		(pts
+			(xy 35.56 26.67) (xy 36.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f446af02-d29e-4560-b8df-2ea38c658dbf")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 100.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4ef127-2313-4cfd-8181-16221ee7ca2f")
+	)
+	(wire
+		(pts
+			(xy 109.22 26.67) (xy 109.22 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0e4e61-c605-436f-becb-68834601cb9b")
+	)
+	(hierarchical_label "VCC - RAW"
+		(shape output)
+		(at 64.77 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -417,9 +989,9 @@
 		)
 		(uuid "170107e7-fdb5-4802-bb3c-bd0fbd85f23c")
 	)
-	(hierarchical_label "VSS - WINDOWS"
-		(shape input)
-		(at 35.56 26.67 0)
+	(hierarchical_label "VCC - WINDOWS"
+		(shape output)
+		(at 110.49 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -428,20 +1000,31 @@
 		)
 		(uuid "1b62de46-1f82-4364-9576-049654e2c92f")
 	)
-	(hierarchical_label "MP"
-		(shape input)
-		(at 20.32 31.75 180)
+	(hierarchical_label "VCC - comon"
+		(shape output)
+		(at 35.56 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a9a3efef-9d9c-4b47-84c8-8b3d4e93dfec")
+		(uuid "23b546eb-f3c8-4476-a1a7-17f509ff3624")
 	)
-	(hierarchical_label "VSS - MAC"
+	(hierarchical_label "VSS - common"
 		(shape input)
-		(at 35.56 29.21 0)
+		(at 35.56 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7510464-7367-4ca8-8e8e-56ee4a538ec8")
+	)
+	(hierarchical_label "VCC - MAC"
+		(shape output)
+		(at 138.43 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -450,20 +1033,9 @@
 		)
 		(uuid "c8331dee-5cb8-4fac-beb3-e0f095cede52")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 20.32 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f90f3b95-4af7-49b7-a678-98a2756a612b")
-	)
-	(hierarchical_label "VSS - LINUX"
-		(shape input)
-		(at 35.56 24.13 0)
+	(hierarchical_label "VCC - LINUX"
+		(shape output)
+		(at 87.63 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -473,8 +1045,399 @@
 		(uuid "ffa03831-58c2-4a94-8f56-3a2538c87007")
 	)
 	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 104.14 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "389535a8-bb47-4bf2-ae65-93c2f094c961")
+		(property "Reference" "R5"
+			(at 104.14 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 104.14 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 103.251 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.632 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 104.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc05fcb2-a106-4fe2-a6e1-4640a288be74")
+		)
+		(pin "2"
+			(uuid "04a575fc-478a-45d9-aa78-e547b3dad009")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 86.36 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "519899cd-0e12-4e38-9d63-8602852f3d9f")
+		(property "Reference" "R4"
+			(at 88.9 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 83.82 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 83.82 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 83.82 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 83.82 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 88.9 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70f16036-d8ff-4d1f-9b4a-db68598a8000")
+		)
+		(pin "1"
+			(uuid "d927d031-b1a9-490e-bdc7-8cd1bb9bcada")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 63.5 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80a7a496-7867-4c90-a4a4-11ddd42bb63f")
+		(property "Reference" "R2"
+			(at 66.04 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 60.96 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 60.96 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 60.96 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 60.96 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 66.04 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70f16036-d8ff-4d1f-9b4a-db68598a8000")
+		)
+		(pin "1"
+			(uuid "d927d031-b1a9-490e-bdc7-8cd1bb9bcada")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 132.08 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "903b0800-47ed-46f8-9d9a-9a6a8edef369")
+		(property "Reference" "R7"
+			(at 132.08 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 132.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 131.191 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.572 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 132.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc05fcb2-a106-4fe2-a6e1-4640a288be74")
+		)
+		(pin "2"
+			(uuid "04a575fc-478a-45d9-aa78-e547b3dad009")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SP4T_NR01104")
-		(at 27.94 26.67 0)
+		(at 44.45 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -482,8 +1445,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23e41a1-1227-4c15-9e7e-9d429ac59be2")
-		(property "Reference" "SW4"
-			(at 27.94 15.24 0)
+		(property "Reference" "SW3"
+			(at 44.45 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +1454,7 @@
 			)
 		)
 		(property "Value" "SW_SP4T_NR01104"
-			(at 27.94 17.78 0)
+			(at 44.45 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,7 +1462,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
-			(at 27.94 36.83 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +1471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
-			(at 27.94 39.37 0)
+			(at 44.45 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +1480,7 @@
 			)
 		)
 		(property "Description" "NKK Switches NR01 Series rotary SP4T switch"
-			(at 27.94 26.67 0)
+			(at 44.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +1512,398 @@
 		(instances
 			(project ""
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
-					(reference "SW4")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 137.16 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c7745c-15e2-444c-8ed3-0d15629171de")
+		(property "Reference" "R8"
+			(at 139.7 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 134.62 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 134.62 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 134.62 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 134.62 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 139.7 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70f16036-d8ff-4d1f-9b4a-db68598a8000")
+		)
+		(pin "1"
+			(uuid "d927d031-b1a9-490e-bdc7-8cd1bb9bcada")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 81.28 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3c0f5de-987e-44a3-8c53-061dc1bb0951")
+		(property "Reference" "R3"
+			(at 81.28 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 81.28 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 82.169 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.788 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 81.28 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc05fcb2-a106-4fe2-a6e1-4640a288be74")
+		)
+		(pin "2"
+			(uuid "04a575fc-478a-45d9-aa78-e547b3dad009")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 58.42 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0daa9a7-204e-4fdd-80f6-c91525dcbc28")
+		(property "Reference" "R1"
+			(at 58.42 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 58.42 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 59.309 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.928 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc05fcb2-a106-4fe2-a6e1-4640a288be74")
+		)
+		(pin "2"
+			(uuid "04a575fc-478a-45d9-aa78-e547b3dad009")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 109.22 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c6dcfe-9daa-4acb-b2ff-a76821944717")
+		(property "Reference" "R6"
+			(at 111.76 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 106.68 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 106.68 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 106.68 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 106.68 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 111.76 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70f16036-d8ff-4d1f-9b4a-db68598a8000")
+		)
+		(pin "1"
+			(uuid "d927d031-b1a9-490e-bdc7-8cd1bb9bcada")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/93b6a0fb-c84f-4e1a-be68-67f86d3a12c5"
+					(reference "R6")
 					(unit 1)
 				)
 			)
