@@ -260,6 +260,313 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Capacitor:0.1uF_0603_16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1uF_0603_16V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "4ms_Capacitor:C_0603"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AVX Corporation"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603YC104KAT2A"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "0.1uF"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" "C14663"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100nF_0603_16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0.1uF_0603_16V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0.1uF_0603_16V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:330ohm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330ohm"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "330Ω, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "330ohm_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "330ohm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -396,129 +703,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VSS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VSS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VSS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VSS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 40.64 30.48)
+			(xy 46.99 33.02) (xy 45.72 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05f0b686-5fac-4305-ab29-76aafc0b0ba1")
+	)
+	(wire
+		(pts
+			(xy 38.1 43.18) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1663906e-4bdd-4119-afe9-b7d97cd3d32d")
 	)
 	(wire
 		(pts
@@ -532,23 +736,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 33.02 38.1)
+			(xy 30.48 43.18) (xy 30.48 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d3e6d2b-d8c1-412a-8ec3-19f709e3ec32")
-	)
-	(wire
-		(pts
-			(xy 24.13 30.48) (xy 25.4 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c23a1f-1a29-4f57-8212-23e725f2af47")
+		(uuid "9af216bd-4b21-4c4f-934c-0313d78b4a9a")
 	)
 	(wire
 		(pts
@@ -560,18 +754,8 @@
 		)
 		(uuid "c01c03b3-f08f-41b9-a2c6-1e4bceb71041")
 	)
-	(wire
-		(pts
-			(xy 24.13 22.86) (xy 33.02 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc4ab06-16a3-4453-b4bf-325e74c675aa")
-	)
-	(hierarchical_label "GND"
-		(shape input)
+	(hierarchical_label "swt_col"
+		(shape output)
 		(at 41.91 20.32 0)
 		(effects
 			(font
@@ -579,20 +763,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4da3fb61-3a2b-4116-b6b9-0845a422d822")
+		(uuid "036c1237-4881-4f4c-b9fe-614b1e20e64e")
 	)
-	(hierarchical_label "VDD_led"
-		(shape input)
-		(at 24.13 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5dd9033d-0891-40cf-ba0c-63d89efebb0f")
-	)
-	(hierarchical_label "VDD_SW"
+	(hierarchical_label "swt_row"
 		(shape input)
 		(at 24.13 20.32 180)
 		(effects
@@ -601,105 +774,55 @@
 			)
 			(justify right)
 		)
-		(uuid "87dee9e5-4ec5-4a80-b401-2cea0b1feee6")
+		(uuid "0b2224c5-97b0-4239-b8e0-e6192cf8a872")
 	)
-	(hierarchical_label "LED_DIN"
+	(hierarchical_label "LED_VDD"
 		(shape input)
-		(at 24.13 30.48 180)
+		(at 33.02 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8a81bae3-96ee-490e-a03d-d3fc44170dce")
+		(uuid "28baf4b1-af8d-42a8-82e3-14b682db8b3f")
+	)
+	(hierarchical_label "LED_DIN"
+		(shape input)
+		(at 30.48 43.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a1ae5e0-d019-4a4a-b8a4-129802f27a19")
 	)
 	(hierarchical_label "LED_DOUT"
-		(shape input)
-		(at 41.91 30.48 0)
+		(shape output)
+		(at 46.99 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d108ce69-7aaa-4794-a522-217971edcafc")
+		(uuid "47d49d36-2c58-494d-ab48-f81dc83e20dc")
 	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 43.18 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bff0624-27f5-4c92-8e30-bbbfe4281bb7")
-		(property "Reference" "#PWR0104"
-			(at 43.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "LED_VSS"
+		(shape output)
+		(at 38.1 43.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "VSS"
-			(at 43.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e6c6902-865c-4a35-82d6-29812d2e17db")
-		)
-		(instances
-			(project ""
-				(path "/29d1f4c4-2c66-4ff7-ad76-620f460314f7/3d0c6781-58d0-4a2b-968a-4a6e68c928c0"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/28372b24-cda2-4d98-b3e5-e01232456bea"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "956f45bb-202a-4fd8-9d30-127d4fb40c73")
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 33.02 30.48 0)
+		(at 38.1 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -708,7 +831,7 @@
 		(fields_autoplaced yes)
 		(uuid "41221a20-8985-430b-8089-42ae75ccb9c2")
 		(property "Reference" "D1"
-			(at 44.45 24.0598 0)
+			(at 50.8 26.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +839,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 44.45 26.5998 0)
+			(at 50.8 29.1398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +847,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 34.29 38.1 0)
+			(at 39.37 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +857,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 35.56 40.005 0)
+			(at 40.64 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +867,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 33.02 30.48 0)
+			(at 38.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,26 +876,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d66daa4-c0cb-4108-aa44-158f19610f47")
+			(uuid "87d6b588-55ba-4277-bf74-e87ee3209a0a")
 		)
 		(pin "3"
-			(uuid "82f13af9-c96a-4560-b260-bfdf7f908776")
+			(uuid "e5d5dbda-91a5-42b2-8a30-ac9ea5070475")
 		)
 		(pin "1"
-			(uuid "3ee1477b-a38a-46b5-814e-d3bc9fe12805")
+			(uuid "f6677780-2f6c-4fd7-9a5f-cf43ccd625ee")
 		)
 		(pin "4"
-			(uuid "d452d17c-2a57-4e0e-9354-88b0e501bc9c")
+			(uuid "4f3ac639-b388-4ce9-8ae7-31165dbc3b45")
 		)
 		(instances
-			(project ""
-				(path "/29d1f4c4-2c66-4ff7-ad76-620f460314f7/3d0c6781-58d0-4a2b-968a-4a6e68c928c0"
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/0a734353-c161-4bd5-883e-eaf92a492627"
 					(reference "D1")
 					(unit 1)
 				)
-			)
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/28372b24-cda2-4d98-b3e5-e01232456bea"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/6fe76989-dc92-4d30-a709-538a22e097b7"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
 					(reference "D1")
 					(unit 1)
 				)
@@ -833,21 +962,236 @@
 			)
 		)
 		(pin "2"
-			(uuid "0abfc469-a6c1-48ee-8785-cb1bf3bb6128")
+			(uuid "a43e2c0e-56ab-41d8-b4bd-e104684ca17f")
 		)
 		(pin "1"
-			(uuid "a926c65e-05eb-4287-a065-15193e106409")
+			(uuid "a5a6a76c-2c8d-41e2-b9de-d075be47601f")
 		)
 		(instances
-			(project ""
-				(path "/29d1f4c4-2c66-4ff7-ad76-620f460314f7/3d0c6781-58d0-4a2b-968a-4a6e68c928c0"
-					(reference "SW5")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/0a734353-c161-4bd5-883e-eaf92a492627"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/6fe76989-dc92-4d30-a709-538a22e097b7"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/28372b24-cda2-4d98-b3e5-e01232456bea"
-					(reference "SW3")
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V")
+		(at 35.56 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67347362-31dc-48e0-87f7-af2ce5c838a4")
+		(property "Reference" "C2"
+			(at 43.18 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF_0603_16V"
+			(at 31.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "4ms_Capacitor:C_0603"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 35.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 43.434 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 44.958 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 46.482 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 41.402 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b867e21e-630b-41b2-be52-ee3382beceb4")
+		)
+		(pin "1"
+			(uuid "e7434483-45f4-4c48-808f-5c5a4ec4e631")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/0a734353-c161-4bd5-883e-eaf92a492627"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/6fe76989-dc92-4d30-a709-538a22e097b7"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:330ohm")
+		(at 30.48 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73e1d31a-7d77-4519-bdea-d959e26256e8")
+		(property "Reference" "R1"
+			(at 15.748 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330ohm"
+			(at 21.082 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 26.162 37.719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330Ω, 1/4W Resistor"
+			(at 30.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3b0bd2b-69b1-4fec-bf66-d82ebe17622f")
+		)
+		(pin "1"
+			(uuid "e1bea304-0686-4eaf-a1c3-88e97fa72b5f")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/0a734353-c161-4bd5-883e-eaf92a492627"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/6fe76989-dc92-4d30-a709-538a22e097b7"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
+					(reference "R1")
 					(unit 1)
 				)
 			)

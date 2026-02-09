@@ -5,179 +5,6 @@
 	(uuid "9f8fb490-95a5-47bf-a0d7-677d888832d5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PCM_4ms_Resistor:330R_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "330R_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Resistor:R_0603"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "330R, 1%, 1/10W, 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "330R, 1%, 1/10W, 0603"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RC0603FR-07330RL"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "330R"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB ID" "C23138"
-				(at 1.27 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "330R_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "330R_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "330R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SL_Capacitors:1000uF_16V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -326,9 +153,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 26.67 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16a4d325-9cba-4e71-aa0a-c12b8d491ef4")
+	)
+	(junction
+		(at 26.67 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be97304a-19d5-441f-a206-0f38dba81d90")
+	)
 	(wire
 		(pts
-			(xy 30.48 22.86) (xy 22.86 22.86)
+			(xy 21.59 21.59) (xy 26.67 21.59)
 		)
 		(stroke
 			(width 0)
@@ -338,7 +177,27 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 22.86) (xy 57.15 22.86)
+			(xy 26.67 21.59) (xy 41.91 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3261cdf0-1fd1-4413-b893-fd6e25df259b")
+	)
+	(wire
+		(pts
+			(xy 26.67 13.97) (xy 41.91 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e753f40-9947-4aca-82a8-5eb8dda37ed4")
+	)
+	(wire
+		(pts
+			(xy 21.59 13.97) (xy 26.67 13.97)
 		)
 		(stroke
 			(width 0)
@@ -346,30 +205,31 @@
 		)
 		(uuid "ad2e1480-a518-4843-b855-73624be708b9")
 	)
-	(wire
-		(pts
-			(xy 49.53 22.86) (xy 38.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c74eada4-cbd7-4f45-8162-2b543f1915c3")
-	)
-	(hierarchical_label "VSS"
-		(shape input)
-		(at 68.58 22.86 0)
+	(hierarchical_label "VSS_OUT"
+		(shape output)
+		(at 41.91 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "ac25ff7d-b172-4912-9f9d-eb8f3037397b")
+	)
+	(hierarchical_label "VSS_IN"
+		(shape input)
+		(at 21.59 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "c3d9b76c-1a07-4007-9889-78e5309f7fde")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "VDD_IN"
 		(shape input)
-		(at 22.86 22.86 180)
+		(at 21.59 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -378,125 +238,20 @@
 		)
 		(uuid "d112749e-4cc2-4e96-a3c1-6a9ebc5545a9")
 	)
-	(symbol
-		(lib_id "PCM_4ms_Resistor:330R_0603")
-		(at 53.34 22.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12e20ec2-81d6-445d-9846-4f54c9972465")
-		(property "Reference" "R1"
-			(at 53.34 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "VDD_OUT"
+		(shape output)
+		(at 41.91 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "330R_0603"
-			(at 53.34 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 40.64 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "330R, 1%, 1/10W, 0603"
-			(at 53.34 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "330R, 1%, 1/10W, 0603"
-			(at 45.466 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 43.942 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0603FR-07330RL"
-			(at 42.418 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "330R"
-			(at 53.34 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB ID" "C23138"
-			(at 38.1 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56caa94c-31ec-49e1-aea2-555bb5661d8e")
-		)
-		(pin "1"
-			(uuid "09d246a5-f4d4-457a-9c4f-1c678175d7fa")
-		)
-		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/e41612ad-bc28-4c90-9b22-fd29a2764a15"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e438052f-b994-4ee7-8b3e-027292e40bb1")
 	)
 	(symbol
 		(lib_id "PCM_SL_Capacitors:1000uF_16V")
-		(at 34.29 22.86 0)
+		(at 26.67 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -504,24 +259,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b07b5234-e461-4dac-ad9f-a5eed2ee9bf3")
-		(property "Reference" "C1"
-			(at 34.29 15.24 0)
+		(property "Reference" "bulk_storer_C1"
+			(at 30.48 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1000uF_16V"
-			(at 34.29 17.78 0)
+			(at 30.48 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 35.052 26.67 0)
+			(at 22.86 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.798 22.86 0)
+			(at 26.67 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +296,7 @@
 			)
 		)
 		(property "Description" "1000uF, 16V Electrolytic Capacitor"
-			(at 34.29 22.86 0)
+			(at 26.67 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,15 +305,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "afd39935-5674-470e-9611-b5c9be7cfdca")
+			(uuid "4980d2ba-5bde-4b75-9054-0bb9dc922782")
 		)
 		(pin "2"
-			(uuid "7afe3f15-570e-4d90-a6f5-a36b70aa9f7e")
+			(uuid "52265da6-f4c7-4959-99cc-d77c87ca94c8")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/e41612ad-bc28-4c90-9b22-fd29a2764a15"
-					(reference "C1")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff/57a20682-d779-4340-9769-ea32ac8b4a87"
+					(reference "bulk_storer_C1")
 					(unit 1)
 				)
 			)
