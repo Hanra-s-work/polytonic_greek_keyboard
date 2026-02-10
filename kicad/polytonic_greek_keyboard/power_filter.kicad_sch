@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "9914ef98-f510-466f-a4d6-5b43c7c12d9a")
 	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
 	(lib_symbols
 		(symbol "PCM_4ms_Inductor:FerriteBead_0603_1.5A"
 			(pin_numbers

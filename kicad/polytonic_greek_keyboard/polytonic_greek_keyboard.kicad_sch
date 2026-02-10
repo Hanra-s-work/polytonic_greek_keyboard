@@ -7,6 +7,8 @@
 	(title_block
 		(title "Main level")
 		(date "2025-10-01")
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
 		(comment 1 "This is where the main logic of the sheet is located.")
 		(comment 2 "This provides a high level overview without ")
 		(comment 3 "cluttering the content with the keyboad matrix.")

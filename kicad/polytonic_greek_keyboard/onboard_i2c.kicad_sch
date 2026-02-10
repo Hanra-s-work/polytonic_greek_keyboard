@@ -7,7 +7,8 @@
 	(title_block
 		(title "Intergrated I²C board")
 		(date "2025-09-11")
-		(rev "0")
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
 		(comment 1 "This is an attempt at recreating the I²C chip used in lcd segment displays to free up data lines on the controlers.")
 	)
 	(lib_symbols

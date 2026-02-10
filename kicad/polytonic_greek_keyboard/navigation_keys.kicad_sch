@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "e55144d2-41be-429c-b090-3a87fc5305b9")
 	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
 	(lib_symbols)
 	(wire
 		(pts

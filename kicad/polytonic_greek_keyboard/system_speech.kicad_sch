@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "83cf1056-b77f-4ebe-8c69-30c8d9fc4ce4")
 	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
 	(lib_symbols
 		(symbol "PCM_4ms_Resistor:10k_0402"
 			(pin_numbers

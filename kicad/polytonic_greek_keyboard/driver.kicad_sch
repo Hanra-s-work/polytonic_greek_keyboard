@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "701cd9ee-a7e8-4878-88a6-da0dc98ede36")
 	(paper "A4")
+	(title_block
+		(title "Driver logic")
+		(date "2026-02-10")
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+		(comment 1 "The logic required to drive the keyboard.")
+		(comment 2 "Logic based on an ESP32-S2-wroover")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x11_Pin"
 			(pin_names
@@ -1148,6 +1156,116 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 145.034 96.266 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23a7644f-d053-42ec-ac62-62b66f971e2d")
+	)
+	(text "LED_DIN"
+		(exclude_from_sim no)
+		(at 157.734 97.028 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28704038-b0e2-43c8-9ee1-c25154b4fdd7")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 137.16 95.758 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ea760b6-6525-4b00-b276-ab728dca3d44")
+	)
+	(text "MCP1_INTA"
+		(exclude_from_sim no)
+		(at 147.574 98.552 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d7fa116-a97a-4c5a-bc6e-0e25d01dae17")
+	)
+	(text "MCP2_INTB"
+		(exclude_from_sim no)
+		(at 155.194 98.298 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b1a167f-06f6-478b-980b-6514a987ab6e")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 139.7 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2c64680-2023-4b17-b285-5a882a086e5f")
+	)
+	(text "MCP1_INTB"
+		(exclude_from_sim no)
+		(at 150.114 98.552 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3b5a72f-fce9-445f-8630-fd88ed28a5f5")
+	)
+	(text "MCP2_INTA"
+		(exclude_from_sim no)
+		(at 152.654 98.298 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4351bbd-2a5a-4500-b73f-583a31814dbd")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 142.494 96.012 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b43b7317-e6f3-4067-93c2-cd69e8879d9e")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 160.274 94.996 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba85c109-7a60-4182-a1b9-9296b440e0ab")
+	)
+	(text "SCK"
+		(exclude_from_sim no)
+		(at 162.814 94.996 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c29afaf5-0c83-42f2-ac9c-09430e3e80d9")
 	)
 	(junction
 		(at 118.11 36.83)
@@ -2297,10 +2415,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00e146d5-5dda-4be5-8f3b-eebb8043185b")
 		(property "Reference" "J4"
-			(at 149.86 95.25 90)
+			(at 171.45 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2425,7 @@
 			)
 		)
 		(property "Value" "Conn_01x11_Pin"
-			(at 149.86 97.79 90)
+			(at 171.45 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "08cfb414-f06d-45e0-9cdf-1860c40ead85")
 	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
 	(lib_symbols
 		(symbol "PCM_SL_Resistors:100ohm"
 			(exclude_from_sim no)
