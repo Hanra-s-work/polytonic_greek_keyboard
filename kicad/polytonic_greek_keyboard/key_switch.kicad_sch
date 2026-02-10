@@ -830,7 +830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41221a20-8985-430b-8089-42ae75ccb9c2")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 49.53 26.5998 0)
 			(effects
 				(font
@@ -890,19 +890,19 @@
 		(instances
 			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/0a734353-c161-4bd5-883e-eaf92a492627"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/6fe76989-dc92-4d30-a709-538a22e097b7"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
-					(reference "D4")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -918,7 +918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4473cee6-7a4b-4df9-b1ab-91adb32c352b")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 33.02 13.97 0)
 			(effects
 				(font
@@ -970,19 +970,19 @@
 		(instances
 			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/0a734353-c161-4bd5-883e-eaf92a492627"
-					(reference "SW4")
-					(unit 1)
-				)
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
-					(reference "SW5")
-					(unit 1)
-				)
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/6fe76989-dc92-4d30-a709-538a22e097b7"
 					(reference "SW6")
 					(unit 1)
 				)
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
 					(reference "SW7")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/6fe76989-dc92-4d30-a709-538a22e097b7"
+					(reference "SW8")
+					(unit 1)
+				)
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -997,7 +997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67347362-31dc-48e0-87f7-af2ce5c838a4")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 43.18 23.368 90)
 			(effects
 				(font
@@ -1099,19 +1099,19 @@
 		(instances
 			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/0a734353-c161-4bd5-883e-eaf92a492627"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/6fe76989-dc92-4d30-a709-538a22e097b7"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1126,7 +1126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73e1d31a-7d77-4519-bdea-d959e26256e8")
-		(property "Reference" "R19"
+		(property "Reference" "R26"
 			(at 15.748 35.56 90)
 			(effects
 				(font
@@ -1180,19 +1180,19 @@
 		(instances
 			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/0a734353-c161-4bd5-883e-eaf92a492627"
-					(reference "R19")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/5f107f1d-b7cf-41cd-afd8-8e41c5a88225"
-					(reference "R20")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/6fe76989-dc92-4d30-a709-538a22e097b7"
-					(reference "R21")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/85dfdcb0-9a07-4e64-aafd-2caa92dd5075"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)

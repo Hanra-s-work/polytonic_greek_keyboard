@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dafe9822-ad47-4a2d-94e2-99bd9142e02f")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 92.71 13.97 90)
 			(effects
 				(font
@@ -2508,7 +2508,7 @@
 		(instances
 			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2829,7 +2829,7 @@
 			)
 		)
 		(instances
-			(project "keyboard_driver"
+			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf"
 					(page "2")
 				)

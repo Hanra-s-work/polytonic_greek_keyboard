@@ -48,7 +48,7 @@
 			)
 		)
 		(instances
-			(project "keyboard_driver"
+			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
 					(page "21")
 				)
@@ -91,7 +91,7 @@
 			)
 		)
 		(instances
-			(project "keyboard_driver"
+			(project "polytonic_greek_keyboard"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
 					(page "22")
 				)
