@@ -309,14 +309,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "58ba9d1f-e566-4d79-8380-86ebf7f322ba")
+			(uuid "49d90c3e-4295-4c59-9137-65f9f9abda3c")
 		)
 		(pin "2"
-			(uuid "e805a8f7-a123-4c49-9659-3a1aceefc848")
+			(uuid "3fa7f035-e9f7-4783-9823-e68b24685eae")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646/57a20682-d779-4340-9769-ea32ac8b4a87"
+			(project "polytonic_matrix_v1"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/2ba728b0-177f-4c83-8796-28b399b3564a/57a20682-d779-4340-9769-ea32ac8b4a87"
 					(reference "bulk_storer_C1")
 					(unit 1)
 				)

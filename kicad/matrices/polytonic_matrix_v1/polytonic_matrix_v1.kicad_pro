@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "polytonic_greek_keyboard.kicad_pro",
+    "filename": "polytonic_matrix_v1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -623,36 +623,8 @@
       "Root"
     ],
     [
-      "3567022d-dcc8-4a26-83e7-5efb883a1646",
+      "2ba728b0-177f-4c83-8796-28b399b3564a",
       "key_matrix"
-    ],
-    [
-      "ec54e47a-8e8b-4416-b579-fc6e7c329b94",
-      "display"
-    ],
-    [
-      "79c338a4-4a9b-4797-93e1-f6bef1aecfbc",
-      "Onboard_I2c"
-    ],
-    [
-      "3e13680f-afbf-4059-ae13-3c3d5e01d0cf",
-      "esp_voltage_stepdown"
-    ],
-    [
-      "52990bdd-0b84-441a-b927-02579db6fb17",
-      "logic"
-    ],
-    [
-      "085bf86b-e0cc-40ae-815c-511e7d27e866",
-      "power_filter"
-    ],
-    [
-      "05952128-eb9e-434e-ab6d-5cf2dc554aa5",
-      "status_leds"
-    ],
-    [
-      "fb6e2354-ecf3-4898-bccb-a017b889063a",
-      "system_speech"
     ],
     [
       "0a734353-c161-4bd5-883e-eaf92a492627",
@@ -697,14 +669,6 @@
     [
       "57a20682-d779-4340-9769-ea32ac8b4a87",
       "5v_led_bulk_storer"
-    ],
-    [
-      "8498b325-11fd-4b20-a704-75ec3d8987ef",
-      "Driver"
-    ],
-    [
-      "dc7dc8d0-3fc1-4401-9905-7f0a56042fcf",
-      "Keyboard Matrix"
     ]
   ],
   "text_variables": {}
