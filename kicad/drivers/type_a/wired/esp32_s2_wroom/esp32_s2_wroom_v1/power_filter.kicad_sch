@@ -1,0 +1,1085 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9914ef98-f510-466f-a4d6-5b43c7c12d9a")
+	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
+	(lib_symbols
+		(symbol "PCM_4ms_Inductor:FerriteBead_0603_1.5A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead_0603_1.5A"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "4ms_Resistor:R_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Laird"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "MI0603K300R-10"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "Ferrite Bead"
+				(at 2.54 1.27 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "ki_keywords" "FerriteBead_0603_1.5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0603_1.5A_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_0603_1.5A_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Capacitors:1000uF_16V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1000uF_16V"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+				(at 0.762 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000uF, 16V Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Electrolytic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_THT:CP_Radial_D5.0mm_* Capacitor_THT:CP_Radial_D4.0mm_* Capacitor_THT:CP_Radial_D6.3mm_* Capacitor_THT:CP_Radial_D7.5mm_* Capacitor_THT:CP_Radial_D8.0mm_* Capacitor_THT:CP_Radial_D10.0mm_* Capacitor_THT:CP_Radial_D14.0mm_* Capacitor_THT:CP_Radial_D16.0mm_* Capacitor_THT:CP_Radial_D18.0mm_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1000uF_16V_0_0"
+				(text "+"
+					(at -2.032 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "-"
+					(at 2.032 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "1000uF_16V_0_1"
+				(rectangle
+					(start -1.016 -2.286)
+					(end -0.508 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -2.286)
+					(end 1.016 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "1000uF_16V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.7)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.7)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:20k"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "20k"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20kΩ, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "20k_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "20k_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 33.02 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ecb1a39-46bf-4dcf-bdd9-15ec75ed51a4")
+	)
+	(junction
+		(at 44.45 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d66cce0-4f6a-46e2-b38d-5e1e497bc76f")
+	)
+	(junction
+		(at 33.02 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7602caa6-ef9a-4c13-81a4-0b96b3a85a44")
+	)
+	(junction
+		(at 33.02 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919fd601-3e08-49fa-a611-030691494435")
+	)
+	(junction
+		(at 33.02 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df167a36-a593-4796-8e4e-d7e6354495da")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 24.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2e3e67-a486-46a6-8318-4fe41d69e004")
+	)
+	(wire
+		(pts
+			(xy 24.13 33.02) (xy 33.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fb23b8-1bcb-42ec-98cb-59e776e8a06a")
+	)
+	(wire
+		(pts
+			(xy 33.02 20.32) (xy 24.13 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6e1898-410f-484b-ae37-62098edf2f2d")
+	)
+	(wire
+		(pts
+			(xy 44.45 20.32) (xy 44.45 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3456a690-9e25-4556-a436-8ff30a576249")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1a773e-29dd-4d67-ab9d-afbd4cb52290")
+	)
+	(wire
+		(pts
+			(xy 44.45 25.4) (xy 41.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb8c5c5-d7a6-4ccc-aeef-50b76d978029")
+	)
+	(wire
+		(pts
+			(xy 24.13 27.94) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff3f04c-9dc7-450a-a0a2-69c63a31bbce")
+	)
+	(wire
+		(pts
+			(xy 34.29 20.32) (xy 33.02 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440d4259-e7ed-4345-ace7-7a8f4d0a77f6")
+	)
+	(wire
+		(pts
+			(xy 34.29 25.4) (xy 33.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6655cb43-c957-472e-a6ea-201fd535c87d")
+	)
+	(wire
+		(pts
+			(xy 34.29 53.34) (xy 24.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9421bbaf-b923-4d9b-8c4a-8fc8ba42aa1e")
+	)
+	(wire
+		(pts
+			(xy 33.02 20.32) (xy 33.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95613b26-2869-49d5-9d78-88d32c30dd5e")
+	)
+	(wire
+		(pts
+			(xy 41.91 20.32) (xy 44.45 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e834a9b-0d97-47f9-85f1-cd79c6c1a8ed")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 33.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66e2632-d5b6-41fd-a436-ca25b32fc36d")
+	)
+	(wire
+		(pts
+			(xy 33.02 25.4) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a26d72-06c4-492c-8100-96007f9ce3f9")
+	)
+	(wire
+		(pts
+			(xy 44.45 20.32) (xy 49.53 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc83eede-875d-467f-88ef-e1ef8af6b1d7")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 33.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb674cd5-6557-4661-8e75-6c4e91b8d2c6")
+	)
+	(wire
+		(pts
+			(xy 41.91 53.34) (xy 49.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa28edf1-da8a-45ed-8577-6bfabf25b69e")
+	)
+	(hierarchical_label "VBUS_OUT"
+		(shape input)
+		(at 49.53 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "138fb086-7ba6-40a3-83a3-161b00937592")
+	)
+	(hierarchical_label "GND_OUT"
+		(shape input)
+		(at 49.53 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "376cfd5d-05d2-458c-8000-786ca6e27d70")
+	)
+	(hierarchical_label "DATA+_OUT"
+		(shape input)
+		(at 49.53 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e5f4621-e50a-41af-9c1b-dc3e8e7cd70a")
+	)
+	(hierarchical_label "GND_IN"
+		(shape input)
+		(at 24.13 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c6eb9d0-bcd7-44c3-acd7-6e042d250278")
+	)
+	(hierarchical_label "DATA-_IN"
+		(shape input)
+		(at 24.13 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fd04f8a-f11b-4572-b06a-fe4186fc912e")
+	)
+	(hierarchical_label "DATA-_OUT"
+		(shape input)
+		(at 49.53 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a5a7b45-f489-46cb-9266-b4d52cf7e78c")
+	)
+	(hierarchical_label "DATA+_IN"
+		(shape input)
+		(at 24.13 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5c5887d-1fd6-4a0e-8630-6d5c575058f4")
+	)
+	(hierarchical_label "SHIELD_IN"
+		(shape input)
+		(at 24.13 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2619722-54e5-49cd-bd9a-a216c94351c0")
+	)
+	(hierarchical_label "VBUS_IN"
+		(shape input)
+		(at 24.13 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff2d997a-79d2-4caa-808d-a7b7d70ae1fb")
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:20k")
+		(at 38.1 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e83d99c-b12b-43c1-8bcf-b946cd381aec")
+		(property "Reference" "R7"
+			(at 38.1 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22ohm"
+			(at 38.1 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 38.989 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.608 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20kΩ, 1/4W Resistor"
+			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a92f41f4-ac11-4f02-831d-eb7ccc4bd6ea")
+		)
+		(pin "1"
+			(uuid "4e810531-caeb-42d8-b922-ea20b6006bb4")
+		)
+		(instances
+			(project "esp32_s2_wroom_v1"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/7f98122b-8e67-4045-a3c7-87ae9c51491f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Inductor:FerriteBead_0603_1.5A")
+		(at 38.1 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40e39b0a-6045-4c5b-8adb-f3465d5f9353")
+		(property "Reference" "L2"
+			(at 38.1 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead_0603_1.5A"
+			(at 31.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Chip Bead, Ferrite Chip Bead, Z=30Ω @ 100MHz, RmaxDC=90mΩ, ImaxDC=1.5A"
+			(at 45.974 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird"
+			(at 47.498 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MI0603K300R-10"
+			(at 49.022 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "Ferrite Bead"
+			(at 36.83 22.86 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d864cf4b-2f52-474a-a34c-aa8c1198adcc")
+		)
+		(pin "2"
+			(uuid "c60ac401-b7ce-492b-804a-049d29791799")
+		)
+		(instances
+			(project "esp32_s2_wroom_v1"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/7f98122b-8e67-4045-a3c7-87ae9c51491f"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:1000uF_16V")
+		(at 38.1 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9acf919c-5898-4b1c-ae0f-02c33f5cff2f")
+		(property "Reference" "C4"
+			(at 38.1 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000uF_16V"
+			(at 38.1 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 38.862 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.608 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000uF, 16V Electrolytic Capacitor"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00536607-02db-4cf5-a636-357343b216ad")
+		)
+		(pin "2"
+			(uuid "702a823f-1490-47be-88a5-af7060dcfedf")
+		)
+		(instances
+			(project "esp32_s2_wroom_v1"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/7f98122b-8e67-4045-a3c7-87ae9c51491f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:20k")
+		(at 38.1 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d879ad81-e02a-4833-9ece-c088cceb1014")
+		(property "Reference" "R6"
+			(at 38.1 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22ohm"
+			(at 38.1 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 38.989 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.608 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20kΩ, 1/4W Resistor"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4132b97-b4ee-4e0b-bf7f-bb5a3c345b11")
+		)
+		(pin "1"
+			(uuid "b7eba7ab-2909-4074-bf05-d4e8d92e8a1e")
+		)
+		(instances
+			(project "esp32_s2_wroom_v1"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/7f98122b-8e67-4045-a3c7-87ae9c51491f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
