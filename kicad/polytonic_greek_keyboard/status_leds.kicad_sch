@@ -818,10 +818,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "26f490dc-f722-4c72-a037-65ca08b77231")
+			(uuid "26f490dc-f722-4c72-a037-65ca08b77232")
 		)
 		(pin "2"
-			(uuid "eca37bfa-0736-4caf-8848-73750a226940")
+			(uuid "eca37bfa-0736-4caf-8848-73750a226941")
 		)
 		(instances
 			(project ""
@@ -876,7 +876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "68Ω, 1/4W Resistor"
+		(property "Description" "100Ω, 1/4W Resistor"
 			(at 39.37 41.91 0)
 			(effects
 				(font
@@ -963,10 +963,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "26f490dc-f722-4c72-a037-65ca08b77231")
+			(uuid "26f490dc-f722-4c72-a037-65ca08b77233")
 		)
 		(pin "2"
-			(uuid "eca37bfa-0736-4caf-8848-73750a226940")
+			(uuid "eca37bfa-0736-4caf-8848-73750a226942")
 		)
 		(instances
 			(project ""
@@ -1021,7 +1021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "68Ω, 1/4W Resistor"
+		(property "Description" "100Ω, 1/4W Resistor"
 			(at 39.37 22.86 0)
 			(effects
 				(font

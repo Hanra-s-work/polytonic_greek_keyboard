@@ -5,6 +5,476 @@
 	(uuid "c6355e0e-ee4e-470a-94ec-b0c3f3491d23")
 	(paper "A4")
 	(lib_symbols
+		(symbol "PCM_4ms_Resistor:10k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k_0402"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k, 1%, 1/16W, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "10k, 1%, 1/10W, 0402"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RT0402FRE0710KL"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "10k"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 2" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number 2" "RT0402DRE0710KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10k 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10k_0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Capacitors:100nF_Ceramic"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF_Ceramic"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF Ceramic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ceramic Capacitor 104 100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100nF_Ceramic_0_1"
+				(rectangle
+					(start -0.762 2.286)
+					(end -0.508 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.508 2.286)
+					(end 0.762 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "100nF_Ceramic_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Devices:Push_Button"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Push_Button"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+				(at -0.127 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Common 6mmx6mm Push Button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Push_Button_0_1"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.4579)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.4579)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Push_Button_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S2-WROVER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -867,9 +1337,275 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 74.93 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22afb2b9-e421-4e70-9799-9b36bfdc4d81")
+	)
+	(junction
+		(at 95.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c0eef02-e93b-4282-aba5-83c18de7437d")
+	)
+	(junction
+		(at 69.85 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab952d8-4d25-4a26-92ad-92784c2e4165")
+	)
+	(junction
+		(at 74.93 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90604c4e-6acb-43e6-8cb7-f5c65ed19ca9")
+	)
+	(junction
+		(at 113.03 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98e09c2-4e36-467c-92cc-15fca23961b8")
+	)
+	(junction
+		(at 69.85 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0be42d-ae4d-4d6b-a089-f301eb485c8a")
+	)
+	(junction
+		(at 113.03 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f72190c7-8af6-4410-9621-dce2f38c6eb1")
+	)
+	(junction
+		(at 95.25 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f812ed25-640b-4135-821e-14586554d679")
+	)
+	(no_connect
+		(at 128.27 46.99)
+		(uuid "bb8cdaf8-caf5-4a9e-b12d-2d3bed57f81e")
+	)
+	(no_connect
+		(at 128.27 49.53)
+		(uuid "f5a94e69-03c2-4e4b-885e-20a57b24afe2")
+	)
+	(wire
+		(pts
+			(xy 113.03 36.83) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03386771-5214-4f91-8cdf-e0c1bda116c1")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d447df4-4ef9-40e9-8936-bf1d4dac88b1")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7045e7-2ef2-4a74-93a5-495bcbccc85d")
+	)
+	(wire
+		(pts
+			(xy 69.85 46.99) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d94c27-671a-49df-b3e1-78bb55548814")
+	)
+	(wire
+		(pts
+			(xy 74.93 50.8) (xy 77.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4629c19e-7b63-432b-bff0-affafe6a85ba")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f49a87-fc38-4742-9909-183f012f8ce0")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 57.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496e0bd6-9f2a-4a1f-b5a9-8c0325333f51")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55335cfb-a65b-4a43-b0ca-6a3c16659fd0")
+	)
+	(wire
+		(pts
+			(xy 67.31 46.99) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1b0b85-ace3-4ce3-b66b-3eab862d2cd8")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2fd0a8-e43b-4959-9ed5-d90463a9ac38")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7b0c96-d1c7-460e-b663-eeab46e0d727")
+	)
+	(wire
+		(pts
+			(xy 74.93 46.99) (xy 97.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60db25a5-41ca-4f53-9382-98463aa93b6d")
+	)
+	(wire
+		(pts
+			(xy 95.25 49.53) (xy 97.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694e906e-783d-4618-b108-e94c445bd6e3")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695cd59e-2e7d-4da7-a609-537c0e43116e")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739d3470-b2d1-45ae-b43c-6edd72b01134")
+	)
+	(wire
+		(pts
+			(xy 74.93 50.8) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c56708-5887-47d7-b472-c52b7508c480")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 95.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94afcd96-6338-471d-80da-8d69c1c19861")
+	)
+	(wire
+		(pts
+			(xy 95.25 39.37) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b42cc5-801f-405f-8c0e-0580eb68ce3c")
+	)
+	(wire
+		(pts
+			(xy 69.85 101.6) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c2f451-9f38-4c7d-abf3-90c8891f890b")
+	)
+	(wire
+		(pts
+			(xy 95.25 39.37) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ed16f6-053e-4e18-ae7d-0d23a89b5fd0")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 113.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0356437-eb56-4029-a908-1429b43afbef")
+	)
 	(hierarchical_label "ID14"
 		(shape input)
-		(at 30.48 66.04 180)
+		(at 97.79 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,7 +1616,7 @@
 	)
 	(hierarchical_label "ID09"
 		(shape input)
-		(at 30.48 53.34 180)
+		(at 97.79 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,7 +1627,7 @@
 	)
 	(hierarchical_label "ID13"
 		(shape input)
-		(at 30.48 63.5 180)
+		(at 97.79 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,7 +1638,7 @@
 	)
 	(hierarchical_label "ID39"
 		(shape input)
-		(at 60.96 45.72 0)
+		(at 128.27 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -913,7 +1649,7 @@
 	)
 	(hierarchical_label "ID34"
 		(shape input)
-		(at 60.96 58.42 0)
+		(at 128.27 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,7 +1660,7 @@
 	)
 	(hierarchical_label "ID37"
 		(shape input)
-		(at 60.96 50.8 0)
+		(at 128.27 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -935,7 +1671,7 @@
 	)
 	(hierarchical_label "ID10"
 		(shape input)
-		(at 30.48 55.88 180)
+		(at 97.79 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,7 +1682,7 @@
 	)
 	(hierarchical_label "ID11"
 		(shape input)
-		(at 30.48 58.42 180)
+		(at 97.79 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -957,7 +1693,7 @@
 	)
 	(hierarchical_label "ID04"
 		(shape input)
-		(at 30.48 40.64 180)
+		(at 97.79 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -968,7 +1704,7 @@
 	)
 	(hierarchical_label "USB_D +"
 		(shape input)
-		(at 60.96 68.58 0)
+		(at 128.27 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -979,7 +1715,7 @@
 	)
 	(hierarchical_label "ID35"
 		(shape input)
-		(at 60.96 55.88 0)
+		(at 128.27 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -990,7 +1726,7 @@
 	)
 	(hierarchical_label "ID36"
 		(shape input)
-		(at 60.96 53.34 0)
+		(at 128.27 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1001,7 +1737,7 @@
 	)
 	(hierarchical_label "ID18"
 		(shape input)
-		(at 30.48 76.2 180)
+		(at 97.79 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1012,7 +1748,7 @@
 	)
 	(hierarchical_label "ID17"
 		(shape input)
-		(at 30.48 73.66 180)
+		(at 97.79 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1023,7 +1759,7 @@
 	)
 	(hierarchical_label "ID05"
 		(shape input)
-		(at 30.48 43.18 180)
+		(at 97.79 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,7 +1770,7 @@
 	)
 	(hierarchical_label "ID16"
 		(shape input)
-		(at 30.48 71.12 180)
+		(at 97.79 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1045,7 +1781,7 @@
 	)
 	(hierarchical_label "ID08"
 		(shape input)
-		(at 30.48 50.8 180)
+		(at 97.79 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1056,7 +1792,7 @@
 	)
 	(hierarchical_label "ID33"
 		(shape input)
-		(at 60.96 60.96 0)
+		(at 128.27 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,7 +1803,7 @@
 	)
 	(hierarchical_label "ID02"
 		(shape input)
-		(at 30.48 35.56 180)
+		(at 97.79 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1078,7 +1814,7 @@
 	)
 	(hierarchical_label "ID42"
 		(shape input)
-		(at 60.96 38.1 0)
+		(at 128.27 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1089,7 +1825,7 @@
 	)
 	(hierarchical_label "ID07"
 		(shape input)
-		(at 30.48 48.26 180)
+		(at 97.79 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1098,20 +1834,9 @@
 		)
 		(uuid "88d7dc88-fa5e-47a1-85f6-b344b16711f3")
 	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 30.48 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad6d78e3-d1cd-4641-9151-c3e0cc7cb0c8")
-	)
 	(hierarchical_label "ID40"
 		(shape input)
-		(at 60.96 43.18 0)
+		(at 128.27 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1122,7 +1847,7 @@
 	)
 	(hierarchical_label "ID03"
 		(shape input)
-		(at 30.48 38.1 180)
+		(at 97.79 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1131,20 +1856,9 @@
 		)
 		(uuid "b94cedf1-59dc-45c5-acbe-ebb3bc3559bc")
 	)
-	(hierarchical_label "ID46"
-		(shape input)
-		(at 60.96 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "badd1a45-3e2b-4b7f-9824-7018c5112bc7")
-	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 45.72 81.28 270)
+		(at 113.03 104.14 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1155,7 +1869,7 @@
 	)
 	(hierarchical_label "RXD0"
 		(shape input)
-		(at 60.96 33.02 0)
+		(at 128.27 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1166,7 +1880,7 @@
 	)
 	(hierarchical_label "ID41"
 		(shape input)
-		(at 60.96 40.64 0)
+		(at 128.27 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1175,20 +1889,9 @@
 		)
 		(uuid "c18a7d83-fdf4-4464-8e49-436e0a803c79")
 	)
-	(hierarchical_label "ID45"
-		(shape input)
-		(at 60.96 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c453b8f4-fc62-4606-9d98-abe2669335e0")
-	)
 	(hierarchical_label "ID12"
 		(shape input)
-		(at 30.48 60.96 180)
+		(at 97.79 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1199,7 +1902,7 @@
 	)
 	(hierarchical_label "USB_D -"
 		(shape input)
-		(at 60.96 71.12 0)
+		(at 128.27 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1210,7 +1913,7 @@
 	)
 	(hierarchical_label "3v3"
 		(shape input)
-		(at 45.72 22.86 90)
+		(at 113.03 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,7 +1924,7 @@
 	)
 	(hierarchical_label "ID01"
 		(shape input)
-		(at 30.48 33.02 180)
+		(at 97.79 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1232,7 +1935,7 @@
 	)
 	(hierarchical_label "TXD0"
 		(shape input)
-		(at 60.96 35.56 0)
+		(at 128.27 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1243,7 +1946,7 @@
 	)
 	(hierarchical_label "ID26"
 		(shape input)
-		(at 60.96 63.5 0)
+		(at 128.27 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1254,7 +1957,7 @@
 	)
 	(hierarchical_label "ID21"
 		(shape input)
-		(at 60.96 66.04 0)
+		(at 128.27 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1263,20 +1966,9 @@
 		)
 		(uuid "d8275cc3-6a25-4af1-97ad-eecf49c2351b")
 	)
-	(hierarchical_label "ID00"
-		(shape input)
-		(at 30.48 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5ad2476-c256-4f73-a61d-4e9eac756074")
-	)
 	(hierarchical_label "ID06"
 		(shape input)
-		(at 30.48 45.72 180)
+		(at 97.79 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1287,7 +1979,7 @@
 	)
 	(hierarchical_label "ID15"
 		(shape input)
-		(at 30.48 68.58 180)
+		(at 97.79 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1990,7 @@
 	)
 	(hierarchical_label "ID38"
 		(shape input)
-		(at 60.96 48.26 0)
+		(at 128.27 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,8 +2000,134 @@
 		(uuid "f7d23c23-7cb2-44e6-8c26-01fc7101d76c")
 	)
 	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 95.25 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "171530d3-4951-49e9-ad11-2e7e94bca0be")
+		(property "Reference" "R28"
+			(at 90.17 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 92.71 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 92.71 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 92.71 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 92.71 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 99.06 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f7e9f4-8a48-4f7f-ba08-11be4e647fe1")
+		)
+		(pin "2"
+			(uuid "8574dc60-042d-44c2-8b1f-e9901d61e142")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/98a216ce-7319-4f0b-a321-c8ded0ff5837"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S2-WROVER")
-		(at 45.72 53.34 0)
+		(at 113.03 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1318,7 +2136,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dda9a51-fc4e-4574-9d7f-4f3d09491f2c")
 		(property "Reference" "U1"
-			(at 47.8633 20.32 0)
+			(at 115.1733 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +2145,7 @@
 			)
 		)
 		(property "Value" "ESP32-S2-WROVER"
-			(at 47.8633 22.86 0)
+			(at 115.1733 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +2154,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S2-WROVER"
-			(at 64.77 82.55 0)
+			(at 132.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +2163,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf"
-			(at 38.1 73.66 0)
+			(at 105.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +2172,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 45.72 53.34 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,6 +2313,336 @@
 			(project ""
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/98a216ce-7319-4f0b-a321-c8ded0ff5837"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:100nF_Ceramic")
+		(at 69.85 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a0d72c-9a99-4532-9760-713a83dd4b2c")
+		(property "Reference" "C9"
+			(at 64.008 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF_Ceramic"
+			(at 66.294 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF Ceramic Capacitor"
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd0ebf24-26ae-466d-a942-c758f5a08ba7")
+		)
+		(pin "1"
+			(uuid "ccc8dbe0-4aed-4b74-9ad7-6edfaa553904")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/98a216ce-7319-4f0b-a321-c8ded0ff5837"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Push_Button")
+		(at 62.23 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d42e0a4-b3d0-4f9d-98e1-1a9cb3a3a9d3")
+		(property "Reference" "SW9"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Push_Button"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 62.103 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common 6mmx6mm Push Button"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a405974-1384-4eff-84e0-25ee1924ae8e")
+		)
+		(pin "2"
+			(uuid "62401ef4-7c42-491f-9ff5-755906288348")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/98a216ce-7319-4f0b-a321-c8ded0ff5837"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Resistor:10k_0402")
+		(at 74.93 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b10ac128-f6b5-4178-ba7f-e949f47e768c")
+		(property "Reference" "R27"
+			(at 72.136 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k_0402"
+			(at 77.47 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, 1%, 1/16W, 0603"
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10k, 1%, 1/10W, 0402"
+			(at 77.47 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 77.47 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RT0402FRE0710KL"
+			(at 77.47 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10k"
+			(at 71.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 2" "Yageo"
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number 2" "RT0402DRE0710KL"
+			(at 74.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0e1ac5-c0d0-4f98-965f-b3248f4dc420")
+		)
+		(pin "2"
+			(uuid "31cdbf49-5613-4746-a4d5-08122fa72696")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/98a216ce-7319-4f0b-a321-c8ded0ff5837"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Push_Button")
+		(at 82.55 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbde252f-6474-41a7-a0ed-f7b94cd259dc")
+		(property "Reference" "SW8"
+			(at 82.296 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Push_Button"
+			(at 82.296 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 82.423 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common 6mmx6mm Push Button"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3dcb26f-1541-4636-ab14-d71af1dccf6b")
+		)
+		(pin "2"
+			(uuid "31491215-23c6-478d-a99d-81afde2baf23")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/98a216ce-7319-4f0b-a321-c8ded0ff5837"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
