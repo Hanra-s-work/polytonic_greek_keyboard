@@ -29,7 +29,7 @@
 			(color 255 168 118 1.0000)
 		)
 		(uuid "8498b325-11fd-4b20-a704-75ec3d8987ef")
-		(property "Sheetname" "Main logic"
+		(property "Sheetname" "Driver"
 			(at 12.7 14.5284 0)
 			(effects
 				(font
@@ -38,7 +38,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "main_logic.kicad_sch"
+		(property "Sheetfile" "driver.kicad_sch"
 			(at 12.7 89.4846 0)
 			(effects
 				(font
@@ -48,7 +48,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
 					(page "21")
 				)
@@ -91,7 +91,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
 					(page "22")
 				)

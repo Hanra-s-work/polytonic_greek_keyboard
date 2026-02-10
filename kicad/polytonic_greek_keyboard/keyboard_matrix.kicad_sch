@@ -2829,7 +2829,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf"
 					(page "2")
 				)

@@ -2572,7 +2572,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "8")
 				)
@@ -2724,7 +2724,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "7")
 				)
@@ -2806,7 +2806,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "5")
 				)
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "6")
 				)
@@ -3322,7 +3322,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "3")
 				)
@@ -3425,7 +3425,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "keyboard_driver"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "9")
 				)
