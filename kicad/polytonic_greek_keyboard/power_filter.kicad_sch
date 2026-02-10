@@ -1014,7 +1014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e83d99c-b12b-43c1-8bcf-b946cd381aec")
-		(property "Reference" "R18"
+		(property "Reference" "R7"
 			(at 38.1 58.166 0)
 			(effects
 				(font
@@ -1058,15 +1058,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e857c8bd-de5b-4a4a-8177-ddaaa12e7a9c")
+			(uuid "be150c55-08bb-42cd-96ae-4ac170e36cc3")
 		)
 		(pin "1"
-			(uuid "53abbe38-f202-4441-b93e-9f92090c67bf")
+			(uuid "1c885d91-ca2e-43d4-baaa-5fed030fd5dc")
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/603682d4-9510-4466-84d6-fe473c47d1f7"
-					(reference "R18")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/085bf86b-e0cc-40ae-815c-511e7d27e866"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1081,7 +1081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31aa7587-1466-467e-a111-5333b3319b94")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 27.686 35.052 0)
 			(effects
 				(font
@@ -1134,15 +1134,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cde4021f-adbd-44ca-af56-dcdbc0e01091")
+			(uuid "cb5bb5b1-e2ba-4c89-93c7-b23062a5eb24")
 		)
 		(pin "1"
-			(uuid "97886101-6acf-4915-9f54-dd3f398334be")
+			(uuid "70bb5c83-cf81-414e-9093-4a18152f9bdb")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/603682d4-9510-4466-84d6-fe473c47d1f7"
-					(reference "R15")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/085bf86b-e0cc-40ae-815c-511e7d27e866"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1157,7 +1157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40e39b0a-6045-4c5b-8adb-f3465d5f9353")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 38.1 28.702 90)
 			(effects
 				(font
@@ -1240,15 +1240,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e708cb5-e101-44b1-ad9e-7be54a9a4783")
+			(uuid "6421a32f-dd99-49bc-b5ca-8437304e5e4d")
 		)
 		(pin "2"
-			(uuid "613c04ed-1992-4c3a-8027-aa734fd3a0ab")
+			(uuid "faeb1466-f580-4a22-b7ff-6e4196aecc90")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/603682d4-9510-4466-84d6-fe473c47d1f7"
-					(reference "L1")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/085bf86b-e0cc-40ae-815c-511e7d27e866"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -1263,7 +1263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9acf919c-5898-4b1c-ae0f-02c33f5cff2f")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 38.1 13.97 0)
 			(effects
 				(font
@@ -1307,15 +1307,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fede2dbd-2c61-4269-acb3-9a40a19a3e63")
+			(uuid "cef3efbf-34e6-4a2e-b000-80a8e5c2bf82")
 		)
 		(pin "2"
-			(uuid "07114ee4-6a61-41d4-b420-7a971c3ba7e8")
+			(uuid "6293665f-b306-468f-99f8-27d64976f4c4")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/603682d4-9510-4466-84d6-fe473c47d1f7"
-					(reference "C2")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/085bf86b-e0cc-40ae-815c-511e7d27e866"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1330,7 +1330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd7ac166-331e-4ff1-a2ff-ed0d4299aff6")
-		(property "Reference" "R16"
+		(property "Reference" "R5"
 			(at 27.94 44.45 0)
 			(effects
 				(font
@@ -1383,15 +1383,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "58fb4239-c63c-4d89-8b02-f92f2276deee")
+			(uuid "a433a47d-3cf1-47bc-843b-8c66bb356ea2")
 		)
 		(pin "1"
-			(uuid "ba484d2b-c1ad-450e-9242-3cd533d6528e")
+			(uuid "e5a4c963-e161-467d-9f36-4a7fadd991d5")
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/603682d4-9510-4466-84d6-fe473c47d1f7"
-					(reference "R16")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/085bf86b-e0cc-40ae-815c-511e7d27e866"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1406,7 +1406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d879ad81-e02a-4833-9ece-c088cceb1014")
-		(property "Reference" "R17"
+		(property "Reference" "R6"
 			(at 38.1 48.768 0)
 			(effects
 				(font
@@ -1450,15 +1450,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "50cb35d3-b43b-463b-8804-3c2b1ea5a435")
+			(uuid "f03e9226-287a-4fc4-a9d4-ced49a5f6f70")
 		)
 		(pin "1"
-			(uuid "c540f8a1-a5f1-44e9-b9ca-189998a2f088")
+			(uuid "c4d078fd-8177-4195-ad74-ba33a58d0b70")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/603682d4-9510-4466-84d6-fe473c47d1f7"
-					(reference "R17")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/085bf86b-e0cc-40ae-815c-511e7d27e866"
+					(reference "R6")
 					(unit 1)
 				)
 			)

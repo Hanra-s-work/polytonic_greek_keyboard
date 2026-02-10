@@ -623,32 +623,64 @@
       "Root"
     ],
     [
-      "57a20682-d779-4340-9769-ea32ac8b4a87",
-      "5v_led_bulk_storer"
+      "3567022d-dcc8-4a26-83e7-5efb883a1646",
+      "key_matrix"
     ],
     [
-      "b9347469-4bb2-4648-b4dc-d6f3187000d0",
+      "ec54e47a-8e8b-4416-b579-fc6e7c329b94",
       "display"
-    ],
-    [
-      "98a216ce-7319-4f0b-a321-c8ded0ff5837",
-      "logic"
-    ],
-    [
-      "93b6a0fb-c84f-4e1a-be68-67f86d3a12c5",
-      "system_speech"
     ],
     [
       "79c338a4-4a9b-4797-93e1-f6bef1aecfbc",
       "Onboard_I2c"
     ],
     [
-      "603682d4-9510-4466-84d6-fe473c47d1f7",
+      "3e13680f-afbf-4059-ae13-3c3d5e01d0cf",
+      "esp_voltage_stepdown"
+    ],
+    [
+      "52990bdd-0b84-441a-b927-02579db6fb17",
+      "logic"
+    ],
+    [
+      "085bf86b-e0cc-40ae-815c-511e7d27e866",
       "power_filter"
     ],
     [
-      "09ff75ff-3c8b-43b7-a704-ac023cbe9eff",
-      "key_matrix"
+      "05952128-eb9e-434e-ab6d-5cf2dc554aa5",
+      "status_leds"
+    ],
+    [
+      "fb6e2354-ecf3-4898-bccb-a017b889063a",
+      "system_speech"
+    ],
+    [
+      "0a734353-c161-4bd5-883e-eaf92a492627",
+      "Return"
+    ],
+    [
+      "5f107f1d-b7cf-41cd-afd8-8e41c5a88225",
+      "Shift"
+    ],
+    [
+      "8b8f665d-b696-46fc-864c-f0692badae5f",
+      "Accent keys"
+    ],
+    [
+      "bc8fbaa7-91b3-44f7-8689-7e314f02a60c",
+      "Navigation keys"
+    ],
+    [
+      "f3abad68-d969-4547-9eb1-e9a446cc74ea",
+      "Special keys"
+    ],
+    [
+      "6fe76989-dc92-4d30-a709-538a22e097b7",
+      "Tab"
+    ],
+    [
+      "85dfdcb0-9a07-4e64-aafd-2caa92dd5075",
+      "Space"
     ],
     [
       "936cb619-2bfc-4207-b673-b4f4ce610e75",
@@ -663,40 +695,16 @@
       "Alphabet keys"
     ],
     [
-      "8b8f665d-b696-46fc-864c-f0692badae5f",
-      "Accent keys"
+      "57a20682-d779-4340-9769-ea32ac8b4a87",
+      "5v_led_bulk_storer"
     ],
     [
-      "f3abad68-d969-4547-9eb1-e9a446cc74ea",
-      "Special keys"
+      "8498b325-11fd-4b20-a704-75ec3d8987ef",
+      "Main logic"
     ],
     [
-      "bc8fbaa7-91b3-44f7-8689-7e314f02a60c",
-      "Navigation keys"
-    ],
-    [
-      "0a734353-c161-4bd5-883e-eaf92a492627",
-      "Return"
-    ],
-    [
-      "6fe76989-dc92-4d30-a709-538a22e097b7",
-      "Tab"
-    ],
-    [
-      "85dfdcb0-9a07-4e64-aafd-2caa92dd5075",
-      "Space"
-    ],
-    [
-      "7d9047f3-7c3b-4bc8-9296-0f56f4397655",
-      "esp_voltage_stepdown"
-    ],
-    [
-      "5f107f1d-b7cf-41cd-afd8-8e41c5a88225",
-      "Shift"
-    ],
-    [
-      "5708fcea-898f-452b-af74-a5f74d78e7d6",
-      "status_leds"
+      "dc7dc8d0-3fc1-4401-9905-7f0a56042fcf",
+      "Keyboard Matrix"
     ]
   ],
   "text_variables": {}

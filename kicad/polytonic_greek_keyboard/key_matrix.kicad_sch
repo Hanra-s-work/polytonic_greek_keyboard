@@ -3281,7 +3281,7 @@
 		)
 		(pin "LED_DIN" input
 			(at 152.4 120.65 180)
-			(uuid "7688ce0d-95dd-42b4-a7f3-e4b9f6f4983b")
+			(uuid "084e7608-7c68-4d9f-8f0c-9bc117aa4842")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3291,7 +3291,7 @@
 		)
 		(pin "LED_DOUT" output
 			(at 165.1 120.65 0)
-			(uuid "1a670422-0ab2-4710-9587-8788c35fd27b")
+			(uuid "3d2377be-1d8b-4a58-9e1d-90ed9aa84e1d")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3301,7 +3301,7 @@
 		)
 		(pin "LED_VDD" input
 			(at 158.75 114.3 90)
-			(uuid "98184750-e821-4994-865d-e7bb122e7338")
+			(uuid "3085067b-8acb-453c-8851-8a3202fe05b9")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3311,7 +3311,7 @@
 		)
 		(pin "LED_VSS" output
 			(at 158.75 127 270)
-			(uuid "511cad7c-c225-40d1-bedb-379114ab4a56")
+			(uuid "731aa525-f834-44c9-8c4b-06154e87df73")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3321,7 +3321,7 @@
 		)
 		(pin "swt_col" output
 			(at 153.67 114.3 90)
-			(uuid "f47e789c-cfd2-4227-a5f6-d9d5fd7ddc4a")
+			(uuid "b693e1f1-8bc1-44ac-ba0a-51306e0cc478")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3331,7 +3331,7 @@
 		)
 		(pin "swt_row" input
 			(at 152.4 124.46 180)
-			(uuid "49628708-5d5b-46ba-b84d-c50c3811da3b")
+			(uuid "cd18dc39-0721-4212-a223-a516b3d72340")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3341,8 +3341,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "17")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "10")
 				)
 			)
 		)
@@ -3384,7 +3384,7 @@
 		)
 		(pin "VDD_IN" input
 			(at 15.24 29.21 180)
-			(uuid "08dcb73b-b968-43b1-9c78-bc1c31ae25ee")
+			(uuid "dd890db3-333c-4838-86ed-136abdf06ddc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3394,7 @@
 		)
 		(pin "VDD_OUT" output
 			(at 34.29 29.21 0)
-			(uuid "197f1fc5-4bf4-4442-8995-17351687ea4a")
+			(uuid "3d8b3230-e16f-481f-a3e8-02e457ffc886")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 		)
 		(pin "VSS_IN" input
 			(at 15.24 31.75 180)
-			(uuid "1812f68c-6a34-4fb6-9d9a-587045bdaf68")
+			(uuid "cdd8a475-c3fa-4bec-9118-53684287fdad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3414,7 @@
 		)
 		(pin "VSS_OUT" output
 			(at 34.29 31.75 0)
-			(uuid "568db27b-0969-4f86-bda0-c4d124b6c20c")
+			(uuid "26f54ac9-bf83-4431-86d8-2e3ef7baf637")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,8 +3424,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "2")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "20")
 				)
 			)
 		)
@@ -3466,7 +3466,7 @@
 		)
 		(pin "LED_DIN" input
 			(at 114.3 158.75 180)
-			(uuid "6042cff8-5339-4583-8244-c90b66de3d76")
+			(uuid "ed4c57ec-d204-455a-bdcc-02e875d96fef")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3476,7 +3476,7 @@
 		)
 		(pin "LED_DOUT" output
 			(at 127 158.75 0)
-			(uuid "5d6754cc-cf06-4820-b0dc-a9b73d86460e")
+			(uuid "96ef50f1-deb7-450d-b952-e1e4d991ff77")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3486,7 +3486,7 @@
 		)
 		(pin "LED_VDD" input
 			(at 120.65 152.4 90)
-			(uuid "3589152e-f234-483e-991f-06931a44d56b")
+			(uuid "5ab8fea2-93de-4557-8226-1a3777fbc12e")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3496,7 +3496,7 @@
 		)
 		(pin "LED_VSS" output
 			(at 120.65 165.1 270)
-			(uuid "cd065add-9899-4dd0-8eae-a42440df0899")
+			(uuid "840dadc3-972d-47ca-b7de-9cd84aeba521")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3506,7 +3506,7 @@
 		)
 		(pin "swt_col" output
 			(at 115.57 152.4 90)
-			(uuid "59f63a58-f34e-40d3-ae23-862114705559")
+			(uuid "48900f73-35e6-429e-916c-978e665382d1")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3516,7 +3516,7 @@
 		)
 		(pin "swt_row" input
 			(at 114.3 161.29 180)
-			(uuid "c2e5dd64-6557-4ad5-a3f8-bce0670a4297")
+			(uuid "57f50762-6270-4584-949e-39df7c9db3fe")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3526,8 +3526,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "20")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "11")
 				)
 			)
 		)
@@ -3568,7 +3568,7 @@
 		)
 		(pin "LED_DIN" input
 			(at 25.4 158.75 180)
-			(uuid "1a5dca3e-0186-4b64-9fdf-c59bc5d6b7c7")
+			(uuid "45180818-9182-4303-aced-e6b36b075c43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3578,7 @@
 		)
 		(pin "LED_DOUT" output
 			(at 50.8 158.75 0)
-			(uuid "85825789-076e-4acc-879b-d0c67e4532a7")
+			(uuid "e146ef7f-5784-452c-955c-ffefcd397529")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3588,7 +3588,7 @@
 		)
 		(pin "LED_VDD" input
 			(at 35.56 152.4 90)
-			(uuid "5029c282-54cf-47a8-b4ab-4334d043350d")
+			(uuid "cf68c480-c61b-4064-aa73-991329285565")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3598,7 @@
 		)
 		(pin "LED_VSS" output
 			(at 38.1 165.1 270)
-			(uuid "70db1c70-fd88-43d4-9b02-56469dc7fb72")
+			(uuid "3f6a983b-42dd-42a4-b6a2-e5250749415e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3608,7 @@
 		)
 		(pin "swt_col" output
 			(at 40.64 152.4 90)
-			(uuid "e10b7329-0815-4ff8-ad8d-bc8dcf31b6ac")
+			(uuid "0bb68b86-5529-415b-8679-d902ee80bc9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3618,7 @@
 		)
 		(pin "swt_row" input
 			(at 25.4 156.21 180)
-			(uuid "c6849fb0-c5d9-41bb-89a8-1a6608ae59c7")
+			(uuid "16ddbd5d-020d-49b9-b1ed-2a950d689522")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,8 +3628,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "18")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "15")
 				)
 			)
 		)
@@ -3670,7 +3670,7 @@
 		)
 		(pin "LED_DIN" input
 			(at 63.5 158.75 180)
-			(uuid "82f0ccbd-0c42-422d-81f5-11bfd5a6b006")
+			(uuid "11693c8d-0bfd-4362-b59c-f43dd55ad745")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3680,7 @@
 		)
 		(pin "LED_DOUT" output
 			(at 101.6 158.75 0)
-			(uuid "0e264e05-6ce5-4d89-9bbc-b1eed81c25d1")
+			(uuid "3fd6373e-0bde-44e4-a6f5-5c99b9ab3c35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3690,7 @@
 		)
 		(pin "LED_VDD" input
 			(at 77.47 152.4 90)
-			(uuid "314acccb-e84c-49b7-8ecb-c95f1245d1e8")
+			(uuid "2509a6b6-909d-480c-81bc-3eb639b39c84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3700,7 @@
 		)
 		(pin "LED_VSS" output
 			(at 81.28 165.1 270)
-			(uuid "029ca9ff-59c2-48af-8097-bf20d3697aa2")
+			(uuid "dee17e3d-c46a-40d8-96d2-c7656a03e9c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3710,7 @@
 		)
 		(pin "swt_col" output
 			(at 86.36 152.4 90)
-			(uuid "456962c0-f623-4fd2-a1b4-45a7a52256ca")
+			(uuid "c8a9c2f9-6158-4db6-95b7-dec87972cf9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3720,7 @@
 		)
 		(pin "swt_row" input
 			(at 63.5 156.21 180)
-			(uuid "7c83b137-301d-4edb-af90-5a80bc30aa1b")
+			(uuid "1eed28fe-462e-4756-bf3b-f6f2c2b1de37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,8 +3730,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "19")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "16")
 				)
 			)
 		)
@@ -3772,7 +3772,7 @@
 		)
 		(pin "LED_DIN_IN" input
 			(at 177.8 81.28 180)
-			(uuid "806be485-6149-49b9-9f9a-dba2e1f15c56")
+			(uuid "a6fe8b06-7383-43bb-8e09-e013f93ae66f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3782,7 @@
 		)
 		(pin "LED_DOUT_OUT" output
 			(at 215.9 81.28 0)
-			(uuid "b34a6363-68e5-47e1-ad77-8880ee536554")
+			(uuid "b69c5154-fa9f-45ce-9f87-0344b290f5d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3792,7 @@
 		)
 		(pin "LED_VDD_IN" input
 			(at 194.31 63.5 90)
-			(uuid "9a0946fd-b1df-4d5a-b1bb-fa344f2ded0d")
+			(uuid "1203f9d0-0529-45c2-b307-647a0f70cd74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3802,7 @@
 		)
 		(pin "LED_VSS_IN" input
 			(at 194.31 101.6 270)
-			(uuid "2ccb7275-d8d5-4e8d-80e2-f3c37d028973")
+			(uuid "d5f778cf-4fcb-4255-8e25-98dc4725ea9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 		)
 		(pin "col14_IN" input
 			(at 191.77 101.6 270)
-			(uuid "ae88a09c-184e-4cb3-a0e4-80ea43e65700")
+			(uuid "c3ebf091-0d45-4619-8b2d-9c6f9bacfc52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3822,7 @@
 		)
 		(pin "col14_OUT" output
 			(at 189.23 63.5 90)
-			(uuid "e6c84d3d-ed2d-4b10-b759-ad55682ad658")
+			(uuid "15366448-66b8-48ea-8fef-f1e9083fd2ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 		)
 		(pin "col15_IN" input
 			(at 196.85 101.6 270)
-			(uuid "d394c459-53c0-488b-8e26-618bc12f6215")
+			(uuid "b280d941-8842-43b3-9849-b61dc780578e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 		)
 		(pin "col15_OUT" output
 			(at 196.85 63.5 90)
-			(uuid "9d3be175-8fe3-4496-a438-8b674e38df64")
+			(uuid "478cbdaa-f16d-43b2-b87a-d52e10bc5c33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3852,7 @@
 		)
 		(pin "col16_IN" input
 			(at 201.93 101.6 270)
-			(uuid "845ea6e7-270e-4af6-9090-b90f73ae816a")
+			(uuid "45cbd780-9fed-4c18-ae5b-e0675a96b1f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3862,7 @@
 		)
 		(pin "col16_OUT" output
 			(at 201.93 63.5 90)
-			(uuid "82b2fdf9-7931-4b79-8aaf-4f341918fba5")
+			(uuid "71f71d04-1acd-4ce3-8e2c-ca796c4dfb12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3872,7 @@
 		)
 		(pin "row2_IN" input
 			(at 177.8 67.31 180)
-			(uuid "507c6742-173c-4c41-973f-7777b2a4eeca")
+			(uuid "c0d868f9-bd58-438d-aabc-524bd020877c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3882,7 @@
 		)
 		(pin "row2_OUT" output
 			(at 215.9 67.31 0)
-			(uuid "3627d44e-d49f-4901-8a91-072efebff476")
+			(uuid "49948b24-caed-4737-8ba7-d0e3145eca82")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3892,7 @@
 		)
 		(pin "row3_IN" input
 			(at 177.8 71.12 180)
-			(uuid "ae69bfac-1d41-4718-b15b-b6ef64ebc3be")
+			(uuid "2d15e3b5-822f-4ec4-81cd-8cd889dbbbe2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3902,7 @@
 		)
 		(pin "row3_OUT" output
 			(at 215.9 71.12 0)
-			(uuid "a406753c-0611-4f71-aa3c-73346971fcdc")
+			(uuid "5b31ec12-c0f3-4247-8711-6030def5b6c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 		)
 		(pin "row4_IN" input
 			(at 177.8 74.93 180)
-			(uuid "8a77ef3e-8b2f-41ed-a459-b8667e1730bd")
+			(uuid "fd5d0709-e963-4ac5-9032-79770786ee90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 		)
 		(pin "row4_OUT" output
 			(at 215.9 74.93 0)
-			(uuid "aaf9c802-94a4-4937-ad8c-c680c772aba7")
+			(uuid "310efa15-cba9-4b79-a93e-bbfd1f031076")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3932,7 @@
 		)
 		(pin "row5_IN" input
 			(at 177.8 83.82 180)
-			(uuid "438f7968-5a42-4bce-b3c1-b3dd48120d3a")
+			(uuid "719b617c-4ff6-43d0-a9ae-1eb35f9afbf3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3942,7 @@
 		)
 		(pin "row5_OUT" output
 			(at 215.9 83.82 0)
-			(uuid "aa3228e8-94f7-4171-a2eb-b848686c6b4e")
+			(uuid "73031704-3a83-4e00-a02c-e2d7cbe3123f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3952,7 @@
 		)
 		(pin "row6_IN" input
 			(at 177.8 87.63 180)
-			(uuid "680a1cab-853e-4fd3-adc4-7889dbec4c8d")
+			(uuid "f4429935-071c-4000-b285-ee1452d38dc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3962,7 @@
 		)
 		(pin "row6_OUT" output
 			(at 215.9 87.63 0)
-			(uuid "5cca3870-b140-43b2-843a-ac0d4ba8c027")
+			(uuid "42b6e05c-15d0-416e-9b0a-6992779f3802")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,8 +3972,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "14")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "12")
 				)
 			)
 		)
@@ -4014,7 +4014,7 @@
 		)
 		(pin "LED_DIN_IN" input
 			(at 25.4 43.18 180)
-			(uuid "76ca75ed-5e9a-495f-a556-1f408d48f125")
+			(uuid "4ba575c8-d3d4-4fc0-9da8-8dbbae828177")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4024,7 @@
 		)
 		(pin "LED_DOUT_OUT" output
 			(at 215.9 44.45 0)
-			(uuid "e45dad7a-0445-4085-8592-e28d9c7f19ca")
+			(uuid "377bae13-0aab-4931-9728-f5bbb4011846")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4034,7 +4034,7 @@
 		)
 		(pin "LED_VDD_IN" input
 			(at 25.4 40.64 180)
-			(uuid "ca6858bd-708f-44c8-a871-0aeabaa8837a")
+			(uuid "92011d93-e62f-41b0-84dd-8ae3b8dc4a35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4044,7 @@
 		)
 		(pin "LED_VSS_IN" input
 			(at 25.4 45.72 180)
-			(uuid "cf4b822c-9a86-4b47-8dc7-0fd7ac2a6dd7")
+			(uuid "4393c192-930f-4e90-b198-54116ba5f473")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4054,7 @@
 		)
 		(pin "col1_IN" input
 			(at 40.64 50.8 270)
-			(uuid "fa61ff02-f539-45ae-bc7d-089aa0fe0917")
+			(uuid "84c9ae71-8b79-4faa-ab19-41141dd13b2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 		)
 		(pin "col1_OUT" output
 			(at 43.18 38.1 90)
-			(uuid "cab2d494-2b1c-47aa-8d92-b11beedbb437")
+			(uuid "dd485ee5-4e84-4f4c-8766-6801956e1a21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4074,7 @@
 		)
 		(pin "col2_IN" input
 			(at 46.99 50.8 270)
-			(uuid "7b08dc9e-8be2-4519-a553-d98a4cec3179")
+			(uuid "e6c420bc-dcfc-4b4f-9260-df5ec110b7e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4084,7 @@
 		)
 		(pin "col2_OUT" output
 			(at 49.53 38.1 90)
-			(uuid "ba8b1c9c-4686-435b-8bc5-efa8a82bf572")
+			(uuid "abfec958-7d18-4e1e-aeab-6ec1df789c72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4094,7 @@
 		)
 		(pin "col3_IN" input
 			(at 52.07 50.8 270)
-			(uuid "bf157733-7ffa-44b9-89e4-2aafeb4f7422")
+			(uuid "d42b148e-c0ef-460e-b300-c80e77c6fa1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 		)
 		(pin "col3_OUT" output
 			(at 54.61 38.1 90)
-			(uuid "a6c28125-5cac-4b61-94b3-9183b0ee506d")
+			(uuid "dc604722-05a9-4465-ad30-266239bf9df2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4114,7 @@
 		)
 		(pin "col4_IN" input
 			(at 57.15 50.8 270)
-			(uuid "819b6308-540d-456c-b693-376964180b30")
+			(uuid "7c2b2dd1-999b-49a8-b8c7-264f9bbf85fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4124,7 @@
 		)
 		(pin "col4_OUT" output
 			(at 59.69 38.1 90)
-			(uuid "21da5790-b33a-4a69-a27d-78ea5cebc325")
+			(uuid "c50f8fbd-dfa3-4eaa-b30c-da531c77737a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4134,7 @@
 		)
 		(pin "col5_IN" input
 			(at 62.23 50.8 270)
-			(uuid "6d424c65-2be5-4e0e-a3f2-525a047f621c")
+			(uuid "6916fe52-9920-4553-8a9b-e4e200e9274b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4144,7 @@
 		)
 		(pin "col5_OUT" output
 			(at 64.77 38.1 90)
-			(uuid "d832a381-0ffa-4ba5-bb20-d4fd6ab6f35e")
+			(uuid "4b846907-5ada-48db-a722-7f9aa34442f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4154,7 @@
 		)
 		(pin "col6_IN" input
 			(at 67.31 50.8 270)
-			(uuid "ca7dbf1f-d461-4d76-9efb-4535eec63c99")
+			(uuid "05a72687-6d0a-4299-9835-9c1bbbacf171")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4164,7 @@
 		)
 		(pin "col6_OUT" output
 			(at 69.85 38.1 90)
-			(uuid "60f3c240-3ca9-4ff3-a5d9-9f5cf8f9b076")
+			(uuid "e5cc09eb-6fda-44c5-a7d7-65da0f94f6d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4174,7 @@
 		)
 		(pin "col7_IN" input
 			(at 72.39 50.8 270)
-			(uuid "c05d0b74-4caa-4e31-97bd-c52eb4d04acd")
+			(uuid "04fa66bd-aa98-4183-8608-35474f148bb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4184,7 @@
 		)
 		(pin "col7_OUT" output
 			(at 74.93 38.1 90)
-			(uuid "740c7be1-001f-4723-8692-50771c14f439")
+			(uuid "f22c4154-22a3-4df6-9b61-ac4c30e6d1f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4194,7 @@
 		)
 		(pin "col8_IN" input
 			(at 81.28 50.8 270)
-			(uuid "09e5aa51-7def-487f-a760-8afc0dd585dd")
+			(uuid "1a9e8bd5-8c15-4203-8e81-73c183d5ac2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4204,7 @@
 		)
 		(pin "col8_OUT" output
 			(at 83.82 38.1 90)
-			(uuid "db1e5be6-fe76-4128-811f-ab72a4d9fde6")
+			(uuid "503592ac-97c0-41b8-973a-926ee7168c2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4214,7 @@
 		)
 		(pin "col9_IN" input
 			(at 86.36 50.8 270)
-			(uuid "fecc866d-98e6-4ca3-81a0-4a22bd127e42")
+			(uuid "c406d0e9-7f80-4d66-b588-347090c97ccd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4224,7 @@
 		)
 		(pin "col9_OUT" output
 			(at 88.9 38.1 90)
-			(uuid "ff2d179f-1c72-4412-9010-10c1f2454a88")
+			(uuid "84ef7511-eda9-4fd9-bdde-b0cebeaecd09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4234,7 @@
 		)
 		(pin "col10_IN" input
 			(at 91.44 50.8 270)
-			(uuid "f9ce6d2c-7abc-4dfe-9212-1a1f37e38e0b")
+			(uuid "e4780ddd-e966-4b8d-9ac9-23406b825fb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4244,7 @@
 		)
 		(pin "col10_OUT" output
 			(at 93.98 38.1 90)
-			(uuid "340dee3e-db55-400f-b5cc-9b59161f4beb")
+			(uuid "5f4fe350-0d7b-423e-9283-9b2387c637d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4254,7 @@
 		)
 		(pin "col11_IN" input
 			(at 96.52 50.8 270)
-			(uuid "b7f118f8-23a0-4326-8330-a4dff3ffc5c8")
+			(uuid "8d4c60a1-a4bb-472e-ac76-5003b5045bb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4264,7 @@
 		)
 		(pin "col11_OUT" output
 			(at 99.06 38.1 90)
-			(uuid "490e995e-1ac5-4e4c-a094-e423179a174f")
+			(uuid "8e07d4a9-ff13-4eb3-b8b4-87e975b0dc03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4274,7 @@
 		)
 		(pin "col12_IN" input
 			(at 101.6 50.8 270)
-			(uuid "a64d9ac4-50b1-4bf2-83ec-8c08cafb5d08")
+			(uuid "78a5fe23-20b3-41e5-afe9-d64ed48a55f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4284,7 @@
 		)
 		(pin "col12_OUT" output
 			(at 104.14 38.1 90)
-			(uuid "9665e381-0499-481f-9be7-b551809a8e14")
+			(uuid "2df47ade-0388-40cf-84f2-69cc92256bce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4294,7 @@
 		)
 		(pin "col13_IN" input
 			(at 153.67 50.8 270)
-			(uuid "85b6edc6-9a91-4929-8e1f-d9aa02e02f41")
+			(uuid "f7542c1c-8ce6-4469-a8ab-8e13e0870690")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4304,7 @@
 		)
 		(pin "col13_OUT" output
 			(at 156.21 38.1 90)
-			(uuid "a897086b-9702-4453-a396-289a0affa931")
+			(uuid "a1f7f6ec-f555-4218-b0fb-6742ec78f3e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4314,7 @@
 		)
 		(pin "col14_IN" input
 			(at 189.23 50.8 270)
-			(uuid "e4c68527-3bc1-4018-886e-6168dd917433")
+			(uuid "5a8239ae-cfda-4a5a-80dc-e13362bbad79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4324,7 @@
 		)
 		(pin "col14_OUT" output
 			(at 191.77 38.1 90)
-			(uuid "f0bb8161-2386-4073-acfd-214f296c974e")
+			(uuid "ba8d03b9-b472-4239-89e8-ee930dcff0fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4334,7 @@
 		)
 		(pin "col15_IN" input
 			(at 194.31 50.8 270)
-			(uuid "8b6e9802-b671-44db-80fb-4842b4be612b")
+			(uuid "afb20ea6-e738-41d2-b474-7d3ee8399ab8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4344,7 @@
 		)
 		(pin "col15_OUT" output
 			(at 196.85 38.1 90)
-			(uuid "d4094a46-2e3f-41fd-b2ff-85f4a5c2c21c")
+			(uuid "fd0e8810-f281-47c3-9f33-ab4066e29183")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4354,7 @@
 		)
 		(pin "col16_IN" input
 			(at 199.39 50.8 270)
-			(uuid "430b0fb0-3e17-446f-9f55-ed11e911b481")
+			(uuid "3488e202-2d7b-4616-9569-f938285047d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4364,7 @@
 		)
 		(pin "col16_OUT" output
 			(at 201.93 38.1 90)
-			(uuid "7a86b9c7-da3c-4ef1-8910-6a0461650cc5")
+			(uuid "bb005bf5-3869-4e62-b440-cae2f583cc5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4374,7 @@
 		)
 		(pin "row_1_IN" input
 			(at 25.4 48.26 180)
-			(uuid "72399fff-9b65-45b8-bb72-af9696a73617")
+			(uuid "180deb03-3afb-49fd-8283-7e29dbf5ad07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,8 +4384,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "11")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "17")
 				)
 			)
 		)
@@ -4426,7 +4426,7 @@
 		)
 		(pin "LED_DIN_IN" input
 			(at 177.8 120.65 180)
-			(uuid "ba13e847-4f87-454a-9829-1f5687087f9c")
+			(uuid "f5017641-f374-4c9e-a26b-73174d4ad0ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4436,7 @@
 		)
 		(pin "LED_DOUT_OUT" output
 			(at 215.9 132.08 0)
-			(uuid "6a67eef5-6170-4b88-bf4c-698d5644d358")
+			(uuid "fffa9a1a-8dfe-4b96-acbc-3d07071812d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4446,7 @@
 		)
 		(pin "LED_VDD_IN" input
 			(at 194.31 114.3 90)
-			(uuid "5f6ca478-64b1-4543-b65f-a22c578d8e50")
+			(uuid "12e2e6e6-549c-4a0c-a80d-5ac448d35e1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 		)
 		(pin "LED_VSS_IN" input
 			(at 194.31 162.56 270)
-			(uuid "24f677ec-fa00-4ee1-b776-072330cd77f1")
+			(uuid "2144d9b6-4dd6-4787-ba96-b7e89f1b4c71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4466,7 @@
 		)
 		(pin "col15_IN" input
 			(at 196.85 162.56 270)
-			(uuid "7ce552c1-5c68-46ea-aa9a-3d0ca6354191")
+			(uuid "7fc0526e-49f5-4579-8f37-c56acb2d7321")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4476,7 @@
 		)
 		(pin "col15_OUT" output
 			(at 196.85 114.3 90)
-			(uuid "edda8cfa-4914-489d-8c8e-4181386bb34e")
+			(uuid "c967914f-99c8-4a43-9bf3-5f17f9a15032")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4486,7 @@
 		)
 		(pin "col16_IN" input
 			(at 201.93 162.56 270)
-			(uuid "3dde61ab-127e-419c-87e2-f7a1d4bc9230")
+			(uuid "5e4f8dd3-c946-4fe6-9bc6-f002030a20d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4496,7 @@
 		)
 		(pin "col16_OUT" output
 			(at 201.93 114.3 90)
-			(uuid "a3c16e9b-a82b-4ff0-86cf-6e66b7083c1b")
+			(uuid "84ddf451-07fd-41ed-b911-ae442ad06f0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4506,7 @@
 		)
 		(pin "col14_IN" input
 			(at 191.77 162.56 270)
-			(uuid "c846d6b5-2c06-421e-9983-93e4f81189cf")
+			(uuid "dfb56ef0-5a03-4149-80b3-5967f941b5e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4516,7 @@
 		)
 		(pin "col14_OUT" output
 			(at 191.77 114.3 90)
-			(uuid "6a3bebc4-05e9-4a5d-afe0-95c64cf336ce")
+			(uuid "0cf1b80e-064b-4aeb-aeff-2919ce43ac01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4526,7 @@
 		)
 		(pin "row7_IN" input
 			(at 177.8 129.54 180)
-			(uuid "3d92b01c-489d-4736-a53d-8d87cd114e07")
+			(uuid "d18affee-080a-49d8-82cf-6694844dee0a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4536,7 @@
 		)
 		(pin "row7_OUT" output
 			(at 215.9 124.46 0)
-			(uuid "61577a89-23f7-4ae7-bf3e-ef3c3e71e332")
+			(uuid "64936ad7-56e6-4a36-8753-1b2f24c5d080")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4546,7 @@
 		)
 		(pin "row8_IN" input
 			(at 177.8 132.08 180)
-			(uuid "0da03321-2d24-4780-9412-f4045b3ea9c0")
+			(uuid "b494c46d-4746-43e9-86b4-26df91f2d0f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4556,7 @@
 		)
 		(pin "row8_OUT" output
 			(at 215.9 127 0)
-			(uuid "5ddebc5c-4267-43f7-9fee-8de9c04281bf")
+			(uuid "b50b473d-e693-4849-9ae8-590e188b55f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4566,7 @@
 		)
 		(pin "row9_IN" input
 			(at 177.8 156.21 180)
-			(uuid "bdcf9539-51bd-460d-a661-884e29bcbf8b")
+			(uuid "2400456b-9796-4123-a9ca-2755a4ec60a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4576,7 @@
 		)
 		(pin "row9_OUT" output
 			(at 215.9 156.21 0)
-			(uuid "cc2694d4-6e17-4b68-a0c6-c747256ab3e2")
+			(uuid "8435775d-1694-41ca-98b4-efcaa72e59a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,8 +4586,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "16")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "13")
 				)
 			)
 		)
@@ -4628,7 +4628,7 @@
 		)
 		(pin "LED_DIN_IN" input
 			(at 25.4 81.28 180)
-			(uuid "f20e9183-49f9-43e7-8dd6-4b3b85e9ef19")
+			(uuid "bdc5610e-18c8-4a23-8677-a58322eec800")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4638,7 @@
 		)
 		(pin "LED_DOUT_OUT" output
 			(at 127 81.28 0)
-			(uuid "34588119-9c42-4100-9e67-9fb839cffb2e")
+			(uuid "3f6166ac-7bb3-4f66-9e4a-7c7f4fbcdb8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4648,7 @@
 		)
 		(pin "LED_VDD_IN" input
 			(at 77.47 63.5 90)
-			(uuid "158b63ce-973e-41f0-8799-d832db68d1fa")
+			(uuid "af5a0c55-6636-457b-bb20-76b13fb7fd8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4658,7 @@
 		)
 		(pin "LED_VSS_IN" input
 			(at 77.47 101.6 270)
-			(uuid "92e66e5d-47cd-4975-8545-7559486f0a70")
+			(uuid "d4bc3e99-41bc-440b-9cc4-a06357c7a351")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 		)
 		(pin "col1_IN" input
 			(at 40.64 101.6 270)
-			(uuid "6f1ab972-73a3-4633-b9ad-49354644dfb3")
+			(uuid "580b67ba-7d3b-4145-8ede-7b7472127ec3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 		)
 		(pin "col1_OUT" output
 			(at 40.64 63.5 90)
-			(uuid "73a7dfb2-0965-4d3e-8ee1-7ee7d8bfe992")
+			(uuid "6ad010bc-198f-45cc-b126-858e3aefc677")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4688,7 @@
 		)
 		(pin "col2_IN" input
 			(at 46.99 101.6 270)
-			(uuid "277ee62f-52f8-4e74-a883-dae02159d25b")
+			(uuid "ae0840df-1ffc-4ecf-baae-f93d6f257ac9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4698,7 @@
 		)
 		(pin "col2_OUT" output
 			(at 46.99 63.5 90)
-			(uuid "765a593e-52dd-47bf-8146-bc48c05c2776")
+			(uuid "7a427519-4c59-4ebb-9d3d-e7ae6e1c10ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4708,7 @@
 		)
 		(pin "col3_IN" input
 			(at 52.07 101.6 270)
-			(uuid "16a0f428-f54d-4c16-bad8-859986c78a64")
+			(uuid "3ad1e37e-487a-4f38-8f1a-31905a3b0083")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4718,7 @@
 		)
 		(pin "col3_OUT" output
 			(at 52.07 63.5 90)
-			(uuid "00e841a6-698d-4f6c-b0bc-bb9026e2e8d2")
+			(uuid "125b532c-e192-4544-8a74-0b717e9f71d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +4728,7 @@
 		)
 		(pin "col4_IN" input
 			(at 57.15 101.6 270)
-			(uuid "ebb1313a-5aaa-437f-b18f-1cae6675e82f")
+			(uuid "f8e0b9c6-9bad-43d3-8139-2bc8502456b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4738,7 @@
 		)
 		(pin "col4_OUT" output
 			(at 57.15 63.5 90)
-			(uuid "eeb4bc67-bc79-4429-8c27-fb154a94c0b5")
+			(uuid "86a527b8-9ca9-4d97-b85d-5f5d7414e073")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4748,7 @@
 		)
 		(pin "col5_IN" input
 			(at 62.23 101.6 270)
-			(uuid "24b0e83b-b79a-45b1-8812-2b72b75faa18")
+			(uuid "eb4febe6-5724-48fc-a1ae-3a225037901b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4758,7 @@
 		)
 		(pin "col5_OUT" output
 			(at 62.23 63.5 90)
-			(uuid "88bf9f6e-a528-4b98-ab5e-ebab81bc6a3c")
+			(uuid "9e226b25-37fb-4866-b1e2-7cce479a8c7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4768,7 @@
 		)
 		(pin "col6_IN" input
 			(at 67.31 101.6 270)
-			(uuid "a280a43e-00cf-409a-93ea-70a7183b2b26")
+			(uuid "74d69e93-79c4-458e-9785-8d9b91ebc1e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4778,7 @@
 		)
 		(pin "col6_OUT" output
 			(at 67.31 63.5 90)
-			(uuid "f30365d8-b300-4b8f-a711-9126698c5ce7")
+			(uuid "5fb99686-177c-4ce0-aefb-a255cfe6d779")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4788,7 @@
 		)
 		(pin "col7_IN" input
 			(at 72.39 101.6 270)
-			(uuid "c15841ac-2c4a-4f91-be22-c26d44bc1a29")
+			(uuid "0e9c9357-58f1-4935-a825-5214518764be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4798,7 @@
 		)
 		(pin "col7_OUT" output
 			(at 72.39 63.5 90)
-			(uuid "ad1b8b3f-e4b2-458d-be73-1db022314634")
+			(uuid "32861226-8043-49a7-aa59-d6d65fc3b227")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4808,7 @@
 		)
 		(pin "col8_IN" input
 			(at 81.28 101.6 270)
-			(uuid "567c0e28-5c11-41d8-8559-1683b59426b9")
+			(uuid "50381116-b903-469f-b8ea-f76fc15868ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4818,7 @@
 		)
 		(pin "col8_OUT" output
 			(at 81.28 63.5 90)
-			(uuid "cd43ef7e-0ba7-448a-aeeb-d92eb6b4a469")
+			(uuid "b477433b-03a7-41c0-989e-93eae364e3fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4828,7 @@
 		)
 		(pin "col9_IN" input
 			(at 86.36 101.6 270)
-			(uuid "37c56220-c88c-4778-8a2e-f2c5a0511a07")
+			(uuid "64cec8b2-3b9a-4d28-a814-e82b94209ab1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4838,7 @@
 		)
 		(pin "col9_OUT" output
 			(at 86.36 63.5 90)
-			(uuid "ec3c2db6-2ed9-4c33-95d0-59885ae4dddd")
+			(uuid "b20bda81-9494-44e0-9405-27a66900870b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4848,7 @@
 		)
 		(pin "col10_IN" input
 			(at 91.44 101.6 270)
-			(uuid "0bd0998e-55ed-4ea3-9136-6dc52c0f962e")
+			(uuid "1f79b987-cf5a-40b0-9663-87741a9ceaec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4858,7 @@
 		)
 		(pin "col10_OUT" output
 			(at 91.44 63.5 90)
-			(uuid "1c407e00-74c4-48ad-a072-f58ab16d73ba")
+			(uuid "778cf822-5abb-4cc3-88e4-a651b499692e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4868,7 @@
 		)
 		(pin "col11_IN" input
 			(at 96.52 101.6 270)
-			(uuid "5fdd6278-4724-4049-94f7-f3e41e156d28")
+			(uuid "c6c02017-7a41-46ad-97be-a93f93e96511")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4878,7 @@
 		)
 		(pin "col11_OUT" output
 			(at 96.52 63.5 90)
-			(uuid "480e0fc2-2ad1-48cc-9adf-0fec50dc720a")
+			(uuid "a418ae20-d180-45be-93b7-f6cf76f4446f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4888,7 @@
 		)
 		(pin "col12_IN" input
 			(at 101.6 101.6 270)
-			(uuid "fd39670a-12d3-4b73-a9b1-12a8019621ce")
+			(uuid "c622811c-2955-499e-a2f4-dfe01398fcbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 		)
 		(pin "col12_OUT" output
 			(at 101.6 63.5 90)
-			(uuid "154be679-8126-4d50-984b-435d2537dcb4")
+			(uuid "205ca099-ea79-4fc2-b5fc-c35ddbc2f8da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +4908,7 @@
 		)
 		(pin "row2_IN" input
 			(at 25.4 67.31 180)
-			(uuid "c3028258-5ba5-4bbb-a9fe-ee53104f5d70")
+			(uuid "5ab48840-75db-45f1-ae1a-337f2738a768")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +4918,7 @@
 		)
 		(pin "row2_OUT" output
 			(at 127 67.31 0)
-			(uuid "82a4beae-cf87-43ff-b457-945442025bfd")
+			(uuid "592f91f0-f555-4904-b3a3-fe5bd583d0d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +4928,7 @@
 		)
 		(pin "row3_IN" input
 			(at 25.4 71.12 180)
-			(uuid "2ce1a8f1-9917-4916-8a42-6c35ad97d987")
+			(uuid "0854412b-254f-47a9-8c5c-74db0675d44c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4938,7 @@
 		)
 		(pin "row3_OUT" output
 			(at 127 71.12 0)
-			(uuid "332152b5-e20d-4762-a029-3287ebf2af71")
+			(uuid "4d40fab4-1c1b-4b8d-9cac-6e04bb7a5e74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +4948,7 @@
 		)
 		(pin "row4_IN" input
 			(at 25.4 74.93 180)
-			(uuid "670ef87c-f01e-4b80-990a-0ca66ef750e9")
+			(uuid "693bd961-7957-4e99-a180-e3443b4b6e90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4958,7 @@
 		)
 		(pin "row4_OUT" output
 			(at 127 74.93 0)
-			(uuid "ac2484fd-c704-490f-8c45-127d1771ac3a")
+			(uuid "0de14326-855a-4990-af2a-991d4f07683c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4968,7 @@
 		)
 		(pin "row5_IN" input
 			(at 25.4 83.82 180)
-			(uuid "aa843419-a535-4621-b865-2650bb1d8c99")
+			(uuid "bc0d30b9-680d-4048-8896-0efa98918752")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +4978,7 @@
 		)
 		(pin "row5_OUT" output
 			(at 127 83.82 0)
-			(uuid "fbfd4ff6-ec65-480b-84e4-4f26d599e338")
+			(uuid "9242749f-267f-45d9-880f-7d20c440b7c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4988,7 @@
 		)
 		(pin "row6_IN" input
 			(at 25.4 87.63 180)
-			(uuid "08c25ac1-d489-4a42-8753-5c41eab07a71")
+			(uuid "a3332ddb-81c5-4cc3-a821-2b562deace50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4998,7 @@
 		)
 		(pin "row6_OUT" output
 			(at 127 87.63 0)
-			(uuid "268b66e2-98e7-45ae-99fb-ce8afab272d3")
+			(uuid "5d07ee84-2028-48b3-b804-af13c3866bd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,8 +5008,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "12")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "18")
 				)
 			)
 		)
@@ -5050,7 +5050,7 @@
 		)
 		(pin "LED_DIN_IN" input
 			(at 25.4 120.65 180)
-			(uuid "7b84e738-d867-481d-9a38-84ed19e393cc")
+			(uuid "f0cd9d1c-dcaa-4e2c-9510-b80033a8f3c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5060,7 @@
 		)
 		(pin "LED_DOUT_OUT" output
 			(at 127 120.65 0)
-			(uuid "93eb2925-e432-40ee-b327-3cb8ccb2760f")
+			(uuid "2fbf72d7-1aab-4b6c-a604-229510d05d2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +5070,7 @@
 		)
 		(pin "LED_VDD_IN" input
 			(at 77.47 114.3 90)
-			(uuid "fa3d2c89-9c41-4619-8bb1-bbdec0752fae")
+			(uuid "06532533-ad1d-43f2-83b1-511c7ce9a745")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5080,7 @@
 		)
 		(pin "LED_VSS_IN" input
 			(at 77.47 139.7 270)
-			(uuid "b484cede-1900-42ba-98cf-eea3b85c38d3")
+			(uuid "fd74595a-3e1f-44a1-bbe8-d5d97cffc1ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5090,7 @@
 		)
 		(pin "col1_IN" input
 			(at 40.64 139.7 270)
-			(uuid "7c9600c2-f401-4198-a858-023b2df86e8d")
+			(uuid "665b964f-e591-4e75-9c87-056e562e3057")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 		)
 		(pin "col1_OUT" output
 			(at 40.64 114.3 90)
-			(uuid "1d46bf94-0f5d-4186-8bb9-1e0ff059c793")
+			(uuid "64f43bdb-0234-4625-8ba7-58fc9b43fbf1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5110,7 @@
 		)
 		(pin "col2_IN" input
 			(at 46.99 139.7 270)
-			(uuid "c9d510f9-a3c4-4c12-a772-e464a3c7b391")
+			(uuid "c40afb37-70a1-4082-8896-c38808932885")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5120,7 @@
 		)
 		(pin "col2_OUT" output
 			(at 46.99 114.3 90)
-			(uuid "d895804f-f337-4086-bfde-65836afaf91b")
+			(uuid "9b66bed1-55cc-4714-ad1a-ef23ddd4a2dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5130,7 @@
 		)
 		(pin "col3_IN" input
 			(at 52.07 139.7 270)
-			(uuid "d51a2b59-1234-4df2-bd0d-dc4b5392c35f")
+			(uuid "f1caaad4-6274-4c80-b1df-263afcbe135a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5140,7 @@
 		)
 		(pin "col3_OUT" output
 			(at 52.07 114.3 90)
-			(uuid "269c42e3-4331-43c1-ba87-9ed3c24309ea")
+			(uuid "ca0a3ab8-d095-463c-a09c-873e1600c9ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +5150,7 @@
 		)
 		(pin "col4_IN" input
 			(at 57.15 139.7 270)
-			(uuid "a39eb4a1-721b-4d7c-a6ed-08183bd00551")
+			(uuid "83cf8227-1494-4542-a501-0d4704cb1c01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5160,7 @@
 		)
 		(pin "col4_OUT" output
 			(at 57.15 114.3 90)
-			(uuid "26d6d485-4f0f-418f-9af1-d077bb60738d")
+			(uuid "166e4921-d98f-47c2-ac96-8ab6a8c9e58a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5170,7 @@
 		)
 		(pin "col5_IN" input
 			(at 62.23 139.7 270)
-			(uuid "17e761ca-a4c2-4be4-81e9-7b6ad401b1f8")
+			(uuid "529a3967-05c6-455e-867e-620b8cb9a4c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5180,7 @@
 		)
 		(pin "col5_OUT" output
 			(at 62.23 114.3 90)
-			(uuid "ef51bb16-dcd1-4633-ad12-845a184a8bb2")
+			(uuid "d426718e-eec4-496a-8a87-a58c4b54a224")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5190,7 @@
 		)
 		(pin "col6_IN" input
 			(at 67.31 139.7 270)
-			(uuid "008ee7fa-4766-4aad-ab21-308e59c468d0")
+			(uuid "d373812b-881b-4e0e-a1e4-e1a5a0dd75b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5200,7 @@
 		)
 		(pin "col6_OUT" output
 			(at 67.31 114.3 90)
-			(uuid "600d342f-df4f-41a5-9681-a6c1a2679aae")
+			(uuid "d32df9db-720d-47d2-9290-c109ff983bb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5210,7 @@
 		)
 		(pin "col7_IN" input
 			(at 72.39 139.7 270)
-			(uuid "aed55830-5918-4d60-9e19-53eb6760c96e")
+			(uuid "b787c6a3-8b73-4da3-9ef5-373636908e11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5220,7 @@
 		)
 		(pin "col7_OUT" output
 			(at 72.39 114.3 90)
-			(uuid "11e1b66f-c8b7-466c-87bc-59a87b388080")
+			(uuid "f450c7c6-1891-4021-af8e-6c187fee9814")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5230,7 @@
 		)
 		(pin "col8_IN" input
 			(at 81.28 139.7 270)
-			(uuid "158c1872-41a1-4ccd-8ad3-1bf7d4761123")
+			(uuid "f2c94bac-2aa9-4610-b8d3-a1890cba91af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5240,7 @@
 		)
 		(pin "col8_OUT" output
 			(at 81.28 114.3 90)
-			(uuid "3af2ed2f-0c50-441f-8355-8d5d7970dfd2")
+			(uuid "c5e27a7b-6a20-4bf6-8fd4-bab265d9d994")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5250,7 @@
 		)
 		(pin "col9_IN" input
 			(at 86.36 139.7 270)
-			(uuid "cf8e97fa-ef84-40ba-bc05-9a2617e172ca")
+			(uuid "255bc9b0-eab1-440e-9347-c26cf00afde4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5260,7 @@
 		)
 		(pin "col9_OUT" output
 			(at 86.36 114.3 90)
-			(uuid "e047bd58-05f5-4b2d-975c-a024a7195d0d")
+			(uuid "ce2c141d-2b24-42f7-aff7-d6bbb5c478f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5270,7 @@
 		)
 		(pin "col10_IN" input
 			(at 91.44 139.7 270)
-			(uuid "d29aec4d-f04c-4ea2-b545-cb0c3b6bc3fd")
+			(uuid "e02846d8-265f-40f5-8dea-2c184fe14319")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5280,7 @@
 		)
 		(pin "col10_OUT" output
 			(at 91.44 114.3 90)
-			(uuid "ca4fe672-f454-4ce5-b670-666165c9df46")
+			(uuid "f7228ca5-34e4-4b53-b6a1-332bea42a972")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5290,7 @@
 		)
 		(pin "col11_IN" input
 			(at 96.52 139.7 270)
-			(uuid "dacbb91b-c939-4ee2-ab5e-e74e25e4521b")
+			(uuid "5c2ce90b-5df6-498a-8014-3fe29ada407e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5300,7 @@
 		)
 		(pin "col11_OUT" output
 			(at 96.52 114.3 90)
-			(uuid "7ba5399d-6343-4d8f-8c34-46b0f97fc0a2")
+			(uuid "6eea3884-34c0-4fa4-8e39-988230dcb312")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5310,7 @@
 		)
 		(pin "col12_IN" input
 			(at 101.6 139.7 270)
-			(uuid "54a28acb-1353-43f2-820d-74fa8e9b9e10")
+			(uuid "ff7d688a-4cbf-4713-b15a-72eb993c49c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5320,7 @@
 		)
 		(pin "col12_OUT" output
 			(at 101.6 114.3 90)
-			(uuid "5e522f16-7fc3-4e2f-b12a-09d55fe4cf5f")
+			(uuid "b2a64f91-3a4c-4648-9459-fd6a06aad08d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5330,7 @@
 		)
 		(pin "row7_IN" input
 			(at 25.4 129.54 180)
-			(uuid "c3386f4a-f9bd-47ba-a4f3-537241416943")
+			(uuid "af06df83-4f2e-4ad1-a879-fc552cb0ba06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5340,7 @@
 		)
 		(pin "row7_OUT" output
 			(at 127 129.54 0)
-			(uuid "3b81fe98-b690-4240-98f4-94aa8e51bdf8")
+			(uuid "883e3308-c782-4dcf-95f2-950512d8c467")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5350,7 @@
 		)
 		(pin "row8_IN" input
 			(at 25.4 133.35 180)
-			(uuid "cf16b233-371c-42d0-a4dc-51006b67f1ca")
+			(uuid "8fe878c7-f2f3-437c-8162-3370546a42e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5360,7 @@
 		)
 		(pin "row8_OUT" output
 			(at 127 132.08 0)
-			(uuid "a4783a08-2529-46dc-8a7d-6b74c3c97dcb")
+			(uuid "050c3e05-8682-48dc-8f58-52db13ca7043")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,8 +5370,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "13")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "19")
 				)
 			)
 		)
@@ -5412,7 +5412,7 @@
 		)
 		(pin "LED_DIN_IN" input
 			(at 139.7 81.28 180)
-			(uuid "5d864c4a-56ea-444f-9001-54b51c9b1103")
+			(uuid "c7a16f82-a0a6-4540-8812-62f3d3d536ca")
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5422,7 +5422,7 @@
 		)
 		(pin "LED_DOUT_OUT" output
 			(at 165.1 81.28 0)
-			(uuid "2e378e19-735e-4bd1-828d-02328d36ba38")
+			(uuid "ab44d6fe-4e90-4ea5-9826-02a58613f957")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 		)
 		(pin "LED_VDD_IN" input
 			(at 149.86 63.5 90)
-			(uuid "74d1422e-0748-4e4d-b105-83fc559feed9")
+			(uuid "88d7caba-242e-430b-ab15-bbac949406ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5442,7 @@
 		)
 		(pin "LED_VSS_IN" input
 			(at 148.59 101.6 270)
-			(uuid "af7c090e-bcb6-4f72-b4d7-1bfbb7356a59")
+			(uuid "ba2689e9-7dff-405b-8a82-45d02356d15b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5452,7 @@
 		)
 		(pin "col13_IN" input
 			(at 153.67 101.6 270)
-			(uuid "a0230333-10b8-4f0e-8634-b9d1f6cb0de0")
+			(uuid "0e2e5d30-30c3-4e2e-b1d0-698e98e31f67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5462,7 @@
 		)
 		(pin "col13_OUT" output
 			(at 153.67 63.5 90)
-			(uuid "e1cc2828-1013-403c-925d-b8d7f08dabc9")
+			(uuid "b083e668-ad57-43f1-ad9c-fa30cb08e23f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5472,7 @@
 		)
 		(pin "row2_IN" input
 			(at 139.7 67.31 180)
-			(uuid "03073201-7ad0-47f5-9866-923ff8233eaf")
+			(uuid "fa78dd4b-e0ba-4cb6-ad48-f6048decac9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5482,7 @@
 		)
 		(pin "row2_OUT" output
 			(at 165.1 67.31 0)
-			(uuid "f0267398-9840-4dc1-8663-345ddf50a77b")
+			(uuid "e647448e-c557-46bf-a7f0-feae2d0b1e6b")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5492,7 +5492,7 @@
 		)
 		(pin "row3_IN" input
 			(at 139.7 71.12 180)
-			(uuid "7f724735-9469-4701-85a0-7c9f6b5baeca")
+			(uuid "cc8e7dc3-de4c-4522-8540-229389380b68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5502,7 @@
 		)
 		(pin "row3_OUT" output
 			(at 165.1 71.12 0)
-			(uuid "f4c0f4b4-cf55-4c59-b495-e0c39fac24e0")
+			(uuid "e8fc599c-f74b-4cf1-afc4-222ca1695ea0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5512,7 @@
 		)
 		(pin "row4_IN" input
 			(at 139.7 74.93 180)
-			(uuid "4af4b6ac-a6c5-42a7-a8a3-7e24df9d5980")
+			(uuid "dd654515-ca73-4009-81bf-d94286a9d9e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5522,7 @@
 		)
 		(pin "row4_OUT" output
 			(at 165.1 74.93 0)
-			(uuid "23e21718-718d-4a82-bf02-3739a04586b2")
+			(uuid "d32f7ab9-4a4c-403d-87e5-2a6cb29b8fe8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5532,7 @@
 		)
 		(pin "row5_IN" input
 			(at 139.7 83.82 180)
-			(uuid "fd35ef13-83db-4780-90e0-ea43042be243")
+			(uuid "31a94d68-4349-4541-8fc4-5d3c6328f081")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5542,7 @@
 		)
 		(pin "row5_OUT" output
 			(at 165.1 83.82 0)
-			(uuid "f1da08c3-5ad3-4245-9bc9-f9ef4ac5ee3c")
+			(uuid "59381f60-d6de-40dd-9ee1-f50c64691957")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5552,7 @@
 		)
 		(pin "row6_IN" input
 			(at 139.7 87.63 180)
-			(uuid "547d7e8a-90b3-4667-8ccf-71aca79e39bb")
+			(uuid "7ff2a7a8-d107-454a-be41-c4a574d7b2e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5562,7 @@
 		)
 		(pin "row6_OUT" output
 			(at 165.1 87.63 0)
-			(uuid "3e19f8bc-c858-40d2-aebf-08ab58c55fa9")
+			(uuid "28db2409-385d-41b7-b2c0-f11f33c328e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,8 +5572,8 @@
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/09ff75ff-3c8b-43b7-a704-ac023cbe9eff"
-					(page "15")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
+					(page "14")
 				)
 			)
 		)

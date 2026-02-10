@@ -674,14 +674,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "26f490dc-f722-4c72-a037-65ca08b77231")
+			(uuid "ffc71220-787d-40fe-9c83-b4e7445bebc0")
 		)
 		(pin "2"
-			(uuid "eca37bfa-0736-4caf-8848-73750a226940")
+			(uuid "7132ebc8-a453-44a8-8a22-7177da4f4a2b")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/5708fcea-898f-452b-af74-a5f74d78e7d6"
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
 					(reference "D5")
 					(unit 1)
 				)
@@ -698,7 +698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24385e8a-ee13-408c-b95b-05a2b1d0f3b0")
-		(property "Reference" "R25"
+		(property "Reference" "R9"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -742,15 +742,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec6d0ef5-45ba-46f7-b773-14b1cfbe704a")
+			(uuid "70cb6653-ceec-4ee6-b5fa-8e1061975ec3")
 		)
 		(pin "1"
-			(uuid "54ec2d47-1b82-40c5-9885-e3aca2208240")
+			(uuid "1faca5a6-2e8f-4824-a72e-701d0f9e2850")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/5708fcea-898f-452b-af74-a5f74d78e7d6"
-					(reference "R25")
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -818,14 +818,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "26f490dc-f722-4c72-a037-65ca08b77232")
+			(uuid "902b5267-3051-4ed1-929f-0867eedc71bb")
 		)
 		(pin "2"
-			(uuid "eca37bfa-0736-4caf-8848-73750a226941")
+			(uuid "c2610454-4a7a-4c9a-b6ad-639b1fac74b3")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/5708fcea-898f-452b-af74-a5f74d78e7d6"
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
 					(reference "D7")
 					(unit 1)
 				)
@@ -842,7 +842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0ee55c-7ec6-44ac-8e70-679bfdb5519f")
-		(property "Reference" "R26"
+		(property "Reference" "R10"
 			(at 39.37 35.56 0)
 			(effects
 				(font
@@ -886,15 +886,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8960e97a-5582-4439-962a-dd51d81308b2")
+			(uuid "3ff553b2-d982-4d11-914c-efbf48e6edf4")
 		)
 		(pin "2"
-			(uuid "850b18ef-2ac4-4ffb-a5d7-d5e0e6b7dda8")
+			(uuid "58b71157-8044-4440-afbf-4f3c9a7b68d9")
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/5708fcea-898f-452b-af74-a5f74d78e7d6"
-					(reference "R26")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -963,14 +963,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "26f490dc-f722-4c72-a037-65ca08b77233")
+			(uuid "222253cb-39f1-41eb-8760-1314fb72f84b")
 		)
 		(pin "2"
-			(uuid "eca37bfa-0736-4caf-8848-73750a226942")
+			(uuid "dc46db4f-518c-4579-8572-71cf809ac5af")
 		)
 		(instances
-			(project ""
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/5708fcea-898f-452b-af74-a5f74d78e7d6"
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
 					(reference "D6")
 					(unit 1)
 				)
@@ -987,7 +987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de870ad3-81ea-4496-860f-c274daa94979")
-		(property "Reference" "R24"
+		(property "Reference" "R8"
 			(at 39.37 16.51 0)
 			(effects
 				(font
@@ -1031,15 +1031,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "189790e0-1101-4bd7-ad73-dac772facdd5")
+			(uuid "809d36d6-a48e-4b04-b3c8-02404d044921")
 		)
 		(pin "2"
-			(uuid "06ee1dc7-4068-4e34-9a5c-44661220654d")
+			(uuid "04a31154-c8cc-41f0-9e17-d6fcb7ae7267")
 		)
 		(instances
 			(project "polytonic_greek_keyboard"
-				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/5708fcea-898f-452b-af74-a5f74d78e7d6"
-					(reference "R24")
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "R8")
 					(unit 1)
 				)
 			)
