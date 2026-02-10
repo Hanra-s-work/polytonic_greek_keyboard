@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2")
+	(paper "A4")
+	(title_block
+		(title "Main level")
+		(date "2025-10-01")
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+		(comment 1 "This is where the main logic of the sheet is located.")
+		(comment 2 "This provides a high level overview without ")
+		(comment 3 "cluttering the content with the keyboad matrix.")
+	)
+	(lib_symbols)
+	(sheet
+		(at 12.7 15.24)
+		(size 270.51 73.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 168 118 1)
+		)
+		(fill
+			(color 255 168 118 1.0000)
+		)
+		(uuid "8498b325-11fd-4b20-a704-75ec3d8987ef")
+		(property "Sheetname" "Driver"
+			(at 12.7 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 12.7 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 100.33)
+		(size 163.83 97.79)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 107 161 255 1)
+		)
+		(fill
+			(color 107 161 255 1.0000)
+		)
+		(uuid "dc7dc8d0-3fc1-4401-9905-7f0a56042fcf")
+		(property "Sheetname" "Keyboard Matrix"
+			(at 12.7 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard_matrix.kicad_sch"
+			(at 12.7 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

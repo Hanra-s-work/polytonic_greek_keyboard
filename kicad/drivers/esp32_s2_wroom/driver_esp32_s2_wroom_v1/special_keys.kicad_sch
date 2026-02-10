@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e0670239-0d08-4883-b1dc-6eda1deee072")
+	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 30.48 27.94) (xy 267.97 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04072af1-3dd3-4edc-b9f0-cb3909fad373")
+	)
+	(wire
+		(pts
+			(xy 267.97 40.64) (xy 30.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c54a67-c2d9-4847-b688-93a2a5ba0010")
+	)
+	(wire
+		(pts
+			(xy 30.48 33.02) (xy 267.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9c55b9-0f16-4444-a164-0e4c86ad60a9")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 267.97 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a821e69f-ddf5-454f-979b-13efab79d694")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 267.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf7c6b1-0e92-4a6b-9920-b0789ad8656b")
+	)
+	(wire
+		(pts
+			(xy 30.48 30.48) (xy 267.97 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3127775-5dca-41fe-9b74-ff5a7b9e305f")
+	)
+	(hierarchical_label "row6_IN"
+		(shape input)
+		(at 30.48 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12631606-4134-44b8-8ba8-e2d13a29e012")
+	)
+	(hierarchical_label "row5_OUT"
+		(shape output)
+		(at 267.97 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "648048f6-1800-4b72-bd0a-452e3631dcd2")
+	)
+	(hierarchical_label "row4_OUT"
+		(shape output)
+		(at 267.97 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "651276ef-0e92-4465-95e7-c972a115ff22")
+	)
+	(hierarchical_label "LED_VSS_IN"
+		(shape input)
+		(at 30.48 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bc0674a-3f18-494e-b5e7-41bfe3414e6b")
+	)
+	(hierarchical_label "row2_IN"
+		(shape input)
+		(at 30.48 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e8fe488-6a57-4304-8344-a38e4c2db929")
+	)
+	(hierarchical_label "LED_VDD_IN"
+		(shape input)
+		(at 30.48 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bfd0071-10d8-48fd-aa86-19e59b1d2f12")
+	)
+	(hierarchical_label "LED_DIN_IN"
+		(shape input)
+		(at 30.48 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fd6f188-c752-44f1-9965-f731d4cb4d41")
+	)
+	(hierarchical_label "LED_DOUT_OUT"
+		(shape output)
+		(at 267.97 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d99905c-1779-449b-be06-f030f2ff2870")
+	)
+	(hierarchical_label "col13_IN"
+		(shape input)
+		(at 104.14 45.72 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af08c6b9-efd4-427d-88ca-951f86453c18")
+	)
+	(hierarchical_label "row6_OUT"
+		(shape output)
+		(at 267.97 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b68299a7-0c41-4996-ab2b-4296b2ed7a5c")
+	)
+	(hierarchical_label "row5_IN"
+		(shape input)
+		(at 30.48 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc521202-636b-48e0-80ea-6f3b032ded05")
+	)
+	(hierarchical_label "row3_OUT"
+		(shape output)
+		(at 267.97 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cee58c54-d567-4230-ba62-002a11b36cf6")
+	)
+	(hierarchical_label "row4_IN"
+		(shape input)
+		(at 30.48 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df27d975-2d64-436b-bbc5-602c8ad66fa4")
+	)
+	(hierarchical_label "col13_OUT"
+		(shape output)
+		(at 104.14 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3f852f1-08fe-4b9b-a504-de740a100ecf")
+	)
+	(hierarchical_label "row3_IN"
+		(shape input)
+		(at 30.48 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6c2ebbd-fe47-4aac-ae14-09f80ccf1ea4")
+	)
+	(hierarchical_label "row2_OUT"
+		(shape output)
+		(at 267.97 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f16848e8-5a2a-4cd5-96bd-7feb8bcafc03")
+	)
+)

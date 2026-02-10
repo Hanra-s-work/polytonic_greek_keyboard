@@ -1,0 +1,1052 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "08cfb414-f06d-45e0-9cdf-1860c40ead85")
+	(paper "A4")
+	(title_block
+		(rev "1 - do not edit connector pin layout.")
+		(company "Henry's Software House")
+	)
+	(lib_symbols
+		(symbol "PCM_SL_Resistors:100ohm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100ohm"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100Ω, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100ohm_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "100ohm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Resistors:220ohm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "220ohm"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "220Ω, 1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "220ohm_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "220ohm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-LED:LED_Green_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric_Green"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "DIO-00821"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Green_0603_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Green_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 55.88 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d5a7013-73e1-4b43-a687-9d90f71ad488")
+	)
+	(junction
+		(at 55.88 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "740a69dd-0831-4704-8060-c53bb8522474")
+	)
+	(wire
+		(pts
+			(xy 35.56 41.91) (xy 31.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ce9c51-01c0-430f-864e-432e8e8dddda")
+	)
+	(wire
+		(pts
+			(xy 55.88 22.86) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de7d90e-481f-4289-8d8d-776e2e4d4109")
+	)
+	(wire
+		(pts
+			(xy 31.75 13.97) (xy 55.88 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccb2f2d-f608-457a-b13f-47a80c671a0b")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b461f8e-739d-4e3a-be6b-a9dff129a2fe")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 54.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736b7dcb-c18f-43c3-b860-8baf1f52a88c")
+	)
+	(wire
+		(pts
+			(xy 55.88 22.86) (xy 54.61 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76336751-e151-495e-96e6-681f88dcc87a")
+	)
+	(wire
+		(pts
+			(xy 55.88 41.91) (xy 54.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dff0f7-9df8-4336-9bf6-d96f601100a0")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 49.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a043b32c-017a-4ef7-af0d-bb2cfae4d641")
+	)
+	(wire
+		(pts
+			(xy 35.56 22.86) (xy 31.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7427e05-449b-470b-83e5-7391e601e2ac")
+	)
+	(wire
+		(pts
+			(xy 35.56 33.02) (xy 31.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a814d2b3-514d-4d4a-8f3d-a50fb4252530")
+	)
+	(wire
+		(pts
+			(xy 55.88 13.97) (xy 55.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa35dd76-58d9-4749-8c34-747606f732b1")
+	)
+	(wire
+		(pts
+			(xy 43.18 41.91) (xy 49.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12926d6-8f43-495e-9f18-af7e906f5acb")
+	)
+	(wire
+		(pts
+			(xy 43.18 33.02) (xy 49.53 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6c3c6e-6b06-4c62-995a-680ed393960a")
+	)
+	(hierarchical_label "VDD_POWER"
+		(shape input)
+		(at 31.75 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15cb705c-4350-4d3d-b30e-4eca378f1a5c")
+	)
+	(hierarchical_label "VDD_STATE_LOCK"
+		(shape input)
+		(at 31.75 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b000c11-abb9-4ea8-98cc-b4a14ee4405f")
+	)
+	(hierarchical_label "VDD_CAPS"
+		(shape input)
+		(at 31.75 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59408a06-b1da-46ab-ad52-ee3ed2b95dbe")
+	)
+	(hierarchical_label "VSS_CLEAN"
+		(shape output)
+		(at 31.75 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e843cea6-abc8-41d6-ab3d-6377b2ac54cd")
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-LED:LED_Green_0603")
+		(at 52.07 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2031bea1-64af-42e4-b1c6-df884bf7a6c2")
+		(property "Reference" "D2"
+			(at 52.1335 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 52.1335 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric_Green"
+			(at 52.07 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-00821"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffc71220-787d-40fe-9c83-b4e7445bebc0")
+		)
+		(pin "2"
+			(uuid "7132ebc8-a453-44a8-8a22-7177da4f4a2b")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:220ohm")
+		(at 39.37 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24385e8a-ee13-408c-b95b-05a2b1d0f3b0")
+		(property "Reference" "R16"
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220ohm"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 40.259 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.878 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω, 1/4W Resistor"
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70cb6653-ceec-4ee6-b5fa-8e1061975ec3")
+		)
+		(pin "1"
+			(uuid "1faca5a6-2e8f-4824-a72e-701d0f9e2850")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-LED:LED_Green_0603")
+		(at 52.07 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "793c7bc0-9d18-4721-bf3e-66d7e78a89dc")
+		(property "Reference" "D4"
+			(at 52.1335 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 52.1335 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric_Green"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-00821"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "902b5267-3051-4ed1-929f-0867eedc71bb")
+		)
+		(pin "2"
+			(uuid "c2610454-4a7a-4c9a-b6ad-639b1fac74b3")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:100ohm")
+		(at 39.37 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a0ee55c-7ec6-44ac-8e70-679bfdb5519f")
+		(property "Reference" "R17"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68ohm"
+			(at 39.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 40.259 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.878 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100Ω, 1/4W Resistor"
+			(at 39.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ff553b2-d982-4d11-914c-efbf48e6edf4")
+		)
+		(pin "2"
+			(uuid "58b71157-8044-4440-afbf-4f3c9a7b68d9")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-LED:LED_Green_0603")
+		(at 52.07 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a735f84f-ca81-4ec2-9bd5-a8a4b2fa9b00")
+		(property "Reference" "D3"
+			(at 52.1335 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 52.1335 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric_Green"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-00821"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "222253cb-39f1-41eb-8760-1314fb72f84b")
+		)
+		(pin "2"
+			(uuid "dc46db4f-518c-4579-8572-71cf809ac5af")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:100ohm")
+		(at 39.37 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de870ad3-81ea-4496-860f-c274daa94979")
+		(property "Reference" "R15"
+			(at 39.37 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68ohm"
+			(at 39.37 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 40.259 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.878 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100Ω, 1/4W Resistor"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "809d36d6-a48e-4b04-b3c8-02404d044921")
+		)
+		(pin "2"
+			(uuid "04a31154-c8cc-41f0-9e17-d6fcb7ae7267")
+		)
+		(instances
+			(project "polytonic_greek_keyboard"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/05952128-eb9e-434e-ab6d-5cf2dc554aa5"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
