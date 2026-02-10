@@ -1,0 +1,37 @@
+# ---- Ignore backups and autosaves ----
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.bak-*
+
+# ---- Ignore cache / temporary files ----
+fp-cache/
+*.cache
+*.dcm
+*.net
+*.bck
+*.kicad_wks
+
+# ---- Ignore generated outputs ----
+*.gbr
+*.drl
+*.cmp
+*.sol
+*.stp
+*.pdf
+*.svg
+*.png
+*.zip
+*.pos
+*.html
+*.sch.pdf
+*.pcb.pdf
+
+# ---- OS-specific files (optional) ----
+.DS_Store
+Thumbs.db
+
+# ---- Keep these files! ----
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
