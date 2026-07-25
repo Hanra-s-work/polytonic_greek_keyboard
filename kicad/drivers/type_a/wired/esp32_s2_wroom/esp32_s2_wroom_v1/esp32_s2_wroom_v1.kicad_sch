@@ -869,6 +869,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-PowerSymbol:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-PowerSymbol:VBUS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "SCK"
 		(exclude_from_sim no)
@@ -999,6 +1221,12 @@
 		(uuid "26c33ffb-8ffd-4bee-852c-ae5c25d17675")
 	)
 	(junction
+		(at 40.64 54.61)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "646e4574-f13d-4ad5-93eb-fbcccba72c02")
+	)
+	(junction
 		(at 116.84 35.56)
 		(diameter 0)
 		(color 0 0 0 1)
@@ -1027,6 +1255,12 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "be84fd82-ade9-47d7-888a-fe3712ee95aa")
+	)
+	(junction
+		(at 36.83 55.88)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "c19a8bef-0875-4f02-8914-a956c44ef1fc")
 	)
 	(no_connect
 		(at 143.51 50.8)
@@ -1130,17 +1364,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 25.4) (xy 43.18 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "1e34e96f-88f6-4351-acd0-ca437e27fe41")
-	)
-	(wire
-		(pts
 			(xy 181.61 25.4) (xy 181.61 12.7)
 		)
 		(stroke
@@ -1234,6 +1457,17 @@
 			(type default)
 		)
 		(uuid "3225a004-60d0-43c2-ba61-c5ea17fc0940")
+	)
+	(wire
+		(pts
+			(xy 40.64 54.61) (xy 54.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "35f49c41-efb1-490a-8c31-7136955467d9")
 	)
 	(wire
 		(pts
@@ -1789,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 54.61) (xy 54.61 54.61)
+			(xy 25.4 54.61) (xy 40.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1807,6 +2041,17 @@
 			(type default)
 		)
 		(uuid "beebc2dc-a779-4a6a-9be9-634f1c868c9f")
+	)
+	(wire
+		(pts
+			(xy 36.83 55.88) (xy 22.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c48ce75b-fa8e-40e1-9c58-66989b772fe9")
 	)
 	(wire
 		(pts
@@ -1997,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 22.86 55.88)
+			(xy 57.15 55.88) (xy 36.83 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2206,6 +2451,274 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 36.83 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "122dddac-a5a6-4bb6-854f-9384d76b6ec6")
+		(property "Reference" "#PWR03"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 59.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d513fe6e-e2b9-465b-96ad-e9bd26086edc")
+		)
+		(instances
+			(project "esp32_s2_wroom_v1"
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VBUS")
+		(at 43.18 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b84c3df-ae43-4c01-80f3-e5df0bdf28fd")
+		(property "Reference" "#PWR05"
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 39.37 25.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035596c5-09c7-4d54-9318-8abcfc40b387")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VBUS")
+		(at 33.02 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "853d6a2e-574a-4998-bdfa-ab288bcdadfe")
+		(property "Reference" "#PWR04"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 36.83 25.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb9ccbb-c7a2-4bd8-b545-f7f30cfe6b1d")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 40.64 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4e22dc7-d121-4a1f-9809-0199cbc6466e")
+		(property "Reference" "#PWR02"
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdfbfbf1-a024-49e3-8159-26bee4c67763")
+		)
+		(instances
+			(project ""
+				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A")
 		(at 25.4 30.48 0)
 		(unit 1)
@@ -2214,7 +2727,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "865cfdbc-5629-4a89-878a-bdadf3f86a9b")
+		(uuid "fd5f2689-bd11-4676-af9d-7c9e9490519c")
 		(property "Reference" "J3"
 			(at 25.4 17.78 0)
 			(effects
@@ -2231,7 +2744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal"
+		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
 			(at 29.21 31.75 0)
 			(effects
 				(font
@@ -2259,19 +2772,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "55c81d63-120a-43fe-b16c-94dd3234d405")
-		)
-		(pin "2"
-			(uuid "991fea4b-549d-4c8f-9166-f11bd6757f24")
-		)
-		(pin "1"
-			(uuid "395de5b1-e2eb-4bf4-8369-a06c9ae48e6f")
-		)
-		(pin "4"
-			(uuid "273abb24-f6fc-4d93-95ab-4a894c8f1003")
+			(uuid "b9b536fc-0b23-4909-ae45-4018cf6020f7")
 		)
 		(pin "5"
-			(uuid "09356e71-253a-420f-8663-b156b5ac4579")
+			(uuid "dbf6e99a-0dd0-42bc-8c2d-274a7095a385")
+		)
+		(pin "1"
+			(uuid "e397f8ac-f5ed-4866-baf4-bd0d7bff45e6")
+		)
+		(pin "2"
+			(uuid "e3437d5c-cf5c-443c-b17b-0a9079258c46")
+		)
+		(pin "4"
+			(uuid "66861d22-31b0-4433-b862-8aaffc97356c")
 		)
 		(instances
 			(project ""

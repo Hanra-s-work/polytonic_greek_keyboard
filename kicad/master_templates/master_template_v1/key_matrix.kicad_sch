@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a5a940e1-4831-46f0-a5df-8858641c2ee2")
 	(paper "A4")
 	(title_block
@@ -3262,11 +3262,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0a734353-c161-4bd5-883e-eaf92a492627")
 		(property "Sheetname" "Return"
 			(at 152.4 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,6 +3278,8 @@
 		)
 		(property "Sheetfile" "key_switch.kicad_sch"
 			(at 152.4 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3348,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "10")
 				)
@@ -3365,11 +3369,13 @@
 			(color 0 199 255 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "57a20682-d779-4340-9769-ea32ac8b4a87")
 		(property "Sheetname" "5v_led_bulk_storer"
 			(at 15.24 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,6 +3385,8 @@
 		)
 		(property "Sheetfile" "5v_led_booster.kicad_sch"
 			(at 15.24 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3435,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "20")
 				)
@@ -3447,11 +3455,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5f107f1d-b7cf-41cd-afd8-8e41c5a88225")
 		(property "Sheetname" "Shift"
 			(at 114.3 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,6 +3471,8 @@
 		)
 		(property "Sheetfile" "key_switch.kicad_sch"
 			(at 114.3 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3541,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "11")
 				)
@@ -3549,11 +3561,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6fe76989-dc92-4d30-a709-538a22e097b7")
 		(property "Sheetname" "Tab"
 			(at 25.4 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,6 +3577,8 @@
 		)
 		(property "Sheetfile" "key_switch.kicad_sch"
 			(at 25.4 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3647,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "15")
 				)
@@ -3651,11 +3667,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "85dfdcb0-9a07-4e64-aafd-2caa92dd5075")
 		(property "Sheetname" "Space"
 			(at 63.5 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,6 +3683,8 @@
 		)
 		(property "Sheetfile" "key_switch.kicad_sch"
 			(at 63.5 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3753,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "16")
 				)
@@ -3753,11 +3773,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8b8f665d-b696-46fc-864c-f0692badae5f")
 		(property "Sheetname" "Accent keys"
 			(at 177.8 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,6 +3789,8 @@
 		)
 		(property "Sheetfile" "accent_keys.kicad_sch"
 			(at 177.8 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3999,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "12")
 				)
@@ -3995,11 +4019,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "936cb619-2bfc-4207-b673-b4f4ce610e75")
 		(property "Sheetname" "Function keys"
 			(at 25.4 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,6 +4035,8 @@
 		)
 		(property "Sheetfile" "function_keys.kicad_sch"
 			(at 25.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4415,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "17")
 				)
@@ -4407,11 +4435,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bc8fbaa7-91b3-44f7-8689-7e314f02a60c")
 		(property "Sheetname" "Navigation keys"
 			(at 177.8 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,6 +4451,8 @@
 		)
 		(property "Sheetfile" "navigation_keys.kicad_sch"
 			(at 177.8 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4621,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "13")
 				)
@@ -4609,11 +4641,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "da2a6758-1a46-4104-a9fc-a88a5f09df36")
 		(property "Sheetname" "number keys"
 			(at 25.4 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,6 +4657,8 @@
 		)
 		(property "Sheetfile" "number_keys.kicad_sch"
 			(at 25.4 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5047,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "18")
 				)
@@ -5031,11 +5067,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e11a7881-2b28-4702-a78e-168c24ecc593")
 		(property "Sheetname" "Alphabet keys"
 			(at 25.4 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,6 +5083,8 @@
 		)
 		(property "Sheetfile" "alphabet_keys.kicad_sch"
 			(at 25.4 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5413,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "19")
 				)
@@ -5393,11 +5433,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f3abad68-d969-4547-9eb1-e9a446cc74ea")
 		(property "Sheetname" "Special keys"
 			(at 139.7 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,6 +5449,8 @@
 		)
 		(property "Sheetfile" "special_keys.kicad_sch"
 			(at 139.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5619,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/dc7dc8d0-3fc1-4401-9905-7f0a56042fcf/3567022d-dcc8-4a26-83e7-5efb883a1646"
 					(page "14")
 				)

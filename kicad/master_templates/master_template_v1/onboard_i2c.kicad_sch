@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d6b90836-cec7-4de4-a5da-063183e1fb3c")
 	(paper "A4")
 	(title_block
@@ -20,8 +20,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,6 +34,8 @@
 			)
 			(property "Value" "TestPoint_2Pole"
 				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,47 +44,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "2-polar test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_2Pole_0_1"
@@ -147,8 +163,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.112 14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -158,6 +178,8 @@
 			)
 			(property "Value" "PCF8574T"
 				(at 3.302 14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,47 +189,57 @@
 			)
 			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "8-bit I/O Expander, I2C interface, interrupt output, fixed address bits 0b0100xxx, SOIC-16"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "NXP Port-Expander"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "*SOIC*7.5x10.3mm?P1.27mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PCF8574T_0_1"
@@ -224,60 +256,6 @@
 				)
 			)
 			(symbol "PCF8574T_1_1"
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
@@ -325,42 +303,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -440,6 +382,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 10.16 0 180)
 					(length 2.54)
@@ -512,6 +472,78 @@
 						)
 					)
 				)
+				(pin open_collector line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -526,8 +558,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "POT"
 				(at -4.572 -0.127 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -536,72 +572,88 @@
 			)
 			(property "Value" "16mm_CtrDet_10k"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "4ms_Potentiometer:Pot_16mm_CtrDet_RV16AF-4A"
 				(at 21.1582 -4.8006 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "10k Linear, 16mm pot, Center Detent, D-shaft"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Specifications" "10k Linear, 16mm pot, Center Detent, D-shaft"
 				(at -2.54 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Alpha Taiwan"
 				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "RV16AF-4A-15FW-B10k-3C"
 				(at -2.54 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Display" "10k"
 				(at -2.794 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -610,38 +662,46 @@
 			)
 			(property "Manufacturer 2" "Song Huei"
 				(at 0 -13.335 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Part Number 2" "16K6-B10K L-15F/CI/4-8/CC/NS/H=13"
 				(at 8.255 -15.875 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "16mm_CtrDet_10k"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Potentiometer*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "16mm_CtrDet_10k_0_1"
@@ -741,24 +801,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "Right"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "Center"
@@ -776,6 +818,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "Right"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -783,8 +843,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -793,6 +857,8 @@
 			)
 			(property "Value" "1k"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -801,47 +867,57 @@
 			)
 			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 				(at 0.889 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "1kΩ, 1/4W Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "1k_0_1"
@@ -879,7 +955,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.5)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -901,8 +977,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -911,6 +991,8 @@
 			)
 			(property "Value" "47k"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -919,47 +1001,57 @@
 			)
 			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 				(at 0.889 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "47kΩ, 1/4W Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "47k_0_1"
@@ -997,7 +1089,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.5)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,8 +1118,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1036,6 +1132,8 @@
 			)
 			(property "Value" "Blue"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1044,56 +1142,68 @@
 			)
 			(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Blue"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-026/LTST-C150TBKT(0630).pdf"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Light emitting diode"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PROD_ID" "DIO-09911"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun LED diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LED_Blue_1206_0_1"
@@ -1208,8 +1318,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1219,6 +1333,8 @@
 			)
 			(property "Value" "1.0uF"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1228,42 +1344,52 @@
 			)
 			(property "Footprint" "SparkFun-Capacitor:C_0805_2012Metric"
 				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PROD_ID" "CAP-08064"
 				(at -1.27 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Voltage" "25V"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1272,6 +1398,8 @@
 			)
 			(property "Tolerance" "10%"
 				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1280,20 +1408,24 @@
 			)
 			(property "ki_keywords" "SparkFun cap capacitor 1uF"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "1.0uF_0805_25V_10%_0_1"
@@ -1326,7 +1458,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1344,7 +1476,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1370,8 +1502,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1381,6 +1517,8 @@
 			)
 			(property "Value" "S8050"
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1390,68 +1528,82 @@
 			)
 			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Device" "NPN"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=E 2=B 3=C"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "S8050 NPN Low Voltage High Current Transistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "S8050_0_1"
@@ -1528,6 +1680,24 @@
 						(type outline)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1557,24 +1727,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14488,13 +14640,17 @@
 		(lib_id "PCM_4ms_Potentiometer:16mm_CtrDet_10k")
 		(at 53.34 67.31 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "02d82d0d-75b4-4e36-bc4c-d6931bb18e26")
 		(property "Reference" "POT1"
 			(at 48.514 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14504,72 +14660,88 @@
 		)
 		(property "Value" "16mm_CtrDet_10k"
 			(at 53.34 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Misc:Potentiometer_TT_P0915N"
 			(at 74.4982 72.1106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10k Linear, 16mm pot, Center Detent, D-shaft"
 			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Specifications" "10k Linear, 16mm pot, Center Detent, D-shaft"
 			(at 50.8 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Alpha Taiwan"
 			(at 50.8 76.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RV16AF-4A-15FW-B10k-3C"
 			(at 50.8 78.232 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Display" "10k"
 			(at 50.546 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14578,20 +14750,24 @@
 		)
 		(property "Manufacturer 2" "Song Huei"
 			(at 53.34 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number 2" "16K6-B10K L-15F/CI/4-8/CC/NS/H=13"
 			(at 61.595 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14604,7 +14780,7 @@
 			(uuid "45352f76-133f-4598-9e03-5c1a491d0e04")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "POT1")
 					(unit 1)
@@ -14616,13 +14792,17 @@
 		(lib_id "SparkFun-Capacitor:1.0uF_0805_25V_10%")
 		(at 48.26 19.05 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a441e6e-f272-4aa9-910f-1882db285e86")
 		(property "Reference" "C1"
 			(at 42.672 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14632,6 +14812,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 40.894 19.558 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14641,42 +14823,52 @@
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 48.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 48.26 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 48.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PROD_ID" "CAP-08064"
 			(at 46.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "25V"
 			(at 41.402 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,6 +14878,8 @@
 		)
 		(property "Tolerance" "10%"
 			(at 41.148 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,7 +14894,7 @@
 			(uuid "3eae91e5-7f80-4302-8968-5f1bc630b8b4")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "C1")
 					(unit 1)
@@ -14712,13 +14906,17 @@
 		(lib_id "PCM_SL_Resistors:1k")
 		(at 34.29 34.29 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bbaa0e0-0f0a-4078-8a32-3acd8ac915d2")
 		(property "Reference" "R5"
 			(at 39.878 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14727,6 +14925,8 @@
 		)
 		(property "Value" "1k"
 			(at 37.338 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14735,29 +14935,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 29.972 35.179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 34.29 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
 			(at 34.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14767,7 +14973,7 @@
 			(uuid "db8650a5-9994-4778-913c-7d4d9c80dcf3")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R5")
 					(unit 1)
@@ -14779,13 +14985,17 @@
 		(lib_id "PCM_SL_Resistors:1k")
 		(at 19.05 34.29 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e5af0b1-e36d-4323-9d77-7cfb443b5a22")
 		(property "Reference" "R2"
 			(at 24.384 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14794,6 +15004,8 @@
 		)
 		(property "Value" "1k"
 			(at 22.098 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14802,29 +15014,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 14.732 35.179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 19.05 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
 			(at 19.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14834,7 +15052,7 @@
 			(uuid "2264c8a5-ff0e-4e0a-a418-258e02b28f7f")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R2")
 					(unit 1)
@@ -14846,14 +15064,18 @@
 		(lib_id "Transistor_BJT:S8050")
 		(at 93.98 34.29 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e940ecd-4ab7-4a7b-a66b-54fe5caf7cea")
 		(property "Reference" "Q1"
 			(at 99.06 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14863,6 +15085,8 @@
 		)
 		(property "Value" "S8050"
 			(at 99.06 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14872,50 +15096,60 @@
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 99.06 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
 			(at 93.98 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
 			(at 93.98 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "NPN"
 			(at 93.98 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 93.98 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14928,7 +15162,7 @@
 			(uuid "3bc9c352-b0ce-40f5-93aa-ceb1c353bdb5")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "Q1")
 					(unit 1)
@@ -14940,13 +15174,17 @@
 		(lib_id "PCM_SparkFun-LED:LED_Blue_1206")
 		(at 15.24 43.18 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7618cc47-bdcd-4f15-a51a-8507b14d6f19")
 		(property "Reference" "D1"
 			(at 15.494 41.402 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14956,6 +15194,8 @@
 		)
 		(property "Value" "Blue"
 			(at 15.24 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,38 +15205,46 @@
 		)
 		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Blue"
 			(at 20.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-026/LTST-C150TBKT(0630).pdf"
 			(at 25.4 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode"
 			(at 27.94 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PROD_ID" "DIO-09911"
 			(at 22.86 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15006,7 +15254,7 @@
 			(uuid "2a9d4fbe-ab48-4e03-a945-f9a9cd6f7787")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "D1")
 					(unit 1)
@@ -15018,13 +15266,17 @@
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 36.83 60.96 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b27ea93-9201-4701-bb1e-fb8114771874")
 		(property "Reference" "TP3"
 			(at 38.862 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,6 +15286,8 @@
 		)
 		(property "Value" "TestPoint_2Pole"
 			(at 40.386 51.816 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,29 +15297,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal"
 			(at 36.83 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 36.83 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "2-polar test point"
 			(at 36.83 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15075,7 +15335,7 @@
 			(uuid "a8d0f895-4037-4f57-93da-6a0fb6fdab15")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "TP3")
 					(unit 1)
@@ -15087,13 +15347,17 @@
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 27.94 60.96 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3714caa-7f6a-4c22-9034-8cb6b28d8453")
 		(property "Reference" "TP2"
 			(at 29.464 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,6 +15367,8 @@
 		)
 		(property "Value" "TestPoint_2Pole"
 			(at 32.004 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15112,29 +15378,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal"
 			(at 27.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "2-polar test point"
 			(at 27.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15144,7 +15416,7 @@
 			(uuid "65947527-6207-44e2-b955-b19db8faf512")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "TP2")
 					(unit 1)
@@ -15156,13 +15428,17 @@
 		(lib_id "PCM_SL_Resistors:47k")
 		(at 30.48 20.32 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b96e1e12-994e-4892-8fd1-115a4f7abbb7")
 		(property "Reference" "R4"
 			(at 25.908 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15171,6 +15447,8 @@
 		)
 		(property "Value" "47k"
 			(at 27.94 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,29 +15457,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 34.798 19.431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 30.48 19.812 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "47kΩ, 1/4W Resistor"
 			(at 30.48 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15211,7 +15495,7 @@
 			(uuid "ea5e1d1a-a7f1-47ec-b1ec-33efd27a1e7b")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R4")
 					(unit 1)
@@ -15223,13 +15507,17 @@
 		(lib_id "PCM_SL_Resistors:1k")
 		(at 26.67 34.29 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "baaddf16-0f35-4a33-8433-ad1a5ea5677c")
 		(property "Reference" "R3"
 			(at 31.75 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15238,6 +15526,8 @@
 		)
 		(property "Value" "1k"
 			(at 29.464 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15246,29 +15536,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 22.352 35.179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 26.67 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
 			(at 26.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15278,7 +15574,7 @@
 			(uuid "3db71198-431b-424d-97ce-3fd9134a0907")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R3")
 					(unit 1)
@@ -15290,13 +15586,17 @@
 		(lib_id "PCM_SL_Resistors:47k")
 		(at 39.37 20.32 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d725527b-1641-4752-9f83-e3a18c9d138e")
 		(property "Reference" "R6"
 			(at 35.306 20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15305,6 +15605,8 @@
 		)
 		(property "Value" "47k"
 			(at 37.084 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,29 +15615,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 43.688 19.431 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 39.37 19.812 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "47kΩ, 1/4W Resistor"
 			(at 39.37 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15345,7 +15653,7 @@
 			(uuid "5a283ba0-6586-4bea-b75c-633a3d7d2829")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R6")
 					(unit 1)
@@ -15357,14 +15665,18 @@
 		(lib_id "Interface_Expansion:PCF8574T")
 		(at 52.07 36.83 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba8c7ff-35c7-4015-ac1b-1ed0f9c67e56")
 		(property "Reference" "U1"
 			(at 54.2133 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,6 +15686,8 @@
 		)
 		(property "Value" "PCF8574T"
 			(at 54.2133 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15383,29 +15697,35 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 52.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
 			(at 52.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "8-bit I/O Expander, I2C interface, interrupt output, fixed address bits 0b0100xxx, SOIC-16"
 			(at 52.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "5"
@@ -15457,7 +15777,7 @@
 			(uuid "75f0ba93-3759-43e4-81c1-dd18342e4d91")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "U1")
 					(unit 1)
@@ -15469,14 +15789,18 @@
 		(lib_id "PCM_SL_Resistors:47k")
 		(at 83.82 30.48 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f58025ac-7fa7-4cb4-96bc-718f6aab96af")
 		(property "Reference" "R7"
 			(at 86.36 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15486,6 +15810,8 @@
 		)
 		(property "Value" "47k"
 			(at 86.36 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15495,29 +15821,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 79.502 31.369 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 83.82 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "47kΩ, 1/4W Resistor"
 			(at 83.82 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15527,7 +15859,7 @@
 			(uuid "002e17b9-a84a-447a-8f60-bbb9c56f29bf")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R7")
 					(unit 1)
@@ -15539,13 +15871,17 @@
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 20.32 60.96 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8459011-8c57-4744-acf9-ba4caff77a3a")
 		(property "Reference" "TP1"
 			(at 21.59 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15555,6 +15891,8 @@
 		)
 		(property "Value" "TestPoint_2Pole"
 			(at 24.13 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,29 +15902,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal"
 			(at 20.32 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 20.32 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "2-polar test point"
 			(at 20.32 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15596,7 +15940,7 @@
 			(uuid "ffe6cde3-7adc-4f94-bd6d-4d744bdba96c")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "TP1")
 					(unit 1)
@@ -15608,13 +15952,17 @@
 		(lib_id "PCM_SL_Resistors:1k")
 		(at 15.24 52.07 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbfe774b-ea99-48bb-bc71-8df934c8b6ec")
 		(property "Reference" "R1"
 			(at 16.256 50.546 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15624,6 +15972,8 @@
 		)
 		(property "Value" "1k"
 			(at 16.256 52.324 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,29 +15983,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 19.558 51.181 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 15.24 51.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1kΩ, 1/4W Resistor"
 			(at 15.24 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15665,7 +16021,7 @@
 			(uuid "13088551-97d3-4cd7-8f42-abdf02c13684")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/ec54e47a-8e8b-4416-b579-fc6e7c329b94/79c338a4-4a9b-4797-93e1-f6bef1aecfbc"
 					(reference "R1")
 					(unit 1)

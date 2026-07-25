@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2")
 	(paper "A4")
 	(title_block
@@ -28,11 +28,13 @@
 			(color 255 168 118 1)
 		)
 		(fill
-			(color 255 168 118 1.0000)
+			(color 255 168 118 1)
 		)
 		(uuid "8498b325-11fd-4b20-a704-75ec3d8987ef")
 		(property "Sheetname" "Driver"
 			(at 12.7 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,6 +44,8 @@
 		)
 		(property "Sheetfile" "driver.kicad_sch"
 			(at 12.7 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +54,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
 					(page "21")
 				)
@@ -71,11 +75,13 @@
 			(color 107 161 255 1)
 		)
 		(fill
-			(color 107 161 255 1.0000)
+			(color 107 161 255 1)
 		)
 		(uuid "dc7dc8d0-3fc1-4401-9905-7f0a56042fcf")
 		(property "Sheetname" "Keyboard Matrix"
 			(at 12.7 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +91,8 @@
 		)
 		(property "Sheetfile" "keyboard_matrix.kicad_sch"
 			(at 12.7 198.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +101,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2"
 					(page "22")
 				)

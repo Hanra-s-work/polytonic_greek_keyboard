@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "83cf1056-b77f-4ebe-8c69-30c8d9fc4ce4")
 	(paper "A4")
 	(title_block
@@ -19,8 +19,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29,73 +33,89 @@
 			)
 			(property "Value" "10k_0402"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at -2.54 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "10k, 1%, 1/16W, 0603"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Specifications" "10k, 1%, 1/10W, 0402"
 				(at -2.54 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Yageo"
 				(at -2.54 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "RT0402FRE0710KL"
 				(at -2.54 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Display" "10k"
 				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -104,38 +124,46 @@
 			)
 			(property "Manufacturer 2" "Yageo"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Part Number 2" "RT0402DRE0710KL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "10k 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "10k_0402_0_1"
@@ -155,7 +183,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,7 +201,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -195,8 +223,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -205,6 +237,8 @@
 			)
 			(property "Value" "330ohm"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -213,47 +247,57 @@
 			)
 			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 				(at 0.889 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "330Ω, 1/4W Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "330ohm_0_1"
@@ -291,7 +335,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.5)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -316,8 +360,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -326,6 +374,8 @@
 			)
 			(property "Value" "SW_SP4T_NR01104"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,47 +384,57 @@
 			)
 			(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "NKK Switches NR01 Series rotary SP4T switch"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "NR01 SP4T Switch"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SW?NKK?NR01*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SW_SP4T_NR01104_0_1"
@@ -580,61 +640,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -5.08 180)
-					(length 0)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "1"
@@ -699,6 +704,61 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -5.08 180)
+					(length 0)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1052,13 +1112,17 @@
 		(lib_id "PCM_SL_Resistors:330ohm")
 		(at 104.14 26.67 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "389535a8-bb47-4bf2-ae65-93c2f094c961")
 		(property "Reference" "R22"
 			(at 104.14 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,6 +1131,8 @@
 		)
 		(property "Value" "330ohm"
 			(at 104.14 22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,29 +1141,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 103.251 22.352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 103.632 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
 			(at 104.14 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1107,7 +1179,7 @@
 			(uuid "ae32bec0-ca56-458c-b0fa-cbafa3cebc40")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R22")
 					(unit 1)
@@ -1119,14 +1191,18 @@
 		(lib_id "PCM_4ms_Resistor:10k_0402")
 		(at 86.36 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519899cd-0e12-4e38-9d63-8602852f3d9f")
 		(property "Reference" "R21"
 			(at 88.9 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,73 +1212,89 @@
 		)
 		(property "Value" "10k_0402"
 			(at 83.82 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 86.36 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10k, 1%, 1/16W, 0603"
 			(at 86.36 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Specifications" "10k, 1%, 1/10W, 0402"
 			(at 83.82 43.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Yageo"
 			(at 83.82 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RT0402FRE0710KL"
 			(at 83.82 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Display" "10k"
 			(at 88.9 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,20 +1304,24 @@
 		)
 		(property "Manufacturer 2" "Yageo"
 			(at 86.36 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number 2" "RT0402DRE0710KL"
 			(at 86.36 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1235,7 +1331,7 @@
 			(uuid "e6ac1cbb-d5f3-450d-a711-fba41dc8322a")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R21")
 					(unit 1)
@@ -1247,14 +1343,18 @@
 		(lib_id "PCM_4ms_Resistor:10k_0402")
 		(at 63.5 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a7a496-7867-4c90-a4a4-11ddd42bb63f")
 		(property "Reference" "R19"
 			(at 66.04 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,73 +1364,89 @@
 		)
 		(property "Value" "10k_0402"
 			(at 60.96 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10k, 1%, 1/16W, 0603"
 			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Specifications" "10k, 1%, 1/10W, 0402"
 			(at 60.96 43.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Yageo"
 			(at 60.96 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RT0402FRE0710KL"
 			(at 60.96 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Display" "10k"
 			(at 66.04 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,20 +1456,24 @@
 		)
 		(property "Manufacturer 2" "Yageo"
 			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number 2" "RT0402DRE0710KL"
 			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1363,7 +1483,7 @@
 			(uuid "b808e58d-c34c-4ecc-ac5f-8633e6deb8d8")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R19")
 					(unit 1)
@@ -1375,14 +1495,18 @@
 		(lib_id "PCM_SL_Resistors:330ohm")
 		(at 132.08 29.21 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "903b0800-47ed-46f8-9d9a-9a6a8edef369")
 		(property "Reference" "R24"
 			(at 132.08 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,6 +1515,8 @@
 		)
 		(property "Value" "330ohm"
 			(at 132.08 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,29 +1525,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 131.191 24.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 131.572 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
 			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1431,7 +1563,7 @@
 			(uuid "b6e88867-9b7f-4da8-aed6-94197a0c32ec")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R24")
 					(unit 1)
@@ -1443,14 +1575,18 @@
 		(lib_id "Switch:SW_SP4T_NR01104")
 		(at 44.45 26.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23e41a1-1227-4c15-9e7e-9d429ac59be2")
 		(property "Reference" "SW5"
 			(at 44.45 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,6 +1595,8 @@
 		)
 		(property "Value" "SW_SP4T_NR01104"
 			(at 44.45 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,29 +1605,35 @@
 		)
 		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
 			(at 44.45 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
 			(at 44.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "NKK Switches NR01 Series rotary SP4T switch"
 			(at 44.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "C"
@@ -1514,7 +1658,7 @@
 			(uuid "766bd505-295e-4eb7-9033-0fa540f01f85")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "SW5")
 					(unit 1)
@@ -1526,14 +1670,18 @@
 		(lib_id "PCM_4ms_Resistor:10k_0402")
 		(at 137.16 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c7745c-15e2-444c-8ed3-0d15629171de")
 		(property "Reference" "R25"
 			(at 139.7 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,73 +1691,89 @@
 		)
 		(property "Value" "10k_0402"
 			(at 134.62 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10k, 1%, 1/16W, 0603"
 			(at 137.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Specifications" "10k, 1%, 1/10W, 0402"
 			(at 134.62 43.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Yageo"
 			(at 134.62 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RT0402FRE0710KL"
 			(at 134.62 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Display" "10k"
 			(at 139.7 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,20 +1783,24 @@
 		)
 		(property "Manufacturer 2" "Yageo"
 			(at 137.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number 2" "RT0402DRE0710KL"
 			(at 137.16 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1642,7 +1810,7 @@
 			(uuid "bbd24354-4ac5-4331-8969-25c5e345f6e6")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R25")
 					(unit 1)
@@ -1654,13 +1822,17 @@
 		(lib_id "PCM_SL_Resistors:330ohm")
 		(at 81.28 24.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3c0f5de-987e-44a3-8c53-061dc1bb0951")
 		(property "Reference" "R20"
 			(at 81.28 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,6 +1841,8 @@
 		)
 		(property "Value" "330ohm"
 			(at 81.28 21.844 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,29 +1851,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 82.169 28.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 81.788 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
 			(at 81.28 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1709,7 +1889,7 @@
 			(uuid "11119666-6082-46ac-9a7b-ad245ff879ce")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R20")
 					(unit 1)
@@ -1721,14 +1901,18 @@
 		(lib_id "PCM_SL_Resistors:330ohm")
 		(at 58.42 21.59 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0daa9a7-204e-4fdd-80f6-c91525dcbc28")
 		(property "Reference" "R18"
 			(at 58.42 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,6 +1921,8 @@
 		)
 		(property "Value" "330ohm"
 			(at 58.42 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,29 +1931,35 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 59.309 25.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 58.928 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "330Ω, 1/4W Resistor"
 			(at 58.42 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1777,7 +1969,7 @@
 			(uuid "7e62d058-37ae-483d-b167-f8b7a139627a")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R18")
 					(unit 1)
@@ -1789,14 +1981,18 @@
 		(lib_id "PCM_4ms_Resistor:10k_0402")
 		(at 109.22 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3c6dcfe-9daa-4acb-b2ff-a76821944717")
 		(property "Reference" "R23"
 			(at 111.76 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,73 +2002,89 @@
 		)
 		(property "Value" "10k_0402"
 			(at 106.68 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 109.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10k, 1%, 1/16W, 0603"
 			(at 109.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Specifications" "10k, 1%, 1/10W, 0402"
 			(at 106.68 43.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Yageo"
 			(at 106.68 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RT0402FRE0710KL"
 			(at 106.68 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Display" "10k"
 			(at 111.76 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,20 +2094,24 @@
 		)
 		(property "Manufacturer 2" "Yageo"
 			(at 109.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number 2" "RT0402DRE0710KL"
 			(at 109.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1905,7 +2121,7 @@
 			(uuid "2b8fa376-0846-46e3-b6fa-0e9077e90757")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef/fb6e2354-ecf3-4898-bccb-a017b889063a"
 					(reference "R23")
 					(unit 1)

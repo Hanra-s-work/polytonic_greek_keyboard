@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9f8fb490-95a5-47bf-a0d7-677d888832d5")
 	(paper "A4")
 	(title_block
@@ -13,8 +13,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "1000uF_16V"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,47 +37,57 @@
 			)
 			(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 				(at 0.762 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0.508 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "1000uF, 16V Electrolytic Capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Electrolytic Capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Capacitor_THT:CP_Radial_D5.0mm_* Capacitor_THT:CP_Radial_D4.0mm_* Capacitor_THT:CP_Radial_D6.3mm_* Capacitor_THT:CP_Radial_D7.5mm_* Capacitor_THT:CP_Radial_D8.0mm_* Capacitor_THT:CP_Radial_D10.0mm_* Capacitor_THT:CP_Radial_D14.0mm_* Capacitor_THT:CP_Radial_D16.0mm_* Capacitor_THT:CP_Radial_D18.0mm_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "1000uF_16V_0_0"
@@ -120,7 +136,7 @@
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.7)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 0 0)
@@ -138,7 +154,7 @@
 				(pin input line
 					(at 3.81 0 180)
 					(length 2.7)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 0 0)
@@ -257,14 +273,18 @@
 		(lib_id "PCM_SL_Capacitors:1000uF_16V")
 		(at 26.67 17.78 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b07b5234-e461-4dac-ad9f-a5eed2ee9bf3")
 		(property "Reference" "bulk_storer_C1"
 			(at 30.48 16.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,6 +294,8 @@
 		)
 		(property "Value" "1000uF_16V"
 			(at 30.48 19.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,29 +305,35 @@
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 22.86 18.542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 26.67 18.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1000uF, 16V Electrolytic Capacitor"
 			(at 26.67 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

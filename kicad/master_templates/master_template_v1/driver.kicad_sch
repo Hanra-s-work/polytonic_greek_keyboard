@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "701cd9ee-a7e8-4878-88a6-da0dc98ede36")
 	(paper "A4")
 	(title_block
@@ -21,8 +21,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,6 +35,8 @@
 			)
 			(property "Value" "Conn_01x11_Pin"
 				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,33 +45,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x11, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -74,20 +88,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x11_Pin_1_1"
@@ -552,8 +570,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -10.16 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -563,6 +585,8 @@
 			)
 			(property "Value" "USB_C_Receptacle"
 				(at 19.05 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -572,56 +596,68 @@
 			)
 			(property "Footprint" "PCM_SparkFun-Connector:USB-C_16"
 				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "USB 2.0-only Type-C Receptacle connector"
 				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PROD_ID" "CONN-14122"
 				(at 1.27 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "USB_C_Receptacle_0_0"
@@ -894,17 +930,165 @@
 				)
 			)
 			(symbol "USB_C_Receptacle_1_1"
-				(pin passive line
-					(at -7.62 -20.32 90)
+				(pin bidirectional line
+					(at 15.24 -8.89 180)
 					(length 5.08)
-					(name "SHIELD"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S"
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -15.24 90)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -11.43 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(hide yes)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -15.24 90)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -970,54 +1154,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -20.32 90)
+					(at -7.62 -20.32 90)
 					(length 5.08)
-					(name "GND"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 3.81 -15.24 90)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1036,116 +1182,6 @@
 						)
 					)
 					(number "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(hide yes)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -8.89 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -11.43 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2411,13 +2447,17 @@
 		(lib_id "Connector:Conn_01x11_Pin")
 		(at 149.86 92.71 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00e146d5-5dda-4be5-8f3b-eebb8043185b")
 		(property "Reference" "J4"
 			(at 171.45 89.408 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,6 +2466,8 @@
 		)
 		(property "Value" "Conn_01x11_Pin"
 			(at 171.45 91.948 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,29 +2476,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x11_P2.00mm_Horizontal"
 			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x11, script generated"
 			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "7"
@@ -2493,7 +2541,7 @@
 			(uuid "e429bb52-e4d1-471f-8c2b-e84113af8495")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(reference "J4")
 					(unit 1)
@@ -2505,14 +2553,18 @@
 		(lib_id "PCM_SparkFun-Connector:USB_C_Receptacle")
 		(at 25.4 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db9033d7-9a15-4c8d-9473-3ad47f5780d2")
 		(property "Reference" "J3"
 			(at 25.4 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,6 +2573,8 @@
 		)
 		(property "Value" "USB_C_Receptacle"
 			(at 25.4 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,38 +2583,46 @@
 		)
 		(property "Footprint" "PCM_SparkFun-Connector:USB-C_16"
 			(at 25.4 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 25.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 25.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PROD_ID" "CONN-14122"
 			(at 26.67 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A6"
@@ -2606,7 +2668,7 @@
 			(uuid "f74548d3-a1ba-48f4-a253-2e0fc284e095")
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(reference "J3")
 					(unit 1)
@@ -2627,11 +2689,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "05952128-eb9e-434e-ab6d-5cf2dc554aa5")
 		(property "Sheetname" "status_leds"
 			(at 157.48 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,6 +2705,8 @@
 		)
 		(property "Sheetfile" "status_leds.kicad_sch"
 			(at 157.48 31.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2755,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "8")
 				)
@@ -2709,11 +2775,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "085bf86b-e0cc-40ae-815c-511e7d27e866")
 		(property "Sheetname" "power_filter"
 			(at 44.45 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,6 +2791,8 @@
 		)
 		(property "Sheetfile" "power_filter.kicad_sch"
 			(at 44.45 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2911,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "7")
 				)
@@ -2861,11 +2931,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3e13680f-afbf-4059-ae13-3c3d5e01d0cf")
 		(property "Sheetname" "esp_voltage_stepdown"
 			(at 97.79 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,6 +2947,8 @@
 		)
 		(property "Sheetfile" "esp_voltage_stepdown.kicad_sch"
 			(at 97.79 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2997,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "5")
 				)
@@ -2944,11 +3018,13 @@
 			(color 255 42 0 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "52990bdd-0b84-441a-b927-02579db6fb17")
 		(property "Sheetname" "logic"
 			(at 134.62 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,6 +3034,8 @@
 		)
 		(property "Sheetfile" "logic.kicad_sch"
 			(at 134.62 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3404,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "6")
 				)
@@ -3347,11 +3425,13 @@
 			(color 0 255 252 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ec54e47a-8e8b-4416-b579-fc6e7c329b94")
 		(property "Sheetname" "display"
 			(at 200.66 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,6 +3441,8 @@
 		)
 		(property "Sheetfile" "display.kicad_sch"
 			(at 200.66 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3521,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "3")
 				)
@@ -3460,11 +3542,13 @@
 			(color 123 104 255 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fb6e2354-ecf3-4898-bccb-a017b889063a")
 		(property "Sheetname" "system_speech"
 			(at 123.19 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,6 +3558,8 @@
 		)
 		(property "Sheetfile" "system_speech.kicad_sch"
 			(at 123.19 32.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3628,7 @@
 			)
 		)
 		(instances
-			(project "polytonic_greek_keyboard"
+			(project "master_template_v1"
 				(path "/cbe25a1b-6c02-43c2-9ff9-ba274c7cf6a2/8498b325-11fd-4b20-a704-75ec3d8987ef"
 					(page "9")
 				)
