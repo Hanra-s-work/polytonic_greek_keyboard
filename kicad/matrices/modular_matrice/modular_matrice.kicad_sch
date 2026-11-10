@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6bf6b166-943c-491b-8189-feeec0770138")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 110.49)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 15 0 255 1)
+		)
+		(fill
+			(color 15 0 255 1)
+		)
+		(uuid "25d3115c-8e43-4084-920d-8741983697dc")
+		(property "Sheetname" "EOL"
+			(at 16.51 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "end_of_line.kicad_sch"
+			(at 16.51 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular_matrice"
+				(path "/6bf6b166-943c-491b-8189-feeec0770138"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 60.96)
+		(size 20.32 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 148 0 1)
+		)
+		(fill
+			(color 255 148 0 1)
+		)
+		(uuid "9b25f92d-5d92-45c5-ab56-028986168fe2")
+		(property "Sheetname" "Cherry"
+			(at 19.05 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cherry.kicad_sch"
+			(at 19.05 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular_matrice"
+				(path "/6bf6b166-943c-491b-8189-feeec0770138"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 17.78)
+		(size 19.05 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 5 255 255 1)
+		)
+		(fill
+			(color 5 255 255 1)
+		)
+		(uuid "a3cd5236-2b1f-4d83-8e39-f8b71ad023fa")
+		(property "Sheetname" "Main_pcb"
+			(at 21.59 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_pcb.kicad_sch"
+			(at 21.59 32.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular_matrice"
+				(path "/6bf6b166-943c-491b-8189-feeec0770138"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 80.01)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 8 3 1)
+		)
+		(fill
+			(color 255 8 3 1)
+		)
+		(uuid "ffaba092-dcb5-4bc9-8a1a-0efba98187fd")
+		(property "Sheetname" "Bridge"
+			(at 17.78 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bridge.kicad_sch"
+			(at 17.78 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular_matrice"
+				(path "/6bf6b166-943c-491b-8189-feeec0770138"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 38.1)
+		(size 19.05 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 3 255 37 1)
+		)
+		(fill
+			(color 3 255 37 1)
+		)
+		(uuid "ffd778f8-9b41-4bb6-9333-d283cd9b6e6e")
+		(property "Sheetname" "T-pipe"
+			(at 20.32 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "t_pipe.kicad_sch"
+			(at 20.32 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modular_matrice"
+				(path "/6bf6b166-943c-491b-8189-feeec0770138"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

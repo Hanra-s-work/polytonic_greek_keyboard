@@ -1,0 +1,9 @@
+ch340c, cp2102n, ft231x, ch9102f (common on esp for the moment)
+create a uart flash/debug circuit
+create a usb pc talk interface
+Add a mode that would allow to expose standalone software to allow the keyboard to work on systems that aren't easily compatible.
+Default to hid if standalone is not enabled
+Add the documentation alongside the software on the keyboard.
+Write down the protocol for the keyboard.
+
+Add an MB85RS256B fram chip for configuration and an SPI NOR flash (ex: W25Q64/W25Q128) for the usb section.

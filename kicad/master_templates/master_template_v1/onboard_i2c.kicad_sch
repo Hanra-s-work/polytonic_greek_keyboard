@@ -1950,6 +1950,17 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 66.04) (xy 20.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0b9b4c45-2921-4572-bd8e-4c6116c76669")
+	)
+	(wire
+		(pts
 			(xy 58.42 76.2) (xy 58.42 80.01)
 		)
 		(stroke
@@ -2883,17 +2894,6 @@
 			(type default)
 		)
 		(uuid "eb2ce2ab-7ec1-493f-b113-d8425ff27ab1")
-	)
-	(wire
-		(pts
-			(xy 20.32 66.04) (xy 20.32 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "ec11aa9f-efdc-4b84-9082-f2c81d9b6c2d")
 	)
 	(wire
 		(pts
@@ -14449,6 +14449,28 @@
 		)
 		(uuid "398689ab-60ff-49f0-bd7a-f2216d8f04be")
 	)
+	(hierarchical_label "A0(2)"
+		(shape input)
+		(at 20.32 71.12 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b1223ab-4fd2-4a37-bdd2-a17a565a1711")
+	)
+	(hierarchical_label "A2(1)"
+		(shape input)
+		(at 36.83 49.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50ea80b2-3b32-4fad-8ef8-fa9f574e3615")
+	)
 	(hierarchical_label "E"
 		(shape input)
 		(at 68.58 80.01 270)
@@ -14459,6 +14481,17 @@
 			(justify right)
 		)
 		(uuid "5362e7c0-1016-4f79-bc85-8aa343057bb3")
+	)
+	(hierarchical_label "A2(2)"
+		(shape input)
+		(at 36.83 71.12 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53ac57b8-51b8-414b-a067-d6938650754a")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -14525,6 +14558,17 @@
 			(justify right)
 		)
 		(uuid "748eb978-8bc9-480f-b301-520cd9d67ae1")
+	)
+	(hierarchical_label "AO(1)"
+		(shape input)
+		(at 20.32 49.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "785d9da9-a1d6-4849-acf8-f083eab0f9d4")
 	)
 	(hierarchical_label "LED_GND"
 		(shape input)
@@ -14614,6 +14658,17 @@
 		)
 		(uuid "ae2cf743-f81b-41f1-a005-e56a66603626")
 	)
+	(hierarchical_label "A1(1)"
+		(shape input)
+		(at 27.94 49.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c75fdbe8-bdd5-4d60-bf39-2d0f5d1c6daf")
+	)
 	(hierarchical_label "(K) BL-"
 		(shape input)
 		(at 93.98 80.01 270)
@@ -14624,6 +14679,17 @@
 			(justify right)
 		)
 		(uuid "cb0fd04e-63ae-4593-b9c7-ad579e6a6f02")
+	)
+	(hierarchical_label "A1(2)"
+		(shape input)
+		(at 27.94 71.12 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db426bc9-76ce-4a40-8c1f-fc3fdaba0faa")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
